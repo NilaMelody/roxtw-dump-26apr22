@@ -1,0 +1,79 @@
+local table= {
+[1] = {
+  ["NeedItemNum"]= 100
+},
+[2] = {
+  ["DropId"]= 121002,
+  ["GetItemId"]= 4107080,
+  ["GoodsId"]= 2,
+  ["GoodsOrder"]= 2,
+  ["NeedItemNum"]= 100
+},
+[3] = {
+  ["DropId"]= 121003,
+  ["GetItemId"]= 10226001,
+  ["GoodsId"]= 3,
+  ["GoodsOrder"]= 3,
+  ["NeedItemNum"]= 75
+},
+[4] = {
+  ["DropId"]= 121004,
+  ["GetItemId"]= 10903327,
+  ["GoodsId"]= 4,
+  ["GoodsOrder"]= 4
+},
+[5] = {
+  ["DropId"]= 121005,
+  ["GetItemId"]= 10903328,
+  ["GoodsId"]= 5,
+  ["GoodsOrder"]= 5
+},
+[6] = {
+  ["DropId"]= 121006,
+  ["GetItemId"]= 10903329,
+  ["GoodsId"]= 6,
+  ["GoodsOrder"]= 6
+},
+[7] = {
+  ["DropId"]= 121007,
+  ["GetItemId"]= 10908060,
+  ["GoodsId"]= 7,
+  ["GoodsOrder"]= 7,
+  ["NeedItemNum"]= 25
+},
+[8] = {
+  ["ChangeTimes"]= 999,
+  ["DropId"]= 121008,
+  ["GetItemId"]= 10202165,
+  ["GoodsId"]= 8,
+  ["GoodsOrder"]= 8,
+  ["NeedItemNum"]= 3
+},
+[9] = {
+  ["ChangeTimes"]= 999,
+  ["DropId"]= 121009,
+  ["GetItemId"]= 10202166,
+  ["GoodsId"]= 9,
+  ["GoodsOrder"]= 9,
+  ["NeedItemNum"]= 3
+}
+}
+local baseTable={
+  ["ActivityType"]= 1,
+  ["ChangeTimes"]= 1,
+  ["ConfirmTips"]= "",
+  ["DropId"]= 121001,
+  ["GetItemId"]= 4103024,
+  ["GetItemNum"]= 1,
+  ["GoodsId"]= 1,
+  ["GoodsOrder"]= 1,
+  ["GoodsType"]= 2,
+  ["IsConfirmTips"]= 0,
+  ["NeedItemId"]= 10217106,
+  ["NeedItemNum"]= 50,
+  ["ServerNum"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

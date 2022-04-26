@@ -1,0 +1,83 @@
+local table= {
+[1] = {
+  ["CurrencyIcon"]= 1,
+  ["CurrencyId"]= 1,
+  ["GiftNum"]= {
+    1,
+    10
+  },
+  ["PresentDayMaxNum"]= 20
+},
+[2] = {
+  ["AssistanceValue"]= 10,
+  ["CurrencyNum"]= 10000,
+  ["ItemIcon"]= 10202127,
+  ["ItemID"]= 10202127,
+  ["ItemName"]= "ItemName_10202127",
+  ["Name"]= "庆典香槟",
+  ["Order"]= 3
+},
+[3] = {
+  ["AssistanceValue"]= 20,
+  ["CurrencyNum"]= 19800,
+  ["ItemIcon"]= 10202128,
+  ["ItemID"]= 10202128,
+  ["ItemName"]= "ItemName_10202128",
+  ["Name"]= "宝石项链",
+  ["Order"]= 4
+},
+[4] = {
+  ["AssistanceValue"]= 40,
+  ["CurrencyIcon"]= 71,
+  ["CurrencyId"]= 10217115,
+  ["CurrencyNum"]= 100,
+  ["ItemIcon"]= 10202170,
+  ["ItemID"]= 10202170,
+  ["ItemName"]= "SongkranGift_10202132",
+  ["ItemType"]= 2,
+  ["Name"]= "水晶玫瑰",
+  ["Order"]= 2
+},
+[5] = {
+  ["AssistanceValue"]= 60,
+  ["CurrencyNum"]= 54000,
+  ["ItemIcon"]= 10202130,
+  ["ItemID"]= 10202130,
+  ["ItemName"]= "ItemName_10202130",
+  ["Name"]= "天使耳环",
+  ["Order"]= 5
+},
+[6] = {
+  ["AssistanceValue"]= 100,
+  ["CurrencyNum"]= 88888,
+  ["ItemIcon"]= 10202131,
+  ["ItemID"]= 10202131,
+  ["ItemName"]= "ItemName_10202131",
+  ["Name"]= "水晶皇冠",
+  ["Order"]= 6
+}
+}
+local baseTable={
+  ["AssistanceValue"]= 5,
+  ["CurrencyIcon"]= 3,
+  ["CurrencyId"]= 3,
+  ["CurrencyNum"]= 30000,
+  ["GiftNum"]= {
+    1,
+    10,
+    30,
+    50,
+    99
+  },
+  ["ItemIcon"]= 10202126,
+  ["ItemID"]= 10202126,
+  ["ItemName"]= "ItemName_10202126",
+  ["ItemType"]= 1,
+  ["Name"]= "鲜红玫瑰",
+  ["Order"]= 1,
+  ["PresentDayMaxNum"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

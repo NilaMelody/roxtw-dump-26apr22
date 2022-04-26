@@ -1,0 +1,871 @@
+local table= {
+[10011] = {
+  ["FormId"]= 10011
+},
+[10012] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 10012,
+  ["Id"]= 10012,
+  ["MedalId"]= 10012
+},
+[10013] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 10013,
+  ["Id"]= 10013,
+  ["MedalId"]= 10013
+},
+[10021] = {
+  ["FormId"]= 10021,
+  ["Id"]= 10021,
+  ["InitialNodeIcon"]= "Icons/Monster/30004",
+  ["MedalId"]= 10021,
+  ["SubGroupId"]= 1002
+},
+[10022] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 10022,
+  ["Id"]= 10022,
+  ["InitialNodeIcon"]= "Icons/Monster/30004",
+  ["MedalId"]= 10022,
+  ["SubGroupId"]= 1002
+},
+[10023] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 10023,
+  ["Id"]= 10023,
+  ["InitialNodeIcon"]= "Icons/Monster/30004",
+  ["MedalId"]= 10023,
+  ["SubGroupId"]= 1002
+},
+[10031] = {
+  ["FormId"]= 10031,
+  ["Id"]= 10031,
+  ["InitialNodeIcon"]= "Icons/Monster/30013",
+  ["MedalId"]= 10031,
+  ["SubGroupId"]= 1003
+},
+[10032] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 10032,
+  ["Id"]= 10032,
+  ["InitialNodeIcon"]= "Icons/Monster/30013",
+  ["MedalId"]= 10032,
+  ["SubGroupId"]= 1003
+},
+[10033] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 10033,
+  ["Id"]= 10033,
+  ["InitialNodeIcon"]= "Icons/Monster/30013",
+  ["MedalId"]= 10033,
+  ["SubGroupId"]= 1003
+},
+[10041] = {
+  ["FormId"]= 10011,
+  ["Id"]= 10041,
+  ["InitialNodeIcon"]= "Icons/Monster/30005",
+  ["MedalId"]= 10041,
+  ["SubGroupId"]= 1004
+},
+[10042] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 10012,
+  ["Id"]= 10042,
+  ["InitialNodeIcon"]= "Icons/Monster/30005",
+  ["MedalId"]= 10042,
+  ["SubGroupId"]= 1004
+},
+[10043] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 10013,
+  ["Id"]= 10043,
+  ["InitialNodeIcon"]= "Icons/Monster/30005",
+  ["MedalId"]= 10043,
+  ["SubGroupId"]= 1004
+},
+[10051] = {
+  ["FormId"]= 10021,
+  ["Id"]= 10051,
+  ["InitialNodeIcon"]= "Icons/Monster/30011",
+  ["MedalId"]= 10051,
+  ["SubGroupId"]= 1005
+},
+[10052] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 10022,
+  ["Id"]= 10052,
+  ["InitialNodeIcon"]= "Icons/Monster/30011",
+  ["MedalId"]= 10052,
+  ["SubGroupId"]= 1005
+},
+[10053] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 10023,
+  ["Id"]= 10053,
+  ["InitialNodeIcon"]= "Icons/Monster/30011",
+  ["MedalId"]= 10053,
+  ["SubGroupId"]= 1005
+},
+[10061] = {
+  ["FormId"]= 10031,
+  ["Id"]= 10061,
+  ["InitialNodeIcon"]= "Icons/Monster/30016",
+  ["MedalId"]= 10061,
+  ["SubGroupId"]= 1006
+},
+[10062] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 10032,
+  ["Id"]= 10062,
+  ["InitialNodeIcon"]= "Icons/Monster/30016",
+  ["MedalId"]= 10062,
+  ["SubGroupId"]= 1006
+},
+[10063] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 10033,
+  ["Id"]= 10063,
+  ["InitialNodeIcon"]= "Icons/Monster/30016",
+  ["MedalId"]= 10063,
+  ["SubGroupId"]= 1006
+},
+[10071] = {
+  ["FormId"]= 10011,
+  ["Id"]= 10071,
+  ["InitialNodeIcon"]= "Icons/Monster/30027",
+  ["MedalId"]= 10071,
+  ["SubGroupId"]= 1007
+},
+[10072] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 10012,
+  ["Id"]= 10072,
+  ["InitialNodeIcon"]= "Icons/Monster/30027",
+  ["MedalId"]= 10072,
+  ["SubGroupId"]= 1007
+},
+[10073] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 10013,
+  ["Id"]= 10073,
+  ["InitialNodeIcon"]= "Icons/Monster/30027",
+  ["MedalId"]= 10073,
+  ["SubGroupId"]= 1007
+},
+[10081] = {
+  ["FormId"]= 10021,
+  ["Id"]= 10081,
+  ["InitialNodeIcon"]= "Icons/Monster/30028",
+  ["MedalId"]= 10081,
+  ["SubGroupId"]= 1008
+},
+[10082] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 10022,
+  ["Id"]= 10082,
+  ["InitialNodeIcon"]= "Icons/Monster/30028",
+  ["MedalId"]= 10082,
+  ["SubGroupId"]= 1008
+},
+[10083] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 10023,
+  ["Id"]= 10083,
+  ["InitialNodeIcon"]= "Icons/Monster/30028",
+  ["MedalId"]= 10083,
+  ["SubGroupId"]= 1008
+},
+[20011] = {
+  ["Id"]= 20011,
+  ["InitialNodeIcon"]= "Icons/Activity/1010",
+  ["MedalId"]= 20011,
+  ["SubGroupId"]= 2001
+},
+[20012] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20012,
+  ["Id"]= 20012,
+  ["InitialNodeIcon"]= "Icons/Activity/1010",
+  ["MedalId"]= 20012,
+  ["SubGroupId"]= 2001
+},
+[20013] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20013,
+  ["Id"]= 20013,
+  ["InitialNodeIcon"]= "Icons/Activity/1010",
+  ["MedalId"]= 20013,
+  ["SubGroupId"]= 2001
+},
+[20021] = {
+  ["FormId"]= 20021,
+  ["Id"]= 20021,
+  ["InitialNodeIcon"]= "Icons/Activity/1003",
+  ["MedalId"]= 20021,
+  ["SubGroupId"]= 2002
+},
+[20022] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20022,
+  ["Id"]= 20022,
+  ["InitialNodeIcon"]= "Icons/Activity/1003",
+  ["MedalId"]= 20022,
+  ["SubGroupId"]= 2002
+},
+[20023] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20023,
+  ["Id"]= 20023,
+  ["InitialNodeIcon"]= "Icons/Activity/1003",
+  ["MedalId"]= 20023,
+  ["SubGroupId"]= 2002
+},
+[20031] = {
+  ["FormId"]= 10011,
+  ["Id"]= 20031,
+  ["InitialNodeIcon"]= "Icons/Monster/30018",
+  ["MedalId"]= 20031,
+  ["SubGroupId"]= 2003
+},
+[20032] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 10012,
+  ["Id"]= 20032,
+  ["InitialNodeIcon"]= "Icons/Monster/30018",
+  ["MedalId"]= 20032,
+  ["SubGroupId"]= 2003
+},
+[20033] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 10013,
+  ["Id"]= 20033,
+  ["InitialNodeIcon"]= "Icons/Monster/30018",
+  ["MedalId"]= 20033,
+  ["SubGroupId"]= 2003
+},
+[30011] = {
+  ["FormId"]= 10011,
+  ["Id"]= 30011,
+  ["InitialNodeIcon"]= "Icons/Activity/1017",
+  ["MedalId"]= 30011,
+  ["SubGroupId"]= 3001
+},
+[30012] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 10012,
+  ["Id"]= 30012,
+  ["InitialNodeIcon"]= "Icons/Activity/1017",
+  ["MedalId"]= 30012,
+  ["SubGroupId"]= 3001
+},
+[30013] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 10013,
+  ["Id"]= 30013,
+  ["InitialNodeIcon"]= "Icons/Activity/1017",
+  ["MedalId"]= 30013,
+  ["SubGroupId"]= 3001
+},
+[30021] = {
+  ["FormId"]= 10021,
+  ["Id"]= 30021,
+  ["InitialNodeIcon"]= "Icons/Activity/1029",
+  ["MedalId"]= 30021,
+  ["SubGroupId"]= 3002
+},
+[30022] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 10022,
+  ["Id"]= 30022,
+  ["InitialNodeIcon"]= "Icons/Activity/1029",
+  ["MedalId"]= 30022,
+  ["SubGroupId"]= 3002
+},
+[30023] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 10023,
+  ["Id"]= 30023,
+  ["InitialNodeIcon"]= "Icons/Activity/1029",
+  ["MedalId"]= 30023,
+  ["SubGroupId"]= 3002
+},
+[30031] = {
+  ["FormId"]= 10031,
+  ["Id"]= 30031,
+  ["InitialNodeIcon"]= "Icons/Activity/1016",
+  ["MedalId"]= 30031,
+  ["SubGroupId"]= 3003
+},
+[30032] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 10032,
+  ["Id"]= 30032,
+  ["InitialNodeIcon"]= "Icons/Activity/1016",
+  ["MedalId"]= 30032,
+  ["SubGroupId"]= 3003
+},
+[30033] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 10033,
+  ["Id"]= 30033,
+  ["InitialNodeIcon"]= "Icons/Activity/1016",
+  ["MedalId"]= 30033,
+  ["SubGroupId"]= 3003
+},
+[40011] = {
+  ["Id"]= 40011,
+  ["InitialNodeIcon"]= "Icons/Monster/30008",
+  ["MedalId"]= 40011,
+  ["SubGroupId"]= 4001
+},
+[40012] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20012,
+  ["Id"]= 40012,
+  ["InitialNodeIcon"]= "Icons/Monster/30008",
+  ["MedalId"]= 40012,
+  ["SubGroupId"]= 4001
+},
+[40013] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20013,
+  ["Id"]= 40013,
+  ["InitialNodeIcon"]= "Icons/Monster/30008",
+  ["MedalId"]= 40013,
+  ["SubGroupId"]= 4001
+},
+[40021] = {
+  ["FormId"]= 20021,
+  ["Id"]= 40021,
+  ["InitialNodeIcon"]= "Icons/Monster/30007",
+  ["MedalId"]= 40021,
+  ["SubGroupId"]= 4002
+},
+[40022] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20022,
+  ["Id"]= 40022,
+  ["InitialNodeIcon"]= "Icons/Monster/30007",
+  ["MedalId"]= 40022,
+  ["SubGroupId"]= 4002
+},
+[40023] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20023,
+  ["Id"]= 40023,
+  ["InitialNodeIcon"]= "Icons/Monster/30007",
+  ["MedalId"]= 40023,
+  ["SubGroupId"]= 4002
+},
+[40031] = {
+  ["FormId"]= 20031,
+  ["Id"]= 40031,
+  ["InitialNodeIcon"]= "Icons/Monster/30010",
+  ["MedalId"]= 40031,
+  ["SubGroupId"]= 4003
+},
+[40032] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20032,
+  ["Id"]= 40032,
+  ["InitialNodeIcon"]= "Icons/Monster/30010",
+  ["MedalId"]= 40032,
+  ["SubGroupId"]= 4003
+},
+[40033] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20033,
+  ["Id"]= 40033,
+  ["InitialNodeIcon"]= "Icons/Monster/30010",
+  ["MedalId"]= 40033,
+  ["SubGroupId"]= 4003
+},
+[40041] = {
+  ["Id"]= 40041,
+  ["InitialNodeIcon"]= "Icons/Monster/30023",
+  ["MedalId"]= 40041,
+  ["SubGroupId"]= 4004
+},
+[40042] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20012,
+  ["Id"]= 40042,
+  ["InitialNodeIcon"]= "Icons/Monster/30023",
+  ["MedalId"]= 40042,
+  ["SubGroupId"]= 4004
+},
+[40043] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20013,
+  ["Id"]= 40043,
+  ["InitialNodeIcon"]= "Icons/Monster/30023",
+  ["MedalId"]= 40043,
+  ["SubGroupId"]= 4004
+},
+[40051] = {
+  ["FormId"]= 20021,
+  ["Id"]= 40051,
+  ["InitialNodeIcon"]= "Icons/Monster/30012",
+  ["MedalId"]= 40051,
+  ["SubGroupId"]= 4005
+},
+[40052] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20022,
+  ["Id"]= 40052,
+  ["InitialNodeIcon"]= "Icons/Monster/30012",
+  ["MedalId"]= 40052,
+  ["SubGroupId"]= 4005
+},
+[40053] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20023,
+  ["Id"]= 40053,
+  ["InitialNodeIcon"]= "Icons/Monster/30012",
+  ["MedalId"]= 40053,
+  ["SubGroupId"]= 4005
+},
+[40061] = {
+  ["FormId"]= 20031,
+  ["Id"]= 40061,
+  ["InitialNodeIcon"]= "Icons/Monster/30009",
+  ["MedalId"]= 40061,
+  ["SubGroupId"]= 4006
+},
+[40062] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20032,
+  ["Id"]= 40062,
+  ["InitialNodeIcon"]= "Icons/Monster/30009",
+  ["MedalId"]= 40062,
+  ["SubGroupId"]= 4006
+},
+[40063] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20033,
+  ["Id"]= 40063,
+  ["InitialNodeIcon"]= "Icons/Monster/30009",
+  ["MedalId"]= 40063,
+  ["SubGroupId"]= 4006
+},
+[40071] = {
+  ["Id"]= 40071,
+  ["InitialNodeIcon"]= "Icons/Monster/30017",
+  ["MedalId"]= 40071,
+  ["SubGroupId"]= 4007
+},
+[40072] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20012,
+  ["Id"]= 40072,
+  ["InitialNodeIcon"]= "Icons/Monster/30017",
+  ["MedalId"]= 40072,
+  ["SubGroupId"]= 4007
+},
+[40073] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20013,
+  ["Id"]= 40073,
+  ["InitialNodeIcon"]= "Icons/Monster/30017",
+  ["MedalId"]= 40073,
+  ["SubGroupId"]= 4007
+},
+[40081] = {
+  ["FormId"]= 20021,
+  ["Id"]= 40081,
+  ["InitialNodeIcon"]= "Icons/Monster/30015",
+  ["MedalId"]= 40081,
+  ["SubGroupId"]= 4008
+},
+[40082] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20022,
+  ["Id"]= 40082,
+  ["InitialNodeIcon"]= "Icons/Monster/30015",
+  ["MedalId"]= 40082,
+  ["SubGroupId"]= 4008
+},
+[40083] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20023,
+  ["Id"]= 40083,
+  ["InitialNodeIcon"]= "Icons/Monster/30015",
+  ["MedalId"]= 40083,
+  ["SubGroupId"]= 4008
+},
+[40091] = {
+  ["FormId"]= 20031,
+  ["Id"]= 40091,
+  ["InitialNodeIcon"]= "Icons/Monster/30014",
+  ["MedalId"]= 40091,
+  ["SubGroupId"]= 4009
+},
+[40092] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20032,
+  ["Id"]= 40092,
+  ["InitialNodeIcon"]= "Icons/Monster/30014",
+  ["MedalId"]= 40092,
+  ["SubGroupId"]= 4009
+},
+[40093] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20033,
+  ["Id"]= 40093,
+  ["InitialNodeIcon"]= "Icons/Monster/30014",
+  ["MedalId"]= 40093,
+  ["SubGroupId"]= 4009
+},
+[40101] = {
+  ["Id"]= 40101,
+  ["InitialNodeIcon"]= "Icons/Monster/30020",
+  ["MedalId"]= 40101,
+  ["SubGroupId"]= 4010
+},
+[40102] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20012,
+  ["Id"]= 40102,
+  ["InitialNodeIcon"]= "Icons/Monster/30020",
+  ["MedalId"]= 40102,
+  ["SubGroupId"]= 4010
+},
+[40103] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20013,
+  ["Id"]= 40103,
+  ["InitialNodeIcon"]= "Icons/Monster/30020",
+  ["MedalId"]= 40103,
+  ["SubGroupId"]= 4010
+},
+[40111] = {
+  ["FormId"]= 20021,
+  ["Id"]= 40111,
+  ["InitialNodeIcon"]= "Icons/Monster/30031",
+  ["MedalId"]= 40111,
+  ["SubGroupId"]= 4011
+},
+[40112] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20022,
+  ["Id"]= 40112,
+  ["InitialNodeIcon"]= "Icons/Monster/30031",
+  ["MedalId"]= 40112,
+  ["SubGroupId"]= 4011
+},
+[40113] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20023,
+  ["Id"]= 40113,
+  ["InitialNodeIcon"]= "Icons/Monster/30031",
+  ["MedalId"]= 40113,
+  ["SubGroupId"]= 4011
+},
+[40121] = {
+  ["FormId"]= 20031,
+  ["Id"]= 40121,
+  ["InitialNodeIcon"]= "Icons/Monster/30019",
+  ["MedalId"]= 40121,
+  ["SubGroupId"]= 4012
+},
+[40122] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20032,
+  ["Id"]= 40122,
+  ["InitialNodeIcon"]= "Icons/Monster/30019",
+  ["MedalId"]= 40122,
+  ["SubGroupId"]= 4012
+},
+[40123] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20033,
+  ["Id"]= 40123,
+  ["InitialNodeIcon"]= "Icons/Monster/30019",
+  ["MedalId"]= 40123,
+  ["SubGroupId"]= 4012
+},
+[41011] = {
+  ["Id"]= 41011,
+  ["InitialNodeIcon"]= "Icons/Monster/31006",
+  ["MedalId"]= 41011,
+  ["SubGroupId"]= 4101
+},
+[41012] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20012,
+  ["Id"]= 41012,
+  ["InitialNodeIcon"]= "Icons/Monster/31006",
+  ["MedalId"]= 41012,
+  ["SubGroupId"]= 4101
+},
+[41013] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20013,
+  ["Id"]= 41013,
+  ["InitialNodeIcon"]= "Icons/Monster/31006",
+  ["MedalId"]= 41013,
+  ["SubGroupId"]= 4101
+},
+[41021] = {
+  ["FormId"]= 20021,
+  ["Id"]= 41021,
+  ["InitialNodeIcon"]= "Icons/Monster/31004",
+  ["MedalId"]= 41021,
+  ["SubGroupId"]= 4102
+},
+[41022] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20022,
+  ["Id"]= 41022,
+  ["InitialNodeIcon"]= "Icons/Monster/31004",
+  ["MedalId"]= 41022,
+  ["SubGroupId"]= 4102
+},
+[41023] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20023,
+  ["Id"]= 41023,
+  ["InitialNodeIcon"]= "Icons/Monster/31004",
+  ["MedalId"]= 41023,
+  ["SubGroupId"]= 4102
+},
+[41031] = {
+  ["FormId"]= 20031,
+  ["Id"]= 41031,
+  ["InitialNodeIcon"]= "Icons/Monster/31002",
+  ["MedalId"]= 41031,
+  ["SubGroupId"]= 4103
+},
+[41032] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20032,
+  ["Id"]= 41032,
+  ["InitialNodeIcon"]= "Icons/Monster/31002",
+  ["MedalId"]= 41032,
+  ["SubGroupId"]= 4103
+},
+[41033] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20033,
+  ["Id"]= 41033,
+  ["InitialNodeIcon"]= "Icons/Monster/31002",
+  ["MedalId"]= 41033,
+  ["SubGroupId"]= 4103
+},
+[41041] = {
+  ["Id"]= 41041,
+  ["InitialNodeIcon"]= "Icons/Monster/31008",
+  ["MedalId"]= 41041,
+  ["SubGroupId"]= 4104
+},
+[41042] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20012,
+  ["Id"]= 41042,
+  ["InitialNodeIcon"]= "Icons/Monster/31008",
+  ["MedalId"]= 41042,
+  ["SubGroupId"]= 4104
+},
+[41043] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20013,
+  ["Id"]= 41043,
+  ["InitialNodeIcon"]= "Icons/Monster/31008",
+  ["MedalId"]= 41043,
+  ["SubGroupId"]= 4104
+},
+[41051] = {
+  ["FormId"]= 20021,
+  ["Id"]= 41051,
+  ["InitialNodeIcon"]= "Icons/Monster/31009",
+  ["MedalId"]= 41051,
+  ["SubGroupId"]= 4105
+},
+[41052] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20022,
+  ["Id"]= 41052,
+  ["InitialNodeIcon"]= "Icons/Monster/31009",
+  ["MedalId"]= 41052,
+  ["SubGroupId"]= 4105
+},
+[41053] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20023,
+  ["Id"]= 41053,
+  ["InitialNodeIcon"]= "Icons/Monster/31009",
+  ["MedalId"]= 41053,
+  ["SubGroupId"]= 4105
+},
+[41061] = {
+  ["FormId"]= 20031,
+  ["Id"]= 41061,
+  ["InitialNodeIcon"]= "Icons/Monster/31001",
+  ["MedalId"]= 41061,
+  ["SubGroupId"]= 4106
+},
+[41062] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20032,
+  ["Id"]= 41062,
+  ["InitialNodeIcon"]= "Icons/Monster/31001",
+  ["MedalId"]= 41062,
+  ["SubGroupId"]= 4106
+},
+[41063] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20033,
+  ["Id"]= 41063,
+  ["InitialNodeIcon"]= "Icons/Monster/31001",
+  ["MedalId"]= 41063,
+  ["SubGroupId"]= 4106
+},
+[41071] = {
+  ["Id"]= 41071,
+  ["InitialNodeIcon"]= "Icons/Monster/30003",
+  ["MedalId"]= 41071,
+  ["SubGroupId"]= 4107
+},
+[41072] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20012,
+  ["Id"]= 41072,
+  ["InitialNodeIcon"]= "Icons/Monster/30003",
+  ["MedalId"]= 41072,
+  ["SubGroupId"]= 4107
+},
+[41073] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20013,
+  ["Id"]= 41073,
+  ["InitialNodeIcon"]= "Icons/Monster/30003",
+  ["MedalId"]= 41073,
+  ["SubGroupId"]= 4107
+},
+[41081] = {
+  ["FormId"]= 20021,
+  ["Id"]= 41081,
+  ["InitialNodeIcon"]= "Icons/Monster/30001",
+  ["MedalId"]= 41081,
+  ["SubGroupId"]= 4108
+},
+[41082] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20022,
+  ["Id"]= 41082,
+  ["InitialNodeIcon"]= "Icons/Monster/30001",
+  ["MedalId"]= 41082,
+  ["SubGroupId"]= 4108
+},
+[41083] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20023,
+  ["Id"]= 41083,
+  ["InitialNodeIcon"]= "Icons/Monster/30001",
+  ["MedalId"]= 41083,
+  ["SubGroupId"]= 4108
+},
+[41091] = {
+  ["FormId"]= 20031,
+  ["Id"]= 41091,
+  ["InitialNodeIcon"]= "Icons/Monster/31005",
+  ["MedalId"]= 41091,
+  ["SubGroupId"]= 4109
+},
+[41092] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20032,
+  ["Id"]= 41092,
+  ["InitialNodeIcon"]= "Icons/Monster/31005",
+  ["MedalId"]= 41092,
+  ["SubGroupId"]= 4109
+},
+[41093] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20033,
+  ["Id"]= 41093,
+  ["InitialNodeIcon"]= "Icons/Monster/31005",
+  ["MedalId"]= 41093,
+  ["SubGroupId"]= 4109
+},
+[41101] = {
+  ["Id"]= 41101,
+  ["InitialNodeIcon"]= "Icons/Monster/30021",
+  ["MedalId"]= 41101,
+  ["SubGroupId"]= 4110
+},
+[41102] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20012,
+  ["Id"]= 41102,
+  ["InitialNodeIcon"]= "Icons/Monster/30021",
+  ["MedalId"]= 41102,
+  ["SubGroupId"]= 4110
+},
+[41103] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20013,
+  ["Id"]= 41103,
+  ["InitialNodeIcon"]= "Icons/Monster/30021",
+  ["MedalId"]= 41103,
+  ["SubGroupId"]= 4110
+},
+[41111] = {
+  ["FormId"]= 20021,
+  ["Id"]= 41111,
+  ["InitialNodeIcon"]= "Icons/Monster/31010",
+  ["MedalId"]= 41111,
+  ["SubGroupId"]= 4111
+},
+[41112] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20022,
+  ["Id"]= 41112,
+  ["InitialNodeIcon"]= "Icons/Monster/31010",
+  ["MedalId"]= 41112,
+  ["SubGroupId"]= 4111
+},
+[41113] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20023,
+  ["Id"]= 41113,
+  ["InitialNodeIcon"]= "Icons/Monster/31010",
+  ["MedalId"]= 41113,
+  ["SubGroupId"]= 4111
+},
+[41121] = {
+  ["FormId"]= 20031,
+  ["Id"]= 41121,
+  ["InitialNodeIcon"]= "Icons/Monster/31011",
+  ["MedalId"]= 41121,
+  ["SubGroupId"]= 4112
+},
+[41122] = {
+  ["ChainId"]= 2,
+  ["FormId"]= 20032,
+  ["Id"]= 41122,
+  ["InitialNodeIcon"]= "Icons/Monster/31011",
+  ["MedalId"]= 41122,
+  ["SubGroupId"]= 4112
+},
+[41123] = {
+  ["ChainId"]= 3,
+  ["FormId"]= 20033,
+  ["Id"]= 41123,
+  ["InitialNodeIcon"]= "Icons/Monster/31011",
+  ["MedalId"]= 41123,
+  ["SubGroupId"]= 4112
+}
+}
+local baseTable={
+  ["ChainId"]= 1,
+  ["FormId"]= 20011,
+  ["Id"]= 10011,
+  ["InitialNodeIcon"]= "Icons/Monster/30002",
+  ["MedalId"]= 10011,
+  ["SubGroupId"]= 1001
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

@@ -1,0 +1,78 @@
+local table= {
+[1] = {
+  ["Cost"]= 131400,
+  ["Currency"]= 1
+},
+[2] = {
+  ["Cost"]= 131400,
+  ["Currency"]= 1,
+  ["Id"]= 2
+},
+[3] = {
+  ["Cost"]= 8999,
+  ["Currency"]= 3,
+  ["Id"]= 3
+},
+[4] = {
+  ["Cost"]= 8999,
+  ["Currency"]= 3,
+  ["Id"]= 4
+},
+[5] = {
+  ["Cost"]= 8999,
+  ["Currency"]= 3,
+  ["Id"]= 5
+},
+[6] = {
+  ["Id"]= 6
+},
+[7] = {
+  ["Id"]= 7
+},
+[8] = {
+  ["Id"]= 8
+},
+[9] = {
+  ["Id"]= 9
+}
+}
+local baseTable={
+  ["ActivityType"]= 36,
+  ["AwardNum"]= {
+    "6,9",
+    "3,5",
+    "2,4",
+    "1,3"
+  },
+  ["AwardPool"]= {
+    10217104,
+    10217103,
+    10217102,
+    10217105
+  },
+  ["Cost"]= 699,
+  ["Currency"]= 2,
+  ["DropId"]= {
+    1106011261,
+    1106011262,
+    1106011263,
+    1106011264
+  },
+  ["Id"]= 1,
+  ["IsBind"]= {
+    0,
+    0,
+    0,
+    0
+  },
+  ["ItemType"]= {
+    5,
+    5,
+    5,
+    5
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

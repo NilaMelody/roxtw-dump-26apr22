@@ -1,0 +1,1469 @@
+local table= {
+[10011] = {
+  ["MedalType"]= 1,
+  ["propNum"]= {
+    48
+  }
+},
+[10012] = {
+  ["Id"]= 10012,
+  ["MedalQuality"]= 2,
+  ["MedalType"]= 1,
+  ["propNum"]= {
+    72
+  }
+},
+[10013] = {
+  ["Id"]= 10013,
+  ["MedalQuality"]= 3,
+  ["MedalType"]= 1,
+  ["propNum"]= {
+    120
+  }
+},
+[10021] = {
+  ["Id"]= 10021,
+  ["MedalGroupId"]= 1002,
+  ["MedalIcon"]= 1002,
+  ["Name"]= "BattleAchievementMedal_1002",
+  ["propId"]= {
+    11
+  }
+},
+[10022] = {
+  ["Id"]= 10022,
+  ["MedalGroupId"]= 1002,
+  ["MedalIcon"]= 1002,
+  ["MedalQuality"]= 2,
+  ["Name"]= "BattleAchievementMedal_1002",
+  ["propId"]= {
+    11
+  },
+  ["propNum"]= {
+    720
+  }
+},
+[10023] = {
+  ["Id"]= 10023,
+  ["MedalGroupId"]= 1002,
+  ["MedalIcon"]= 1002,
+  ["MedalQuality"]= 3,
+  ["Name"]= "BattleAchievementMedal_1002",
+  ["propId"]= {
+    11
+  },
+  ["propNum"]= {
+    1200
+  }
+},
+[10031] = {
+  ["Id"]= 10031,
+  ["MedalGroupId"]= 1003,
+  ["MedalIcon"]= 1003,
+  ["Name"]= "BattleAchievementMedal_1003",
+  ["propId"]= {
+    147
+  },
+  ["propNum"]= {
+    0.2
+  }
+},
+[10032] = {
+  ["Id"]= 10032,
+  ["MedalGroupId"]= 1003,
+  ["MedalIcon"]= 1003,
+  ["MedalQuality"]= 2,
+  ["Name"]= "BattleAchievementMedal_1003",
+  ["propId"]= {
+    147
+  },
+  ["propNum"]= {
+    0.3
+  }
+},
+[10033] = {
+  ["Id"]= 10033,
+  ["MedalGroupId"]= 1003,
+  ["MedalIcon"]= 1003,
+  ["MedalQuality"]= 3,
+  ["Name"]= "BattleAchievementMedal_1003",
+  ["propId"]= {
+    147
+  },
+  ["propNum"]= {
+    0.5
+  }
+},
+[10041] = {
+  ["Id"]= 10041,
+  ["MedalGroupId"]= 1004,
+  ["MedalIcon"]= 1004,
+  ["Name"]= "BattleAchievementMedal_1004",
+  ["propId"]= {
+    315
+  },
+  ["propNum"]= {
+    0.16
+  }
+},
+[10042] = {
+  ["Id"]= 10042,
+  ["MedalGroupId"]= 1004,
+  ["MedalIcon"]= 1004,
+  ["MedalQuality"]= 2,
+  ["Name"]= "BattleAchievementMedal_1004",
+  ["propId"]= {
+    315
+  },
+  ["propNum"]= {
+    0.24
+  }
+},
+[10043] = {
+  ["Id"]= 10043,
+  ["MedalGroupId"]= 1004,
+  ["MedalIcon"]= 1004,
+  ["MedalQuality"]= 3,
+  ["Name"]= "BattleAchievementMedal_1004",
+  ["propId"]= {
+    315
+  },
+  ["propNum"]= {
+    0.4
+  }
+},
+[10051] = {
+  ["Id"]= 10051,
+  ["MedalGroupId"]= 1005,
+  ["MedalIcon"]= 1005,
+  ["Name"]= "BattleAchievementMedal_1005",
+  ["propId"]= {
+    150
+  },
+  ["propNum"]= {
+    0.2
+  }
+},
+[10052] = {
+  ["Id"]= 10052,
+  ["MedalGroupId"]= 1005,
+  ["MedalIcon"]= 1005,
+  ["MedalQuality"]= 2,
+  ["Name"]= "BattleAchievementMedal_1005",
+  ["propId"]= {
+    150
+  },
+  ["propNum"]= {
+    0.3
+  }
+},
+[10053] = {
+  ["Id"]= 10053,
+  ["MedalGroupId"]= 1005,
+  ["MedalIcon"]= 1005,
+  ["MedalQuality"]= 3,
+  ["Name"]= "BattleAchievementMedal_1005",
+  ["propId"]= {
+    150
+  },
+  ["propNum"]= {
+    0.5
+  }
+},
+[10061] = {
+  ["Id"]= 10061,
+  ["MedalGroupId"]= 1006,
+  ["MedalIcon"]= 1006,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_1006",
+  ["propId"]= {
+    313
+  },
+  ["propNum"]= {
+    0.16
+  }
+},
+[10062] = {
+  ["Id"]= 10062,
+  ["MedalGroupId"]= 1006,
+  ["MedalIcon"]= 1006,
+  ["MedalQuality"]= 2,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_1006",
+  ["propId"]= {
+    313
+  },
+  ["propNum"]= {
+    0.24
+  }
+},
+[10063] = {
+  ["Id"]= 10063,
+  ["MedalGroupId"]= 1006,
+  ["MedalIcon"]= 1006,
+  ["MedalQuality"]= 3,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_1006",
+  ["propId"]= {
+    313
+  },
+  ["propNum"]= {
+    0.4
+  }
+},
+[10071] = {
+  ["Id"]= 10071,
+  ["MedalGroupId"]= 1007,
+  ["MedalIcon"]= 1007,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_1007",
+  ["propId"]= {
+    31
+  }
+},
+[10072] = {
+  ["Id"]= 10072,
+  ["MedalGroupId"]= 1007,
+  ["MedalIcon"]= 1007,
+  ["MedalQuality"]= 2,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_1007",
+  ["propId"]= {
+    31
+  },
+  ["propNum"]= {
+    720
+  }
+},
+[10073] = {
+  ["Id"]= 10073,
+  ["MedalGroupId"]= 1007,
+  ["MedalIcon"]= 1007,
+  ["MedalQuality"]= 3,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_1007",
+  ["propId"]= {
+    31
+  },
+  ["propNum"]= {
+    1200
+  }
+},
+[10081] = {
+  ["Id"]= 10081,
+  ["MedalGroupId"]= 1008,
+  ["MedalIcon"]= 1008,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_1008",
+  ["propId"]= {
+    303
+  },
+  ["propNum"]= {
+    1680
+  }
+},
+[10082] = {
+  ["Id"]= 10082,
+  ["MedalGroupId"]= 1008,
+  ["MedalIcon"]= 1008,
+  ["MedalQuality"]= 2,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_1008",
+  ["propId"]= {
+    303
+  },
+  ["propNum"]= {
+    2520
+  }
+},
+[10083] = {
+  ["Id"]= 10083,
+  ["MedalGroupId"]= 1008,
+  ["MedalIcon"]= 1008,
+  ["MedalQuality"]= 3,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_1008",
+  ["propId"]= {
+    303
+  },
+  ["propNum"]= {
+    4200
+  }
+},
+[20011] = {
+  ["Id"]= 20011,
+  ["MedalGroupId"]= 2001,
+  ["MedalIcon"]= 2001,
+  ["MedalType"]= 1,
+  ["Name"]= "BattleAchievementMedal_2001",
+  ["propId"]= {
+    3
+  },
+  ["propNum"]= {
+    48
+  }
+},
+[20012] = {
+  ["Id"]= 20012,
+  ["MedalGroupId"]= 2001,
+  ["MedalIcon"]= 2001,
+  ["MedalQuality"]= 2,
+  ["MedalType"]= 1,
+  ["Name"]= "BattleAchievementMedal_2001",
+  ["propId"]= {
+    3
+  },
+  ["propNum"]= {
+    72
+  }
+},
+[20013] = {
+  ["Id"]= 20013,
+  ["MedalGroupId"]= 2001,
+  ["MedalIcon"]= 2001,
+  ["MedalQuality"]= 3,
+  ["MedalType"]= 1,
+  ["Name"]= "BattleAchievementMedal_2001",
+  ["propId"]= {
+    3
+  },
+  ["propNum"]= {
+    120
+  }
+},
+[20021] = {
+  ["Id"]= 20021,
+  ["MedalGroupId"]= 2002,
+  ["MedalIcon"]= 2002,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_2002",
+  ["propId"]= {
+    23
+  }
+},
+[20022] = {
+  ["Id"]= 20022,
+  ["MedalGroupId"]= 2002,
+  ["MedalIcon"]= 2002,
+  ["MedalQuality"]= 2,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_2002",
+  ["propId"]= {
+    23
+  },
+  ["propNum"]= {
+    720
+  }
+},
+[20023] = {
+  ["Id"]= 20023,
+  ["MedalGroupId"]= 2002,
+  ["MedalIcon"]= 2002,
+  ["MedalQuality"]= 3,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_2002",
+  ["propId"]= {
+    23
+  },
+  ["propNum"]= {
+    1200
+  }
+},
+[20031] = {
+  ["Id"]= 20031,
+  ["MedalGroupId"]= 2003,
+  ["MedalIcon"]= 2003,
+  ["Name"]= "BattleAchievementMedal_2003",
+  ["propId"]= {
+    152
+  },
+  ["propNum"]= {
+    0.2
+  }
+},
+[20032] = {
+  ["Id"]= 20032,
+  ["MedalGroupId"]= 2003,
+  ["MedalIcon"]= 2003,
+  ["MedalQuality"]= 2,
+  ["Name"]= "BattleAchievementMedal_2003",
+  ["propId"]= {
+    152
+  },
+  ["propNum"]= {
+    0.3
+  }
+},
+[20033] = {
+  ["Id"]= 20033,
+  ["MedalGroupId"]= 2003,
+  ["MedalIcon"]= 2003,
+  ["MedalQuality"]= 3,
+  ["Name"]= "BattleAchievementMedal_2003",
+  ["propId"]= {
+    152
+  },
+  ["propNum"]= {
+    0.5
+  }
+},
+[30011] = {
+  ["Id"]= 30011,
+  ["MedalGroupId"]= 3001,
+  ["MedalIcon"]= 3001,
+  ["Name"]= "BattleAchievementMedal_3001",
+  ["propId"]= {
+    151
+  },
+  ["propNum"]= {
+    0.2
+  }
+},
+[30012] = {
+  ["Id"]= 30012,
+  ["MedalGroupId"]= 3001,
+  ["MedalIcon"]= 3001,
+  ["MedalQuality"]= 2,
+  ["Name"]= "BattleAchievementMedal_3001",
+  ["propId"]= {
+    151
+  },
+  ["propNum"]= {
+    0.3
+  }
+},
+[30013] = {
+  ["Id"]= 30013,
+  ["MedalGroupId"]= 3001,
+  ["MedalIcon"]= 3001,
+  ["MedalQuality"]= 3,
+  ["Name"]= "BattleAchievementMedal_3001",
+  ["propId"]= {
+    151
+  },
+  ["propNum"]= {
+    0.5
+  }
+},
+[30021] = {
+  ["Id"]= 30021,
+  ["MedalGroupId"]= 3002,
+  ["MedalIcon"]= 3002,
+  ["MedalType"]= 1,
+  ["Name"]= "BattleAchievementMedal_3002",
+  ["propId"]= {
+    5
+  },
+  ["propNum"]= {
+    48
+  }
+},
+[30022] = {
+  ["Id"]= 30022,
+  ["MedalGroupId"]= 3002,
+  ["MedalIcon"]= 3002,
+  ["MedalQuality"]= 2,
+  ["MedalType"]= 1,
+  ["Name"]= "BattleAchievementMedal_3002",
+  ["propId"]= {
+    5
+  },
+  ["propNum"]= {
+    72
+  }
+},
+[30023] = {
+  ["Id"]= 30023,
+  ["MedalGroupId"]= 3002,
+  ["MedalIcon"]= 3002,
+  ["MedalQuality"]= 3,
+  ["MedalType"]= 1,
+  ["Name"]= "BattleAchievementMedal_3002",
+  ["propId"]= {
+    5
+  },
+  ["propNum"]= {
+    120
+  }
+},
+[30031] = {
+  ["Id"]= 30031,
+  ["MedalGroupId"]= 3003,
+  ["MedalIcon"]= 3003,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_3003",
+  ["propId"]= {
+    312
+  },
+  ["propNum"]= {
+    0.16
+  }
+},
+[30032] = {
+  ["Id"]= 30032,
+  ["MedalGroupId"]= 3003,
+  ["MedalIcon"]= 3003,
+  ["MedalQuality"]= 2,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_3003",
+  ["propId"]= {
+    312
+  },
+  ["propNum"]= {
+    0.24
+  }
+},
+[30033] = {
+  ["Id"]= 30033,
+  ["MedalGroupId"]= 3003,
+  ["MedalIcon"]= 3003,
+  ["MedalQuality"]= 3,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_3003",
+  ["propId"]= {
+    312
+  },
+  ["propNum"]= {
+    0.4
+  }
+},
+[40011] = {
+  ["Id"]= 40011,
+  ["MedalGroupId"]= 4001,
+  ["MedalIcon"]= 4001,
+  ["Name"]= "BattleAchievementMedal_4001",
+  ["propId"]= {
+    314
+  },
+  ["propNum"]= {
+    0.16
+  }
+},
+[40012] = {
+  ["Id"]= 40012,
+  ["MedalGroupId"]= 4001,
+  ["MedalIcon"]= 4001,
+  ["MedalQuality"]= 2,
+  ["Name"]= "BattleAchievementMedal_4001",
+  ["propId"]= {
+    314
+  },
+  ["propNum"]= {
+    0.24
+  }
+},
+[40013] = {
+  ["Id"]= 40013,
+  ["MedalGroupId"]= 4001,
+  ["MedalIcon"]= 4001,
+  ["MedalQuality"]= 3,
+  ["Name"]= "BattleAchievementMedal_4001",
+  ["propId"]= {
+    314
+  },
+  ["propNum"]= {
+    0.4
+  }
+},
+[40021] = {
+  ["Id"]= 40021,
+  ["MedalGroupId"]= 4002,
+  ["MedalIcon"]= 4002,
+  ["MedalType"]= 1,
+  ["Name"]= "BattleAchievementMedal_4002",
+  ["propId"]= {
+    2
+  },
+  ["propNum"]= {
+    48
+  }
+},
+[40022] = {
+  ["Id"]= 40022,
+  ["MedalGroupId"]= 4002,
+  ["MedalIcon"]= 4002,
+  ["MedalQuality"]= 2,
+  ["MedalType"]= 1,
+  ["Name"]= "BattleAchievementMedal_4002",
+  ["propId"]= {
+    2
+  },
+  ["propNum"]= {
+    72
+  }
+},
+[40023] = {
+  ["Id"]= 40023,
+  ["MedalGroupId"]= 4002,
+  ["MedalIcon"]= 4002,
+  ["MedalQuality"]= 3,
+  ["MedalType"]= 1,
+  ["Name"]= "BattleAchievementMedal_4002",
+  ["propId"]= {
+    2
+  },
+  ["propNum"]= {
+    120
+  }
+},
+[40031] = {
+  ["Id"]= 40031,
+  ["MedalGroupId"]= 4003,
+  ["MedalIcon"]= 4003,
+  ["Name"]= "BattleAchievementMedal_4003",
+  ["propId"]= {
+    302
+  },
+  ["propNum"]= {
+    1680
+  }
+},
+[40032] = {
+  ["Id"]= 40032,
+  ["MedalGroupId"]= 4003,
+  ["MedalIcon"]= 4003,
+  ["MedalQuality"]= 2,
+  ["Name"]= "BattleAchievementMedal_4003",
+  ["propId"]= {
+    302
+  },
+  ["propNum"]= {
+    2520
+  }
+},
+[40033] = {
+  ["Id"]= 40033,
+  ["MedalGroupId"]= 4003,
+  ["MedalIcon"]= 4003,
+  ["MedalQuality"]= 3,
+  ["Name"]= "BattleAchievementMedal_4003",
+  ["propId"]= {
+    302
+  },
+  ["propNum"]= {
+    4200
+  }
+},
+[40041] = {
+  ["Id"]= 40041,
+  ["MedalGroupId"]= 4004,
+  ["MedalIcon"]= 4004,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_4004",
+  ["propId"]= {
+    25
+  },
+  ["propNum"]= {
+    0.16
+  }
+},
+[40042] = {
+  ["Id"]= 40042,
+  ["MedalGroupId"]= 4004,
+  ["MedalIcon"]= 4004,
+  ["MedalQuality"]= 2,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_4004",
+  ["propId"]= {
+    25
+  },
+  ["propNum"]= {
+    0.24
+  }
+},
+[40043] = {
+  ["Id"]= 40043,
+  ["MedalGroupId"]= 4004,
+  ["MedalIcon"]= 4004,
+  ["MedalQuality"]= 3,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_4004",
+  ["propId"]= {
+    25
+  },
+  ["propNum"]= {
+    0.4
+  }
+},
+[40051] = {
+  ["Id"]= 40051,
+  ["MedalGroupId"]= 4005,
+  ["MedalIcon"]= 4005,
+  ["Name"]= "BattleAchievementMedal_4005",
+  ["propId"]= {
+    154
+  },
+  ["propNum"]= {
+    0.2
+  }
+},
+[40052] = {
+  ["Id"]= 40052,
+  ["MedalGroupId"]= 4005,
+  ["MedalIcon"]= 4005,
+  ["MedalQuality"]= 2,
+  ["Name"]= "BattleAchievementMedal_4005",
+  ["propId"]= {
+    154
+  },
+  ["propNum"]= {
+    0.3
+  }
+},
+[40053] = {
+  ["Id"]= 40053,
+  ["MedalGroupId"]= 4005,
+  ["MedalIcon"]= 4005,
+  ["MedalQuality"]= 3,
+  ["Name"]= "BattleAchievementMedal_4005",
+  ["propId"]= {
+    154
+  },
+  ["propNum"]= {
+    0.5
+  }
+},
+[40061] = {
+  ["Id"]= 40061,
+  ["MedalGroupId"]= 4006,
+  ["MedalIcon"]= 4006,
+  ["Name"]= "BattleAchievementMedal_4006",
+  ["propId"]= {
+    16
+  }
+},
+[40062] = {
+  ["Id"]= 40062,
+  ["MedalGroupId"]= 4006,
+  ["MedalIcon"]= 4006,
+  ["MedalQuality"]= 2,
+  ["Name"]= "BattleAchievementMedal_4006",
+  ["propId"]= {
+    16
+  },
+  ["propNum"]= {
+    720
+  }
+},
+[40063] = {
+  ["Id"]= 40063,
+  ["MedalGroupId"]= 4006,
+  ["MedalIcon"]= 4006,
+  ["MedalQuality"]= 3,
+  ["Name"]= "BattleAchievementMedal_4006",
+  ["propId"]= {
+    16
+  },
+  ["propNum"]= {
+    1200
+  }
+},
+[40071] = {
+  ["Id"]= 40071,
+  ["MedalGroupId"]= 4007,
+  ["MedalIcon"]= 4007,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_4007",
+  ["propId"]= {
+    43
+  },
+  ["propNum"]= {
+    0.16
+  }
+},
+[40072] = {
+  ["Id"]= 40072,
+  ["MedalGroupId"]= 4007,
+  ["MedalIcon"]= 4007,
+  ["MedalQuality"]= 2,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_4007",
+  ["propId"]= {
+    43
+  },
+  ["propNum"]= {
+    0.24
+  }
+},
+[40073] = {
+  ["Id"]= 40073,
+  ["MedalGroupId"]= 4007,
+  ["MedalIcon"]= 4007,
+  ["MedalQuality"]= 3,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_4007",
+  ["propId"]= {
+    43
+  },
+  ["propNum"]= {
+    0.4
+  }
+},
+[40081] = {
+  ["Id"]= 40081,
+  ["MedalGroupId"]= 4008,
+  ["MedalIcon"]= 4008,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_4008",
+  ["propId"]= {
+    24
+  }
+},
+[40082] = {
+  ["Id"]= 40082,
+  ["MedalGroupId"]= 4008,
+  ["MedalIcon"]= 4008,
+  ["MedalQuality"]= 2,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_4008",
+  ["propId"]= {
+    24
+  },
+  ["propNum"]= {
+    720
+  }
+},
+[40083] = {
+  ["Id"]= 40083,
+  ["MedalGroupId"]= 4008,
+  ["MedalIcon"]= 4008,
+  ["MedalQuality"]= 3,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_4008",
+  ["propId"]= {
+    24
+  },
+  ["propNum"]= {
+    1200
+  }
+},
+[40091] = {
+  ["Id"]= 40091,
+  ["MedalGroupId"]= 4009,
+  ["MedalIcon"]= 4009,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_4009",
+  ["propId"]= {
+    58
+  },
+  ["propNum"]= {
+    -0.16
+  }
+},
+[40092] = {
+  ["Id"]= 40092,
+  ["MedalGroupId"]= 4009,
+  ["MedalIcon"]= 4009,
+  ["MedalQuality"]= 2,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_4009",
+  ["propId"]= {
+    58
+  },
+  ["propNum"]= {
+    -0.24
+  }
+},
+[40093] = {
+  ["Id"]= 40093,
+  ["MedalGroupId"]= 4009,
+  ["MedalIcon"]= 4009,
+  ["MedalQuality"]= 3,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_4009",
+  ["propId"]= {
+    58
+  },
+  ["propNum"]= {
+    -0.4
+  }
+},
+[40101] = {
+  ["Id"]= 40101,
+  ["MedalGroupId"]= 4010,
+  ["MedalIcon"]= 4010,
+  ["MedalType"]= 1,
+  ["Name"]= "BattleAchievementMedal_4010",
+  ["propId"]= {
+    6
+  },
+  ["propNum"]= {
+    48
+  }
+},
+[40102] = {
+  ["Id"]= 40102,
+  ["MedalGroupId"]= 4010,
+  ["MedalIcon"]= 4010,
+  ["MedalQuality"]= 2,
+  ["MedalType"]= 1,
+  ["Name"]= "BattleAchievementMedal_4010",
+  ["propId"]= {
+    6
+  },
+  ["propNum"]= {
+    72
+  }
+},
+[40103] = {
+  ["Id"]= 40103,
+  ["MedalGroupId"]= 4010,
+  ["MedalIcon"]= 4010,
+  ["MedalQuality"]= 3,
+  ["MedalType"]= 1,
+  ["Name"]= "BattleAchievementMedal_4010",
+  ["propId"]= {
+    6
+  },
+  ["propNum"]= {
+    120
+  }
+},
+[40111] = {
+  ["Id"]= 40111,
+  ["MedalGroupId"]= 4011,
+  ["MedalIcon"]= 4011,
+  ["Name"]= "BattleAchievementMedal_4011",
+  ["propId"]= {
+    72
+  },
+  ["propNum"]= {
+    0.16
+  }
+},
+[40112] = {
+  ["Id"]= 40112,
+  ["MedalGroupId"]= 4011,
+  ["MedalIcon"]= 4011,
+  ["MedalQuality"]= 2,
+  ["Name"]= "BattleAchievementMedal_4011",
+  ["propId"]= {
+    72
+  },
+  ["propNum"]= {
+    0.24
+  }
+},
+[40113] = {
+  ["Id"]= 40113,
+  ["MedalGroupId"]= 4011,
+  ["MedalIcon"]= 4011,
+  ["MedalQuality"]= 3,
+  ["Name"]= "BattleAchievementMedal_4011",
+  ["propId"]= {
+    72
+  },
+  ["propNum"]= {
+    0.4
+  }
+},
+[40121] = {
+  ["Id"]= 40121,
+  ["MedalGroupId"]= 4012,
+  ["MedalIcon"]= 4012,
+  ["Name"]= "BattleAchievementMedal_4012",
+  ["propId"]= {
+    13
+  }
+},
+[40122] = {
+  ["Id"]= 40122,
+  ["MedalGroupId"]= 4012,
+  ["MedalIcon"]= 4012,
+  ["MedalQuality"]= 2,
+  ["Name"]= "BattleAchievementMedal_4012",
+  ["propId"]= {
+    13
+  },
+  ["propNum"]= {
+    720
+  }
+},
+[40123] = {
+  ["Id"]= 40123,
+  ["MedalGroupId"]= 4012,
+  ["MedalIcon"]= 4012,
+  ["MedalQuality"]= 3,
+  ["Name"]= "BattleAchievementMedal_4012",
+  ["propId"]= {
+    13
+  },
+  ["propNum"]= {
+    1200
+  }
+},
+[41011] = {
+  ["Id"]= 41011,
+  ["MedalGroupId"]= 4101,
+  ["MedalIcon"]= 4101,
+  ["Name"]= "BattleAchievementMedal_4101",
+  ["propId"]= {
+    21
+  }
+},
+[41012] = {
+  ["Id"]= 41012,
+  ["MedalGroupId"]= 4101,
+  ["MedalIcon"]= 4101,
+  ["MedalQuality"]= 2,
+  ["Name"]= "BattleAchievementMedal_4101",
+  ["propId"]= {
+    21
+  },
+  ["propNum"]= {
+    720
+  }
+},
+[41013] = {
+  ["Id"]= 41013,
+  ["MedalGroupId"]= 4101,
+  ["MedalIcon"]= 4101,
+  ["MedalQuality"]= 3,
+  ["Name"]= "BattleAchievementMedal_4101",
+  ["propId"]= {
+    21
+  },
+  ["propNum"]= {
+    1200
+  }
+},
+[41021] = {
+  ["Id"]= 41021,
+  ["MedalGroupId"]= 4102,
+  ["MedalIcon"]= 4102,
+  ["Name"]= "BattleAchievementMedal_4102",
+  ["propId"]= {
+    10
+  }
+},
+[41022] = {
+  ["Id"]= 41022,
+  ["MedalGroupId"]= 4102,
+  ["MedalIcon"]= 4102,
+  ["MedalQuality"]= 2,
+  ["Name"]= "BattleAchievementMedal_4102",
+  ["propId"]= {
+    10
+  },
+  ["propNum"]= {
+    720
+  }
+},
+[41023] = {
+  ["Id"]= 41023,
+  ["MedalGroupId"]= 4102,
+  ["MedalIcon"]= 4102,
+  ["MedalQuality"]= 3,
+  ["Name"]= "BattleAchievementMedal_4102",
+  ["propId"]= {
+    10
+  },
+  ["propNum"]= {
+    1200
+  }
+},
+[41031] = {
+  ["Id"]= 41031,
+  ["MedalGroupId"]= 4103,
+  ["MedalIcon"]= 4103,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_4103",
+  ["propId"]= {
+    304
+  },
+  ["propNum"]= {
+    1680
+  }
+},
+[41032] = {
+  ["Id"]= 41032,
+  ["MedalGroupId"]= 4103,
+  ["MedalIcon"]= 4103,
+  ["MedalQuality"]= 2,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_4103",
+  ["propId"]= {
+    304
+  },
+  ["propNum"]= {
+    2520
+  }
+},
+[41033] = {
+  ["Id"]= 41033,
+  ["MedalGroupId"]= 4103,
+  ["MedalIcon"]= 4103,
+  ["MedalQuality"]= 3,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_4103",
+  ["propId"]= {
+    304
+  },
+  ["propNum"]= {
+    4200
+  }
+},
+[41041] = {
+  ["Id"]= 41041,
+  ["MedalGroupId"]= 4104,
+  ["MedalIcon"]= 4104,
+  ["Name"]= "BattleAchievementMedal_4104",
+  ["propId"]= {
+    14
+  }
+},
+[41042] = {
+  ["Id"]= 41042,
+  ["MedalGroupId"]= 4104,
+  ["MedalIcon"]= 4104,
+  ["MedalQuality"]= 2,
+  ["Name"]= "BattleAchievementMedal_4104",
+  ["propId"]= {
+    14
+  },
+  ["propNum"]= {
+    720
+  }
+},
+[41043] = {
+  ["Id"]= 41043,
+  ["MedalGroupId"]= 4104,
+  ["MedalIcon"]= 4104,
+  ["MedalQuality"]= 3,
+  ["Name"]= "BattleAchievementMedal_4104",
+  ["propId"]= {
+    14
+  },
+  ["propNum"]= {
+    1200
+  }
+},
+[41051] = {
+  ["Id"]= 41051,
+  ["MedalGroupId"]= 4105,
+  ["MedalIcon"]= 4105,
+  ["Name"]= "BattleAchievementMedal_4105",
+  ["propId"]= {
+    12
+  }
+},
+[41052] = {
+  ["Id"]= 41052,
+  ["MedalGroupId"]= 4105,
+  ["MedalIcon"]= 4105,
+  ["MedalQuality"]= 2,
+  ["Name"]= "BattleAchievementMedal_4105",
+  ["propId"]= {
+    12
+  },
+  ["propNum"]= {
+    720
+  }
+},
+[41053] = {
+  ["Id"]= 41053,
+  ["MedalGroupId"]= 4105,
+  ["MedalIcon"]= 4105,
+  ["MedalQuality"]= 3,
+  ["Name"]= "BattleAchievementMedal_4105",
+  ["propId"]= {
+    12
+  },
+  ["propNum"]= {
+    1200
+  }
+},
+[41061] = {
+  ["Id"]= 41061,
+  ["MedalGroupId"]= 4106,
+  ["MedalIcon"]= 4106,
+  ["MedalType"]= 1,
+  ["Name"]= "BattleAchievementMedal_4106",
+  ["propId"]= {
+    4
+  },
+  ["propNum"]= {
+    48
+  }
+},
+[41062] = {
+  ["Id"]= 41062,
+  ["MedalGroupId"]= 4106,
+  ["MedalIcon"]= 4106,
+  ["MedalQuality"]= 2,
+  ["MedalType"]= 1,
+  ["Name"]= "BattleAchievementMedal_4106",
+  ["propId"]= {
+    4
+  },
+  ["propNum"]= {
+    72
+  }
+},
+[41063] = {
+  ["Id"]= 41063,
+  ["MedalGroupId"]= 4106,
+  ["MedalIcon"]= 4106,
+  ["MedalQuality"]= 3,
+  ["MedalType"]= 1,
+  ["Name"]= "BattleAchievementMedal_4106",
+  ["propId"]= {
+    4
+  },
+  ["propNum"]= {
+    120
+  }
+},
+[41071] = {
+  ["Id"]= 41071,
+  ["MedalGroupId"]= 4107,
+  ["MedalIcon"]= 4107,
+  ["Name"]= "BattleAchievementMedal_4107",
+  ["propId"]= {
+    148
+  },
+  ["propNum"]= {
+    0.2
+  }
+},
+[41072] = {
+  ["Id"]= 41072,
+  ["MedalGroupId"]= 4107,
+  ["MedalIcon"]= 4107,
+  ["MedalQuality"]= 2,
+  ["Name"]= "BattleAchievementMedal_4107",
+  ["propId"]= {
+    148
+  },
+  ["propNum"]= {
+    0.3
+  }
+},
+[41073] = {
+  ["Id"]= 41073,
+  ["MedalGroupId"]= 4107,
+  ["MedalIcon"]= 4107,
+  ["MedalQuality"]= 3,
+  ["Name"]= "BattleAchievementMedal_4107",
+  ["propId"]= {
+    148
+  },
+  ["propNum"]= {
+    0.5
+  }
+},
+[41081] = {
+  ["Id"]= 41081,
+  ["MedalGroupId"]= 4108,
+  ["MedalIcon"]= 4108,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_4108",
+  ["propId"]= {
+    59
+  },
+  ["propNum"]= {
+    -0.16
+  }
+},
+[41082] = {
+  ["Id"]= 41082,
+  ["MedalGroupId"]= 4108,
+  ["MedalIcon"]= 4108,
+  ["MedalQuality"]= 2,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_4108",
+  ["propId"]= {
+    59
+  },
+  ["propNum"]= {
+    -0.24
+  }
+},
+[41083] = {
+  ["Id"]= 41083,
+  ["MedalGroupId"]= 4108,
+  ["MedalIcon"]= 4108,
+  ["MedalQuality"]= 3,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_4108",
+  ["propId"]= {
+    59
+  },
+  ["propNum"]= {
+    -0.4
+  }
+},
+[41091] = {
+  ["Id"]= 41091,
+  ["MedalGroupId"]= 4109,
+  ["MedalIcon"]= 4109,
+  ["Name"]= "BattleAchievementMedal_4109",
+  ["propId"]= {
+    301
+  },
+  ["propNum"]= {
+    1680
+  }
+},
+[41092] = {
+  ["Id"]= 41092,
+  ["MedalGroupId"]= 4109,
+  ["MedalIcon"]= 4109,
+  ["MedalQuality"]= 2,
+  ["Name"]= "BattleAchievementMedal_4109",
+  ["propId"]= {
+    301
+  },
+  ["propNum"]= {
+    2520
+  }
+},
+[41093] = {
+  ["Id"]= 41093,
+  ["MedalGroupId"]= 4109,
+  ["MedalIcon"]= 4109,
+  ["MedalQuality"]= 3,
+  ["Name"]= "BattleAchievementMedal_4109",
+  ["propId"]= {
+    301
+  },
+  ["propNum"]= {
+    4200
+  }
+},
+[41101] = {
+  ["Id"]= 41101,
+  ["MedalGroupId"]= 4110,
+  ["MedalIcon"]= 4110,
+  ["Name"]= "BattleAchievementMedal_4110",
+  ["propId"]= {
+    71
+  },
+  ["propNum"]= {
+    0.16
+  }
+},
+[41102] = {
+  ["Id"]= 41102,
+  ["MedalGroupId"]= 4110,
+  ["MedalIcon"]= 4110,
+  ["MedalQuality"]= 2,
+  ["Name"]= "BattleAchievementMedal_4110",
+  ["propId"]= {
+    71
+  },
+  ["propNum"]= {
+    0.24
+  }
+},
+[41103] = {
+  ["Id"]= 41103,
+  ["MedalGroupId"]= 4110,
+  ["MedalIcon"]= 4110,
+  ["MedalQuality"]= 3,
+  ["Name"]= "BattleAchievementMedal_4110",
+  ["propId"]= {
+    71
+  },
+  ["propNum"]= {
+    0.4
+  }
+},
+[41111] = {
+  ["Id"]= 41111,
+  ["MedalGroupId"]= 4111,
+  ["MedalIcon"]= 4111,
+  ["Name"]= "BattleAchievementMedal_4111",
+  ["propId"]= {
+    149
+  },
+  ["propNum"]= {
+    0.2
+  }
+},
+[41112] = {
+  ["Id"]= 41112,
+  ["MedalGroupId"]= 4111,
+  ["MedalIcon"]= 4111,
+  ["MedalQuality"]= 2,
+  ["Name"]= "BattleAchievementMedal_4111",
+  ["propId"]= {
+    149
+  },
+  ["propNum"]= {
+    0.3
+  }
+},
+[41113] = {
+  ["Id"]= 41113,
+  ["MedalGroupId"]= 4111,
+  ["MedalIcon"]= 4111,
+  ["MedalQuality"]= 3,
+  ["Name"]= "BattleAchievementMedal_4111",
+  ["propId"]= {
+    149
+  },
+  ["propNum"]= {
+    0.5
+  }
+},
+[41121] = {
+  ["Id"]= 41121,
+  ["MedalGroupId"]= 4112,
+  ["MedalIcon"]= 4112,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_4112",
+  ["propId"]= {
+    70
+  },
+  ["propNum"]= {
+    0.16
+  }
+},
+[41122] = {
+  ["Id"]= 41122,
+  ["MedalGroupId"]= 4112,
+  ["MedalIcon"]= 4112,
+  ["MedalQuality"]= 2,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_4112",
+  ["propId"]= {
+    70
+  },
+  ["propNum"]= {
+    0.24
+  }
+},
+[41123] = {
+  ["Id"]= 41123,
+  ["MedalGroupId"]= 4112,
+  ["MedalIcon"]= 4112,
+  ["MedalQuality"]= 3,
+  ["MedalType"]= 3,
+  ["Name"]= "BattleAchievementMedal_4112",
+  ["propId"]= {
+    70
+  },
+  ["propNum"]= {
+    0.4
+  }
+}
+}
+local baseTable={
+  ["Id"]= 10011,
+  ["MedalGroupId"]= 1001,
+  ["MedalIcon"]= 1001,
+  ["MedalQuality"]= 1,
+  ["MedalType"]= 2,
+  ["Name"]= "BattleAchievementMedal_1001",
+  ["propId"]= {
+    1
+  },
+  ["propNum"]= {
+    480
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

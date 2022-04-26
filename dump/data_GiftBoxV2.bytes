@@ -1,0 +1,632 @@
+local table= {
+[1] = {
+  ["drop_id"]= 10550,
+  ["recharge_id"]= 31,
+  ["type_id"]= 1
+},
+[2] = {
+  ["currency_type"]= 3,
+  ["currency_value"]= 288888,
+  ["drop_id"]= 10551,
+  ["id"]= 2,
+  ["name"]= "GitBox_Name_005",
+  ["position"]= 2,
+  ["type"]= 2,
+  ["type_id"]= 1
+},
+[3] = {
+  ["drop_id"]= 10552,
+  ["id"]= 3,
+  ["name"]= "GitBox_Name_006",
+  ["position"]= 3,
+  ["type"]= 3,
+  ["type_id"]= 1
+},
+[4] = {
+  ["drop_id"]= 20006,
+  ["id"]= 4,
+  ["name"]= "GitBox_Name_007",
+  ["position"]= 4,
+  ["recharge_id"]= 37,
+  ["type_id"]= 2
+},
+[5] = {
+  ["drop_id"]= 20004,
+  ["id"]= 5,
+  ["name"]= "GitBox_Name_008",
+  ["position"]= 5,
+  ["recharge_id"]= 35,
+  ["type_id"]= 2
+},
+[6] = {
+  ["drop_id"]= 20005,
+  ["id"]= 6,
+  ["name"]= "GitBox_Name_009",
+  ["position"]= 6,
+  ["recharge_id"]= 36,
+  ["type_id"]= 2
+},
+[7] = {
+  ["currency_type"]= 3,
+  ["currency_value"]= 288888,
+  ["drop_id"]= 20007,
+  ["id"]= 7,
+  ["position"]= 7,
+  ["type"]= 2,
+  ["type_id"]= 3
+},
+[8] = {
+  ["currency_type"]= 3,
+  ["currency_value"]= 288888,
+  ["id"]= 8,
+  ["name"]= "GitBox_Name_005",
+  ["position"]= 8,
+  ["type"]= 2,
+  ["type_id"]= 3
+},
+[9] = {
+  ["currency_type"]= 3,
+  ["currency_value"]= 288888,
+  ["drop_id"]= 20009,
+  ["id"]= 9,
+  ["name"]= "GitBox_Name_006",
+  ["position"]= 9,
+  ["type"]= 2,
+  ["type_id"]= 3
+},
+[10] = {
+  ["drop_id"]= 20056,
+  ["id"]= 10,
+  ["name"]= "GitBox_Name_034",
+  ["position"]= 10,
+  ["recharge_id"]= 620,
+  ["type"]= 4,
+  ["type_id"]= 4
+},
+[11] = {
+  ["drop_id"]= 20057,
+  ["id"]= 11,
+  ["name"]= "GitBox_Name_035",
+  ["position"]= 11,
+  ["recharge_id"]= 621,
+  ["type"]= 4,
+  ["type_id"]= 4
+},
+[12] = {
+  ["drop_id"]= 20058,
+  ["id"]= 12,
+  ["name"]= "GitBox_Name_036",
+  ["position"]= 12,
+  ["recharge_id"]= 622,
+  ["type"]= 4,
+  ["type_id"]= 4
+},
+[13] = {
+  ["drop_id"]= 20010,
+  ["id"]= 13,
+  ["position"]= 13,
+  ["recharge_id"]= 41,
+  ["type_id"]= 5
+},
+[14] = {
+  ["drop_id"]= 20011,
+  ["id"]= 14,
+  ["name"]= "GitBox_Name_005",
+  ["position"]= 14,
+  ["recharge_id"]= 42,
+  ["type_id"]= 5
+},
+[15] = {
+  ["drop_id"]= 20012,
+  ["id"]= 15,
+  ["name"]= "GitBox_Name_006",
+  ["position"]= 15,
+  ["recharge_id"]= 43,
+  ["type_id"]= 5
+},
+[16] = {
+  ["drop_id"]= 20007,
+  ["id"]= 16,
+  ["name"]= "GitBox_Name_007",
+  ["position"]= 16,
+  ["recharge_id"]= 38,
+  ["type_id"]= 6
+},
+[17] = {
+  ["id"]= 17,
+  ["name"]= "GitBox_Name_008",
+  ["position"]= 17,
+  ["recharge_id"]= 39,
+  ["type_id"]= 6
+},
+[18] = {
+  ["drop_id"]= 20009,
+  ["id"]= 18,
+  ["name"]= "GitBox_Name_009",
+  ["position"]= 18,
+  ["recharge_id"]= 40,
+  ["type_id"]= 6
+},
+[19] = {
+  ["drop_id"]= 20011,
+  ["id"]= 19,
+  ["position"]= 19,
+  ["recharge_id"]= 42,
+  ["type_id"]= 7
+},
+[20] = {
+  ["id"]= 20,
+  ["name"]= "GitBox_Name_005",
+  ["position"]= 20,
+  ["recharge_id"]= 39,
+  ["type_id"]= 7
+},
+[21] = {
+  ["drop_id"]= 20009,
+  ["id"]= 21,
+  ["name"]= "GitBox_Name_006",
+  ["position"]= 21,
+  ["recharge_id"]= 40,
+  ["type_id"]= 7
+},
+[22] = {
+  ["drop_id"]= 20047,
+  ["id"]= 22,
+  ["name"]= "GitBox_Name_012",
+  ["position"]= 22,
+  ["recharge_id"]= 61,
+  ["type_id"]= 8
+},
+[23] = {
+  ["drop_id"]= 20048,
+  ["id"]= 23,
+  ["name"]= "GitBox_Name_011",
+  ["position"]= 23,
+  ["recharge_id"]= 62,
+  ["type_id"]= 8
+},
+[24] = {
+  ["drop_id"]= 20049,
+  ["id"]= 24,
+  ["name"]= "GitBox_Name_010",
+  ["position"]= 24,
+  ["recharge_id"]= 63,
+  ["type_id"]= 8
+},
+[25] = {
+  ["drop_id"]= 20019,
+  ["id"]= 25,
+  ["name"]= "GitBox_Name_013",
+  ["position"]= 25,
+  ["recharge_id"]= 16,
+  ["type_id"]= 9
+},
+[26] = {
+  ["drop_id"]= 20020,
+  ["id"]= 26,
+  ["name"]= "GitBox_Name_014",
+  ["position"]= 26,
+  ["recharge_id"]= 17,
+  ["type_id"]= 9
+},
+[27] = {
+  ["drop_id"]= 20021,
+  ["id"]= 27,
+  ["name"]= "GitBox_Name_015",
+  ["position"]= 27,
+  ["recharge_id"]= 18,
+  ["type_id"]= 9
+},
+[28] = {
+  ["drop_id"]= 10506,
+  ["id"]= 28,
+  ["name"]= "GitBox_Name_001",
+  ["position"]= 28,
+  ["recharge_id"]= 2,
+  ["type_id"]= 10
+},
+[29] = {
+  ["currency_type"]= 2,
+  ["currency_value"]= 2500,
+  ["drop_id"]= 10507,
+  ["id"]= 29,
+  ["name"]= "GitBox_Name_002",
+  ["position"]= 29,
+  ["type"]= 2,
+  ["type_id"]= 10
+},
+[30] = {
+  ["drop_id"]= 10508,
+  ["id"]= 30,
+  ["name"]= "GitBox_Name_003",
+  ["position"]= 30,
+  ["type"]= 3,
+  ["type_id"]= 10
+},
+[31] = {
+  ["drop_id"]= 20022,
+  ["id"]= 31,
+  ["name"]= "GitBox_Name_016",
+  ["position"]= 31,
+  ["recharge_id"]= 48,
+  ["type_id"]= 11
+},
+[32] = {
+  ["drop_id"]= 20023,
+  ["id"]= 32,
+  ["name"]= "GitBox_Name_017",
+  ["position"]= 32,
+  ["recharge_id"]= 49,
+  ["type_id"]= 11
+},
+[33] = {
+  ["drop_id"]= 20024,
+  ["id"]= 33,
+  ["name"]= "GitBox_Name_018",
+  ["position"]= 33,
+  ["recharge_id"]= 50,
+  ["type_id"]= 11
+},
+[34] = {
+  ["drop_id"]= 20035,
+  ["id"]= 34,
+  ["name"]= "GitBox_Name_019",
+  ["position"]= 34,
+  ["recharge_id"]= 605,
+  ["type_id"]= 12
+},
+[35] = {
+  ["drop_id"]= 20036,
+  ["id"]= 35,
+  ["name"]= "GitBox_Name_020",
+  ["position"]= 35,
+  ["recharge_id"]= 606,
+  ["type_id"]= 12
+},
+[36] = {
+  ["drop_id"]= 20037,
+  ["id"]= 36,
+  ["name"]= "GitBox_Name_021",
+  ["position"]= 36,
+  ["recharge_id"]= 607,
+  ["type_id"]= 12
+},
+[37] = {
+  ["drop_id"]= 20038,
+  ["id"]= 37,
+  ["name"]= "GitBox_Name_022",
+  ["position"]= 37,
+  ["recharge_id"]= 608,
+  ["type_id"]= 13
+},
+[38] = {
+  ["drop_id"]= 20039,
+  ["id"]= 38,
+  ["name"]= "GitBox_Name_023",
+  ["position"]= 38,
+  ["recharge_id"]= 609,
+  ["type_id"]= 13
+},
+[39] = {
+  ["drop_id"]= 20040,
+  ["id"]= 39,
+  ["name"]= "GitBox_Name_024",
+  ["position"]= 39,
+  ["recharge_id"]= 610,
+  ["type_id"]= 13
+},
+[40] = {
+  ["drop_id"]= 20044,
+  ["id"]= 40,
+  ["name"]= "GitBox_Name_025",
+  ["position"]= 40,
+  ["recharge_id"]= 58,
+  ["type_id"]= 14
+},
+[41] = {
+  ["drop_id"]= 20045,
+  ["id"]= 41,
+  ["name"]= "GitBox_Name_026",
+  ["position"]= 41,
+  ["recharge_id"]= 59,
+  ["type_id"]= 14
+},
+[42] = {
+  ["drop_id"]= 20046,
+  ["id"]= 42,
+  ["name"]= "GitBox_Name_027",
+  ["position"]= 42,
+  ["recharge_id"]= 60,
+  ["type_id"]= 14
+},
+[43] = {
+  ["drop_id"]= 20050,
+  ["id"]= 43,
+  ["name"]= "GitBox_Name_028",
+  ["position"]= 43,
+  ["recharge_id"]= 614,
+  ["type_id"]= 15
+},
+[44] = {
+  ["drop_id"]= 20051,
+  ["id"]= 44,
+  ["name"]= "GitBox_Name_029",
+  ["position"]= 44,
+  ["recharge_id"]= 615,
+  ["type_id"]= 15
+},
+[45] = {
+  ["drop_id"]= 20052,
+  ["id"]= 45,
+  ["name"]= "GitBox_Name_030",
+  ["position"]= 45,
+  ["recharge_id"]= 616,
+  ["type_id"]= 15
+},
+[46] = {
+  ["drop_id"]= 20053,
+  ["id"]= 46,
+  ["name"]= "GitBox_Name_031",
+  ["position"]= 46,
+  ["recharge_id"]= 64,
+  ["type_id"]= 16
+},
+[47] = {
+  ["drop_id"]= 20054,
+  ["id"]= 47,
+  ["name"]= "GitBox_Name_032",
+  ["position"]= 47,
+  ["recharge_id"]= 65,
+  ["type_id"]= 16
+},
+[48] = {
+  ["drop_id"]= 20055,
+  ["id"]= 48,
+  ["name"]= "GitBox_Name_033",
+  ["position"]= 48,
+  ["recharge_id"]= 66,
+  ["type_id"]= 16
+},
+[49] = {
+  ["drop_id"]= 20059,
+  ["id"]= 49,
+  ["name"]= "GitBox_Name_037",
+  ["position"]= 49,
+  ["recharge_id"]= 67,
+  ["type_id"]= 17
+},
+[50] = {
+  ["drop_id"]= 20060,
+  ["id"]= 50,
+  ["name"]= "GitBox_Name_038",
+  ["position"]= 50,
+  ["recharge_id"]= 68,
+  ["type_id"]= 17
+},
+[51] = {
+  ["drop_id"]= 20061,
+  ["id"]= 51,
+  ["name"]= "GitBox_Name_039",
+  ["position"]= 51,
+  ["recharge_id"]= 69,
+  ["type_id"]= 17
+},
+[52] = {
+  ["currency_type"]= 2,
+  ["currency_value"]= 200,
+  ["daily_limit"]= 20,
+  ["drop_id"]= 20062,
+  ["id"]= 52,
+  ["name"]= "GiftBox_Name_040",
+  ["position"]= 52,
+  ["total_limit"]= 20,
+  ["type"]= 2,
+  ["type_id"]= 18
+},
+[53] = {
+  ["currency_type"]= 2,
+  ["currency_value"]= 2000,
+  ["daily_limit"]= 5,
+  ["drop_id"]= 20063,
+  ["id"]= 53,
+  ["name"]= "GiftBox_Name_041",
+  ["position"]= 53,
+  ["total_limit"]= 5,
+  ["type"]= 2,
+  ["type_id"]= 18
+},
+[54] = {
+  ["currency_type"]= 2,
+  ["currency_value"]= 25000,
+  ["daily_limit"]= 1,
+  ["drop_id"]= 20064,
+  ["id"]= 54,
+  ["name"]= "GiftBox_Name_042",
+  ["position"]= 54,
+  ["total_limit"]= 1,
+  ["type"]= 2,
+  ["type_id"]= 18
+},
+[55] = {
+  ["currency_value"]= 200,
+  ["daily_limit"]= 20,
+  ["drop_id"]= 20065,
+  ["id"]= 55,
+  ["name"]= "GiftBox_Name_043",
+  ["recharge_id"]= 70,
+  ["roleImgType"]= 18
+},
+[56] = {
+  ["currency_value"]= 2000,
+  ["daily_limit"]= 5,
+  ["drop_id"]= 20066,
+  ["id"]= 56,
+  ["name"]= "GiftBox_Name_044",
+  ["position"]= 2,
+  ["recharge_id"]= 71,
+  ["roleImgType"]= 18
+},
+[57] = {
+  ["currency_value"]= 25000,
+  ["daily_limit"]= 1,
+  ["drop_id"]= 20067,
+  ["id"]= 57,
+  ["name"]= "GiftBox_Name_045",
+  ["position"]= 3,
+  ["recharge_id"]= 72,
+  ["roleImgType"]= 18
+},
+[58] = {
+  ["currency_value"]= 25000,
+  ["daily_limit"]= 20,
+  ["drop_id"]= 20068,
+  ["id"]= 58,
+  ["name"]= "GiftBox_Name_046",
+  ["oneclick_buying"]= 55,
+  ["oneclick_rebate"]= 0.97,
+  ["position"]= 4,
+  ["recharge_id"]= 74,
+  ["roleImgType"]= 18
+},
+[59] = {
+  ["currency_value"]= 25000,
+  ["daily_limit"]= 20,
+  ["drop_id"]= 20069,
+  ["id"]= 59,
+  ["name"]= "GiftBox_Name_047",
+  ["oneclick_buying"]= 56,
+  ["oneclick_rebate"]= 0.97,
+  ["position"]= 5,
+  ["recharge_id"]= 75,
+  ["roleImgType"]= 18
+},
+[60] = {
+  ["currency_type"]= 2,
+  ["currency_value"]= 500,
+  ["daily_limit"]= 15,
+  ["drop_id"]= 20070,
+  ["id"]= 60,
+  ["name"]= "GiftBox_Name_043",
+  ["roleImgType"]= 18,
+  ["total_limit"]= 135,
+  ["type"]= 2,
+  ["type_id"]= 20
+},
+[61] = {
+  ["currency_type"]= 2,
+  ["currency_value"]= 15000,
+  ["daily_limit"]= 5,
+  ["drop_id"]= 20071,
+  ["id"]= 61,
+  ["name"]= "GiftBox_Name_044",
+  ["position"]= 2,
+  ["roleImgType"]= 18,
+  ["total_limit"]= 45,
+  ["type"]= 2,
+  ["type_id"]= 20
+},
+[62] = {
+  ["daily_limit"]= 1,
+  ["drop_id"]= 20072,
+  ["id"]= 62,
+  ["name"]= "GiftBox_Name_045",
+  ["position"]= 3,
+  ["recharge_id"]= 626,
+  ["roleImgType"]= 18,
+  ["total_limit"]= 9,
+  ["type_id"]= 20
+},
+[63] = {
+  ["currency_type"]= 2,
+  ["currency_value"]= 7500,
+  ["daily_limit"]= 1,
+  ["drop_id"]= 20073,
+  ["id"]= 63,
+  ["name"]= "GiftBox_Name_046",
+  ["oneclick_buying"]= 60,
+  ["position"]= 4,
+  ["roleImgType"]= 18,
+  ["total_limit"]= 9,
+  ["type"]= 2,
+  ["type_id"]= 20
+},
+[64] = {
+  ["currency_type"]= 2,
+  ["currency_value"]= 75000,
+  ["daily_limit"]= 1,
+  ["drop_id"]= 20074,
+  ["id"]= 64,
+  ["name"]= "GiftBox_Name_047",
+  ["oneclick_buying"]= 61,
+  ["position"]= 5,
+  ["roleImgType"]= 18,
+  ["total_limit"]= 9,
+  ["type"]= 2,
+  ["type_id"]= 20
+},
+[65] = {
+  ["currency_value"]= 200,
+  ["daily_limit"]= 10,
+  ["drop_id"]= 20075,
+  ["id"]= 65,
+  ["name"]= "GiftBox_Name_048",
+  ["recharge_id"]= 79,
+  ["roleImgType"]= 18,
+  ["type_id"]= 21
+},
+[66] = {
+  ["currency_value"]= 2000,
+  ["daily_limit"]= 1,
+  ["drop_id"]= 20076,
+  ["id"]= 66,
+  ["name"]= "GiftBox_Name_049",
+  ["position"]= 2,
+  ["recharge_id"]= 80,
+  ["roleImgType"]= 18,
+  ["type_id"]= 21
+},
+[67] = {
+  ["currency_value"]= 25000,
+  ["daily_limit"]= 1,
+  ["drop_id"]= 20077,
+  ["id"]= 67,
+  ["name"]= "GiftBox_Name_050",
+  ["position"]= 3,
+  ["recharge_id"]= 81,
+  ["roleImgType"]= 18,
+  ["type_id"]= 21
+},
+[68] = {
+  ["currency_value"]= 25000,
+  ["daily_limit"]= 1,
+  ["drop_id"]= 20078,
+  ["id"]= 68,
+  ["name"]= "GiftBox_Name_051",
+  ["oneclick_buying"]= 65,
+  ["position"]= 4,
+  ["recharge_id"]= 82,
+  ["roleImgType"]= 18,
+  ["type_id"]= 21
+}
+}
+local baseTable={
+  ["currency_type"]= 0,
+  ["currency_value"]= 0,
+  ["daily_limit"]= 0,
+  ["drop_id"]= 20008,
+  ["id"]= 1,
+  ["item_id"]= 0,
+  ["name"]= "GitBox_Name_004",
+  ["oneclick_buying"]= 0,
+  ["oneclick_rebate"]= 0,
+  ["position"]= 1,
+  ["recharge_id"]= 0,
+  ["roleImgType"]= 10,
+  ["total_limit"]= 0,
+  ["type"]= 1,
+  ["type_id"]= 19
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

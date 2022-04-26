@@ -1,0 +1,213 @@
+local table= {
+[1001] = {
+  ["GroupId"]= 1
+},
+[1002] = {
+  ["GroupIcon"]= "Icons/Monster/30004",
+  ["GroupId"]= 1,
+  ["Name"]= "BattleAchievementSubGroupName_1002",
+  ["SubGroupId"]= 1002
+},
+[1003] = {
+  ["GroupIcon"]= "Icons/Monster/30013",
+  ["GroupId"]= 1,
+  ["Name"]= "BattleAchievementSubGroupName_1003",
+  ["SubGroupId"]= 1003
+},
+[1004] = {
+  ["GroupIcon"]= "Icons/Monster/30005",
+  ["GroupId"]= 1,
+  ["Name"]= "BattleAchievementSubGroupName_1004",
+  ["SubGroupId"]= 1004
+},
+[1005] = {
+  ["GroupIcon"]= "Icons/Monster/30011",
+  ["GroupId"]= 1,
+  ["Name"]= "BattleAchievementSubGroupName_1005",
+  ["SubGroupId"]= 1005
+},
+[1006] = {
+  ["GroupIcon"]= "Icons/Monster/30016",
+  ["GroupId"]= 1,
+  ["Name"]= "BattleAchievementSubGroupName_1006",
+  ["SubGroupId"]= 1006
+},
+[1007] = {
+  ["GroupIcon"]= "Icons/Monster/30027",
+  ["GroupId"]= 1,
+  ["Name"]= "BattleAchievementSubGroupName_1007",
+  ["SubGroupId"]= 1007
+},
+[1008] = {
+  ["GroupIcon"]= "Icons/Monster/30028",
+  ["GroupId"]= 1,
+  ["Name"]= "BattleAchievementSubGroupName_1008",
+  ["SubGroupId"]= 1008
+},
+[2001] = {
+  ["GroupIcon"]= "Icons/Activity/100010",
+  ["GroupId"]= 2,
+  ["Name"]= "BattleAchievementSubGroupName_2001",
+  ["SubGroupId"]= 2001
+},
+[2002] = {
+  ["GroupIcon"]= "Icons/Activity/100003",
+  ["GroupId"]= 2,
+  ["Name"]= "BattleAchievementSubGroupName_2002",
+  ["SubGroupId"]= 2002
+},
+[2003] = {
+  ["GroupIcon"]= "Icons/Monster/30018",
+  ["GroupId"]= 2,
+  ["Name"]= "BattleAchievementSubGroupName_2003",
+  ["SubGroupId"]= 2003
+},
+[3001] = {
+  ["GroupIcon"]= "Icons/Activity/100017",
+  ["GroupId"]= 3,
+  ["Name"]= "BattleAchievementSubGroupName_3001",
+  ["SubGroupId"]= 3001
+},
+[3002] = {
+  ["GroupIcon"]= "Icons/Activity/100029",
+  ["GroupId"]= 3,
+  ["Name"]= "BattleAchievementSubGroupName_3002",
+  ["SubGroupId"]= 3002
+},
+[3003] = {
+  ["GroupIcon"]= "Icons/Activity/100016",
+  ["GroupId"]= 3,
+  ["Name"]= "BattleAchievementSubGroupName_3003",
+  ["SubGroupId"]= 3003
+},
+[4001] = {
+  ["GroupIcon"]= "Icons/Monster/30008",
+  ["Name"]= "BattleAchievementSubGroupName_4001",
+  ["SubGroupId"]= 4001
+},
+[4002] = {
+  ["GroupIcon"]= "Icons/Monster/30007",
+  ["Name"]= "BattleAchievementSubGroupName_4002",
+  ["SubGroupId"]= 4002
+},
+[4003] = {
+  ["GroupIcon"]= "Icons/Monster/30010",
+  ["Name"]= "BattleAchievementSubGroupName_4003",
+  ["SubGroupId"]= 4003
+},
+[4004] = {
+  ["GroupIcon"]= "Icons/Monster/30023",
+  ["Name"]= "BattleAchievementSubGroupName_4004",
+  ["SubGroupId"]= 4004
+},
+[4005] = {
+  ["GroupIcon"]= "Icons/Monster/30012",
+  ["Name"]= "BattleAchievementSubGroupName_4005",
+  ["SubGroupId"]= 4005
+},
+[4006] = {
+  ["GroupIcon"]= "Icons/Monster/30009",
+  ["Name"]= "BattleAchievementSubGroupName_4006",
+  ["SubGroupId"]= 4006
+},
+[4007] = {
+  ["GroupIcon"]= "Icons/Monster/30017",
+  ["Name"]= "BattleAchievementSubGroupName_4007",
+  ["SubGroupId"]= 4007
+},
+[4008] = {
+  ["GroupIcon"]= "Icons/Monster/30015",
+  ["Name"]= "BattleAchievementSubGroupName_4008",
+  ["SubGroupId"]= 4008
+},
+[4009] = {
+  ["GroupIcon"]= "Icons/Monster/30014",
+  ["Name"]= "BattleAchievementSubGroupName_4009",
+  ["SubGroupId"]= 4009
+},
+[4010] = {
+  ["GroupIcon"]= "Icons/Monster/30020",
+  ["Name"]= "BattleAchievementSubGroupName_4010",
+  ["SubGroupId"]= 4010
+},
+[4011] = {
+  ["GroupIcon"]= "Icons/Monster/30031",
+  ["Name"]= "BattleAchievementSubGroupName_4011",
+  ["SubGroupId"]= 4011
+},
+[4012] = {
+  ["GroupIcon"]= "Icons/Monster/30019",
+  ["Name"]= "BattleAchievementSubGroupName_4012",
+  ["SubGroupId"]= 4012
+},
+[4101] = {
+  ["GroupIcon"]= "Icons/Monster/31006",
+  ["Name"]= "BattleAchievementSubGroupName_4101",
+  ["SubGroupId"]= 4101
+},
+[4102] = {
+  ["GroupIcon"]= "Icons/Monster/31004",
+  ["Name"]= "BattleAchievementSubGroupName_4102",
+  ["SubGroupId"]= 4102
+},
+[4103] = {
+  ["GroupIcon"]= "Icons/Monster/31002",
+  ["Name"]= "BattleAchievementSubGroupName_4103",
+  ["SubGroupId"]= 4103
+},
+[4104] = {
+  ["GroupIcon"]= "Icons/Monster/31008",
+  ["Name"]= "BattleAchievementSubGroupName_4104",
+  ["SubGroupId"]= 4104
+},
+[4105] = {
+  ["GroupIcon"]= "Icons/Monster/31009",
+  ["Name"]= "BattleAchievementSubGroupName_4105",
+  ["SubGroupId"]= 4105
+},
+[4106] = {
+  ["GroupIcon"]= "Icons/Monster/31001",
+  ["Name"]= "BattleAchievementSubGroupName_4106",
+  ["SubGroupId"]= 4106
+},
+[4107] = {
+  ["GroupIcon"]= "Icons/Monster/30003",
+  ["Name"]= "BattleAchievementSubGroupName_4107",
+  ["SubGroupId"]= 4107
+},
+[4108] = {
+  ["GroupIcon"]= "Icons/Monster/30001",
+  ["Name"]= "BattleAchievementSubGroupName_4108",
+  ["SubGroupId"]= 4108
+},
+[4109] = {
+  ["GroupIcon"]= "Icons/Monster/31005",
+  ["Name"]= "BattleAchievementSubGroupName_4109",
+  ["SubGroupId"]= 4109
+},
+[4110] = {
+  ["GroupIcon"]= "Icons/Monster/30021",
+  ["Name"]= "BattleAchievementSubGroupName_4110",
+  ["SubGroupId"]= 4110
+},
+[4111] = {
+  ["GroupIcon"]= "Icons/Monster/31010",
+  ["Name"]= "BattleAchievementSubGroupName_4111",
+  ["SubGroupId"]= 4111
+},
+[4112] = {
+  ["GroupIcon"]= "Icons/Monster/31011",
+  ["Name"]= "BattleAchievementSubGroupName_4112",
+  ["SubGroupId"]= 4112
+}
+}
+local baseTable={
+  ["GroupIcon"]= "Icons/Monster/30002",
+  ["GroupId"]= 4,
+  ["Name"]= "BattleAchievementSubGroupName_1001",
+  ["SubGroupId"]= 1001
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

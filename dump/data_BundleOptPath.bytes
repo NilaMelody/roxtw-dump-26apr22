@@ -1,0 +1,106 @@
+local table= {
+[1] = {
+  ["Path"]= "roles_newnpc"
+},
+[2] = {
+  ["id"]= 2,
+  ["Path"]= "maps_scene"
+},
+[3] = {
+  ["id"]= 3,
+  ["Path"]= "audio_effect"
+},
+[4] = {
+  ["id"]= 4,
+  ["Path"]= "roles_monster"
+},
+[5] = {
+  ["id"]= 5,
+  ["Path"]= "maps_sceneweather"
+},
+[6] = {
+  ["id"]= 6,
+  ["Path"]= "maps_scenedata"
+},
+[7] = {
+  ["id"]= 7,
+  ["isDir"]= 0,
+  ["Path"]= "icons_loading.bundle"
+},
+[8] = {
+  ["id"]= 8,
+  ["isDir"]= 0,
+  ["Path"]= "roles_carrier.bundle"
+},
+[9] = {
+  ["id"]= 9,
+  ["Path"]= "shared_assets_arts"
+},
+[10] = {
+  ["id"]= 10,
+  ["Path"]= "fx"
+},
+[11] = {
+  ["id"]= 11,
+  ["Path"]= "Roles/Mount/",
+  ["useType"]= 2
+},
+[12] = {
+  ["id"]= 12,
+  ["Path"]= "Roles/NewNPC/",
+  ["useType"]= 2
+},
+[13] = {
+  ["id"]= 13,
+  ["Path"]= "Roles/Monster/",
+  ["useType"]= 2
+},
+[14] = {
+  ["id"]= 14,
+  ["Path"]= "Roles/Player/",
+  ["useType"]= 2
+},
+[15] = {
+  ["id"]= 15,
+  ["useType"]= 2
+},
+[16] = {
+  ["id"]= 16,
+  ["Path"]= "Localization/",
+  ["useType"]= 2
+},
+[17] = {
+  ["id"]= 17,
+  ["Path"]= "UI/",
+  ["useType"]= 2
+},
+[18] = {
+  ["id"]= 18,
+  ["Path"]= "Misc/",
+  ["useType"]= 2
+},
+[19] = {
+  ["id"]= 19,
+  ["Path"]= "FX/",
+  ["useType"]= 2
+},
+[20] = {
+  ["id"]= 20,
+  ["Path"]= "Fx/",
+  ["useType"]= 2
+},
+[21] = {
+  ["id"]= 21,
+  ["useType"]= 3
+}
+}
+local baseTable={
+  ["id"]= 1,
+  ["isDir"]= 1,
+  ["Path"]= "Icons/",
+  ["useType"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

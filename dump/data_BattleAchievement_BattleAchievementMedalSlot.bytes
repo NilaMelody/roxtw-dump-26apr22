@@ -1,0 +1,66 @@
+local table= {
+[1] = {
+  ["TypeId"]= 1
+},
+[2] = {
+  ["Id"]= 2
+},
+[3] = {
+  ["ConditionDesc"]= "MedalSlotUnlockTips_7",
+  ["Id"]= 3,
+  ["UnLockCondition"]= {
+    3,
+    2,
+    3
+  }
+},
+[4] = {
+  ["ConditionDesc"]= "MedalSlotUnlockTips_8",
+  ["Id"]= 4,
+  ["UnLockCondition"]= {
+    3,
+    3,
+    6
+  }
+},
+[5] = {
+  ["Id"]= 5,
+  ["TypeId"]= 1
+},
+[6] = {
+  ["Id"]= 6,
+  ["TypeId"]= 2
+},
+[7] = {
+  ["ConditionDesc"]= "MedalSlotUnlockTips_3",
+  ["Id"]= 7,
+  ["TypeId"]= 2,
+  ["UnLockCondition"]= {
+    99,
+    2,
+    6
+  }
+},
+[8] = {
+  ["ConditionDesc"]= "MedalSlotUnlockTips_4",
+  ["Id"]= 8,
+  ["TypeId"]= 2,
+  ["UnLockCondition"]= {
+    99,
+    3,
+    12
+  }
+}
+}
+local baseTable={
+  ["ConditionDesc"]= "",
+  ["Id"]= 1,
+  ["TypeId"]= 3,
+  ["UnLockCondition"]= {
+    0
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

@@ -1,0 +1,40 @@
+local table= {
+[2090] = {},
+[2510] = {
+  ["PreloadPath"]= {
+    "FX/Triggers/55118501",
+    "FX/Triggers/55118502",
+    "FX/Skills/33031102",
+    "FX/Triggers/55118509",
+    "FX/Skills/55118110",
+    "FX/Triggers/55118505",
+    "FX/Skills/55118108",
+    "FX/Skills/55118117",
+    "FX/Skills/33030102",
+    "FX/Triggers/251000",
+    "FX/Triggers/251001",
+    "FX/Triggers/251002",
+    "FX/Triggers/251003",
+    "FX/Triggers/251004",
+    "FX/Triggers/251005",
+    "FX/Triggers/251006",
+    "FX/Skills/55118116",
+    "FX/Skills/55118101",
+    "FX/Skills/55118115",
+    "FX/Skills/55118114",
+    "FX/Skills/55118111"
+  },
+  ["SceneId"]= 2510
+}
+}
+local baseTable={
+  ["PreloadPath"]= {
+    "FX/Triggers/30029507",
+    "LFX/FX/Triggers/30029507"
+  },
+  ["SceneId"]= 2090
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

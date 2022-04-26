@@ -1,0 +1,16 @@
+local table= {
+[1] = {}
+}
+local baseTable={
+  ["firstRoundPrepareTime"]= 30,
+  ["maxRound"]= 3,
+  ["roundPrepareTime"]= 15,
+  ["roundTime"]= 300,
+  ["sceneId"]= 4001,
+  ["teamMemberAmount"]= 1,
+  ["typeId"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

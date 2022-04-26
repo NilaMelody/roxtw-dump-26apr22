@@ -1,0 +1,46 @@
+local table= {
+[4108006] = {}
+}
+local baseTable={
+  ["AcquireChannel"]= {
+    {
+      ["AreaId"]= {},
+      ["InterfaceId"]= {},
+      ["ItemStaticId"]= 0,
+      ["Monster"]= {},
+      ["NpcId"]= {
+        15601005
+      },
+      ["SceneId"]= {
+        1560
+      },
+      ["TabType1"]= {},
+      ["TabType2"]= {},
+      ["TabType3"]= {},
+      ["type"]= 3
+    },
+    {
+      ["AreaId"]= {},
+      ["InterfaceId"]= {
+        6
+      },
+      ["ItemStaticId"]= 0,
+      ["Monster"]= {},
+      ["NpcId"]= {},
+      ["SceneId"]= {},
+      ["TabType1"]= {},
+      ["TabType2"]= {},
+      ["TabType3"]= {},
+      ["type"]= 4
+    }
+  },
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["Id"]= 4108006
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

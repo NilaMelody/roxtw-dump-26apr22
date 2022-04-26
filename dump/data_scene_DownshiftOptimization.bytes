@@ -1,0 +1,13 @@
+local table= {
+[1] = {}
+}
+local baseTable={
+  ["DownshiftWaitTime"]= 8,
+  ["FluctuationDuration"]= 15,
+  ["id"]= 1,
+  ["Threshold"]= 17
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

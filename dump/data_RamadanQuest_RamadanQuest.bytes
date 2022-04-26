@@ -1,0 +1,157 @@
+local table= {
+[10101] = {
+  ["Desc"]= "RecurringQuestDesc_101",
+  ["GoToType"]= 4,
+  ["GroupId"]= 1,
+  ["TargetType"]= 74,
+  ["TargetUI"]= 0,
+  ["Times"]= 50
+},
+[10102] = {
+  ["Desc"]= "RecurringQuestDesc_102",
+  ["GroupId"]= 3,
+  ["Id"]= 10102,
+  ["ParameterType"]= 2,
+  ["TargetParameter"]= {
+    0
+  },
+  ["TargetType"]= 2,
+  ["TargetUI"]= "UI_Life",
+  ["Times"]= 10
+},
+[10103] = {
+  ["Desc"]= "RecurringQuestDesc_103",
+  ["GoToType"]= 1,
+  ["GroupId"]= 4,
+  ["Id"]= 10103,
+  ["TargetNPC"]= {
+    10101008
+  },
+  ["TargetParameter"]= {
+    6
+  },
+  ["TargetType"]= 36,
+  ["TargetUI"]= 10101008
+},
+[10104] = {
+  ["Desc"]= "RecurringQuestDesc_104",
+  ["GroupId"]= 5,
+  ["Id"]= 10104,
+  ["TargetParameter"]= {
+    3
+  },
+  ["TargetType"]= 75,
+  ["TargetUI"]= "UI_Friend"
+},
+[10105] = {
+  ["Desc"]= "RecurringQuestDesc_105",
+  ["GoToType"]= 1,
+  ["GroupId"]= 6,
+  ["Id"]= 10105,
+  ["ParameterType"]= 3,
+  ["TargetNPC"]= {
+    10101010,
+    11101011,
+    11801005,
+    12101005,
+    13101007,
+    14101005,
+    16101019
+  },
+  ["TargetType"]= 2,
+  ["TargetUI"]= "UI_Life"
+},
+[10106] = {
+  ["Desc"]= "RecurringQuestDesc_106",
+  ["GoToType"]= 5,
+  ["GroupId"]= 7,
+  ["Id"]= 10106,
+  ["IsShareTask"]= 1,
+  ["Progress"]= 1,
+  ["TargetParameter"]= {
+    0
+  },
+  ["TargetType"]= 37,
+  ["TargetUI"]= 10101022
+},
+[10107] = {
+  ["Desc"]= "RecurringQuestDesc_107",
+  ["GoToType"]= 5,
+  ["GroupId"]= 8,
+  ["Id"]= 10107,
+  ["IsShareTask"]= 1,
+  ["Progress"]= 1,
+  ["TargetNPC"]= {
+    11709999
+  },
+  ["TargetParameter"]= {
+    0
+  },
+  ["TargetType"]= 8,
+  ["TargetUI"]= 11709999
+},
+[10108] = {
+  ["Cumulative"]= 1,
+  ["Id"]= 10108,
+  ["IsShareTask"]= 1,
+  ["Progress"]= 500,
+  ["ShowGroup"]= 10108,
+  ["Times"]= 50000
+},
+[10109] = {
+  ["Cumulative"]= 1,
+  ["Id"]= 10109,
+  ["IsShareTask"]= 1,
+  ["PointNum"]= 100,
+  ["Progress"]= 500,
+  ["ShowGroup"]= 10108,
+  ["ShowOrder"]= 1,
+  ["Times"]= 2000
+},
+[10110] = {
+  ["GroupId"]= 9,
+  ["Id"]= 10110,
+  ["IsShareTask"]= 1,
+  ["PointNum"]= 100,
+  ["Progress"]= 50,
+  ["Times"]= 100
+}
+}
+local baseTable={
+  ["ActivityType"]= 40,
+  ["Cumulative"]= 0,
+  ["Desc"]= "RecurringQuestDesc_108",
+  ["DropId"]= 10000,
+  ["GoToType"]= 3,
+  ["GroupId"]= 0,
+  ["Id"]= 10101,
+  ["IsInitial"]= 1,
+  ["IsShareTask"]= 0,
+  ["ParameterType"]= 0,
+  ["PointNum"]= 50,
+  ["PointType"]= 1,
+  ["prize_id"]= {
+    1005,
+    1006,
+    10218001
+  },
+  ["prize_num"]= {
+    220000,
+    220000,
+    5800
+  },
+  ["Progress"]= 0,
+  ["QuestName"]= "",
+  ["ShowGroup"]= 0,
+  ["ShowOrder"]= 0,
+  ["TargetLocation"]= {},
+  ["TargetNPC"]= {},
+  ["TargetParameter"]= {},
+  ["TargetType"]= 102,
+  ["TargetUI"]= 10101007,
+  ["Times"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

@@ -1,0 +1,27 @@
+local table= {
+[1] = {},
+[2] = {
+  ["ColorId"]= 2,
+  ["ID"]= 2,
+  ["Name"]= "AchievementGroupName_2"
+},
+[3] = {
+  ["ColorId"]= 3,
+  ["ID"]= 3,
+  ["Name"]= "AchievementGroupName_3"
+},
+[4] = {
+  ["ColorId"]= 4,
+  ["ID"]= 4,
+  ["Name"]= "AchievementGroupName_4"
+}
+}
+local baseTable={
+  ["ColorId"]= 1,
+  ["ID"]= 1,
+  ["Name"]= "AchievementGroupName_1"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

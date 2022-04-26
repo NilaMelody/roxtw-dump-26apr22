@@ -1,0 +1,51 @@
+local table= {
+[1] = {}
+}
+local baseTable={
+  ["boxContent"]= {
+    1049,
+    1050,
+    1051,
+    1052,
+    1053,
+    1055,
+    1057
+  },
+  ["boxRadius"]= 0.3,
+  ["ConfirmCountdown"]= 30,
+  ["CoolDownTime"]= 30,
+  ["ID"]= 1,
+  ["Laps"]= 2,
+  ["levelLimit"]= 30,
+  ["MailID"]= 1104,
+  ["maxCarryBoxItem"]= 1,
+  ["RankNumbers"]= 50,
+  ["SceneID"]= 1020,
+  ["ShowProps"]= {
+    10204212,
+    10207034,
+    10217034
+  },
+  ["Tickets"]= 10204212,
+  ["TopRankingDrop"]= {
+    5520242,
+    5520243,
+    5520244,
+    5520245,
+    5520246,
+    5520247
+  },
+  ["TopRankingSection"]= {
+    1,
+    2,
+    3,
+    10,
+    20,
+    50
+  },
+  ["WaitTime"]= 60
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

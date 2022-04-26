@@ -1,0 +1,250 @@
+local table= {
+[1] = {
+  ["jobLimit"]= {
+    1110,
+    1111,
+    1112,
+    1120,
+    1121,
+    1122
+  },
+  ["npcID"]= 10104103,
+  ["skillLvLimit"]= {}
+},
+[2] = {
+  ["id"]= 2,
+  ["ItemID"]= 80003,
+  ["jobLimit"]= {
+    1310,
+    1311,
+    1312
+  },
+  ["Name"]= "坐骑-九尾狐",
+  ["NumID"]= 2,
+  ["skillLvLimit"]= {}
+},
+[3] = {
+  ["CostCurrencyID"]= 1,
+  ["CostNum"]= 10000,
+  ["id"]= 3,
+  ["ItemID"]= 83001,
+  ["jobLimit"]= {
+    1510,
+    1511,
+    1512
+  },
+  ["leaseShop"]= 2,
+  ["Name"]= "猎人-猎鹰",
+  ["npcID"]= 0,
+  ["skillLimit"]= {
+    1510122
+  }
+},
+[4] = {
+  ["CostCurrencyID"]= 1,
+  ["CostNum"]= 10000,
+  ["id"]= 4,
+  ["ItemID"]= 83010,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611,
+    1612
+  },
+  ["leaseShop"]= 2,
+  ["Name"]= "商人-手推车",
+  ["npcID"]= 10101027,
+  ["skillLimit"]= {
+    1600004
+  }
+},
+[5] = {
+  ["CostCurrencyID"]= 1,
+  ["CostNum"]= 10000,
+  ["id"]= 5,
+  ["ItemID"]= 83011,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611,
+    1612
+  },
+  ["leaseShop"]= 2,
+  ["Name"]= "商人-木制手推车",
+  ["npcID"]= 10101027,
+  ["skillLimit"]= {
+    1600004
+  }
+},
+[6] = {
+  ["id"]= 6,
+  ["ItemID"]= 80002,
+  ["jobLimit"]= {
+    1210,
+    1211,
+    1212,
+    1220,
+    1221,
+    1222
+  },
+  ["Name"]= "坐骑-羊驼",
+  ["NumID"]= 3,
+  ["skillLvLimit"]= {}
+},
+[7] = {
+  ["id"]= 7,
+  ["ItemID"]= 80007,
+  ["jobLimit"]= {
+    1510,
+    1511,
+    1512
+  },
+  ["Name"]= "坐骑-鸵鸟",
+  ["NumID"]= 4,
+  ["skillLvLimit"]= {}
+},
+[8] = {
+  ["id"]= 8,
+  ["ItemID"]= 80006,
+  ["jobLimit"]= {
+    1410,
+    1411,
+    1412
+  },
+  ["Name"]= "坐骑-斑鬣",
+  ["NumID"]= 5,
+  ["skillLvLimit"]= {}
+},
+[9] = {
+  ["id"]= 9,
+  ["ItemID"]= 80009,
+  ["jobLimit"]= {
+    1610,
+    1611,
+    1612
+  },
+  ["Name"]= "坐骑-野猪",
+  ["NumID"]= 6,
+  ["skillLvLimit"]= {}
+},
+[10] = {
+  ["id"]= 10,
+  ["ItemID"]= 80032,
+  ["jobLimit"]= {
+    1112
+  },
+  ["Name"]= "坐骑-地龙",
+  ["NumID"]= 7,
+  ["skillLimit"]= {
+    1112001
+  }
+},
+[11] = {
+  ["id"]= 11,
+  ["ItemID"]= 80034,
+  ["jobLimit"]= {
+    1512
+  },
+  ["Name"]= "坐骑-狼",
+  ["NumID"]= 8,
+  ["skillLimit"]= {
+    1512001
+  }
+},
+[12] = {
+  ["id"]= 12,
+  ["ItemID"]= 80038,
+  ["leaseSubtType"]= 2,
+  ["Name"]= "坐骑-原始机甲",
+  ["NumID"]= 9,
+  ["skillLimit"]= {
+    1612001
+  }
+},
+[13] = {
+  ["ConditionId"]= 1124,
+  ["id"]= 13,
+  ["ItemID"]= 80080,
+  ["leaseSubtType"]= 2,
+  ["LockDes"]= "PumpkinMechaUnlock",
+  ["Name"]= "坐骑-2021万圣机甲",
+  ["NumID"]= 10,
+  ["skillLimit"]= {
+    1612001
+  },
+  ["UnlockItemNum"]= 1,
+  ["UnlockNum"]= 10219121,
+  ["UnlockType"]= 3
+},
+[14] = {
+  ["ConditionId"]= 1132,
+  ["id"]= 14,
+  ["ItemID"]= 80084,
+  ["leaseSubtType"]= 2,
+  ["LockDes"]= "ChristmasMechaUnlock",
+  ["Name"]= "坐骑-2021圣诞机甲",
+  ["NumID"]= 11,
+  ["skillLimit"]= {
+    1612001
+  },
+  ["UnlockItemNum"]= 1,
+  ["UnlockNum"]= 10216088,
+  ["UnlockType"]= 3
+},
+[15] = {
+  ["ConditionId"]= 1133,
+  ["id"]= 15,
+  ["ItemID"]= 80089,
+  ["leaseSubtType"]= 2,
+  ["LockDes"]= "MechaUnlock1",
+  ["Name"]= "坐骑-2022新年机甲",
+  ["NumID"]= 11,
+  ["skillLimit"]= {
+    1612001
+  },
+  ["UnlockItemNum"]= 1,
+  ["UnlockNum"]= 10912016,
+  ["UnlockType"]= 3
+},
+[16] = {
+  ["id"]= 16,
+  ["ItemID"]= 80036,
+  ["jobLimit"]= {
+    1122
+  },
+  ["Name"]= "坐骑-獅鷲",
+  ["NumID"]= 8,
+  ["skillLimit"]= {
+    1122001
+  }
+}
+}
+local baseTable={
+  ["ConditionId"]= 0,
+  ["CostCurrencyID"]= 3,
+  ["CostNum"]= 20000,
+  ["HiddenCondition"]= 0,
+  ["id"]= 1,
+  ["IsHidden"]= 0,
+  ["ItemID"]= 80001,
+  ["jobLimit"]= {
+    1612
+  },
+  ["leaseShop"]= 1,
+  ["leaseSubtType"]= 1,
+  ["LockDes"]= "",
+  ["Name"]= "坐骑-大嘴鸟",
+  ["npcID"]= 10104104,
+  ["NumID"]= 1,
+  ["skillLimit"]= {},
+  ["skillLvLimit"]= {
+    1
+  },
+  ["UnlockItemNum"]= 0,
+  ["UnlockNum"]= 0,
+  ["UnlockType"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

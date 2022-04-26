@@ -1,0 +1,2622 @@
+local table= {
+[1] = {
+  ["agility"]= 1,
+  ["JobId"]= 1000,
+  ["Name"]= "初心者",
+  ["strength"]= 1
+},
+[2] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1000,
+  ["Level"]= 10,
+  ["luck"]= 1,
+  ["Name"]= "初心者",
+  ["vitality"]= 1
+},
+[3] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1100,
+  ["Name"]= "剑士",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[4] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1100,
+  ["Level"]= 10,
+  ["Name"]= "剑士",
+  ["strength"]= 1
+},
+[5] = {
+  ["JobId"]= 1100,
+  ["Level"]= 15,
+  ["Name"]= "剑士",
+  ["vitality"]= 1
+},
+[6] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1100,
+  ["Level"]= 20,
+  ["Name"]= "剑士",
+  ["strength"]= 1
+},
+[7] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1100,
+  ["Level"]= 25,
+  ["luck"]= 1,
+  ["Name"]= "剑士",
+  ["vitality"]= 1
+},
+[8] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1100,
+  ["Level"]= 30,
+  ["Name"]= "剑士",
+  ["strength"]= 1
+},
+[9] = {
+  ["JobId"]= 1100,
+  ["Level"]= 35,
+  ["Name"]= "剑士",
+  ["strength"]= 1
+},
+[10] = {
+  ["JobId"]= 1100,
+  ["Level"]= 40,
+  ["Name"]= "剑士"
+},
+[11] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1100,
+  ["Level"]= 45,
+  ["luck"]= 1,
+  ["Name"]= "剑士",
+  ["strength"]= 1
+},
+[12] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1100,
+  ["Level"]= 50,
+  ["Name"]= "剑士",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[13] = {
+  ["JobId"]= 1110,
+  ["Name"]= "骑士",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[14] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1110,
+  ["Level"]= 10,
+  ["Name"]= "骑士",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[15] = {
+  ["JobId"]= 1110,
+  ["Level"]= 15,
+  ["Name"]= "骑士",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[16] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1110,
+  ["Level"]= 20,
+  ["luck"]= 1,
+  ["Name"]= "骑士",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[17] = {
+  ["agility"]= 1,
+  ["JobId"]= 1110,
+  ["Level"]= 25,
+  ["Name"]= "骑士",
+  ["vitality"]= 1
+},
+[18] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1110,
+  ["Level"]= 30,
+  ["luck"]= 1,
+  ["Name"]= "骑士",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[19] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1110,
+  ["Level"]= 35,
+  ["luck"]= 1,
+  ["Name"]= "骑士",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[20] = {
+  ["JobId"]= 1110,
+  ["Level"]= 40,
+  ["Name"]= "骑士",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[21] = {
+  ["JobId"]= 1110,
+  ["Level"]= 45,
+  ["Name"]= "骑士",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[22] = {
+  ["JobId"]= 1110,
+  ["Level"]= 50,
+  ["luck"]= 1,
+  ["Name"]= "骑士",
+  ["vitality"]= 1
+},
+[23] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["strength"]= 2
+},
+[24] = {
+  ["dexterity"]= 2,
+  ["Level"]= 10,
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[25] = {
+  ["agility"]= 1,
+  ["Level"]= 15,
+  ["strength"]= 1
+},
+[26] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["Level"]= 20,
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[27] = {
+  ["dexterity"]= 0,
+  ["Level"]= 25,
+  ["luck"]= 1,
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[28] = {
+  ["agility"]= 1,
+  ["Level"]= 30,
+  ["strength"]= 1
+},
+[29] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["Level"]= 35,
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[30] = {
+  ["Level"]= 40,
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[31] = {
+  ["agility"]= 1,
+  ["Level"]= 45,
+  ["strength"]= 1
+},
+[32] = {
+  ["Level"]= 50,
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[33] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["Level"]= 55,
+  ["luck"]= 1,
+  ["strength"]= 1
+},
+[34] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["Level"]= 60,
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[35] = {
+  ["dexterity"]= 0,
+  ["Level"]= 65,
+  ["luck"]= 1,
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[36] = {
+  ["agility"]= 1,
+  ["dexterity"]= 2,
+  ["Level"]= 70,
+  ["strength"]= 1
+},
+[37] = {
+  ["JobId"]= 1500,
+  ["Name"]= "弓箭手",
+  ["strength"]= 1
+},
+[38] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1500,
+  ["Level"]= 10,
+  ["Name"]= "弓箭手",
+  ["strength"]= 1
+},
+[39] = {
+  ["JobId"]= 1500,
+  ["Level"]= 15,
+  ["luck"]= 1,
+  ["Name"]= "弓箭手"
+},
+[40] = {
+  ["JobId"]= 1500,
+  ["Level"]= 20,
+  ["Name"]= "弓箭手"
+},
+[41] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1500,
+  ["Level"]= 25,
+  ["Name"]= "弓箭手",
+  ["strength"]= 1
+},
+[42] = {
+  ["JobId"]= 1500,
+  ["Level"]= 30,
+  ["luck"]= 1,
+  ["Name"]= "弓箭手"
+},
+[43] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1500,
+  ["Level"]= 35,
+  ["Name"]= "弓箭手",
+  ["vitality"]= 1
+},
+[44] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1500,
+  ["Level"]= 40,
+  ["Name"]= "弓箭手"
+},
+[45] = {
+  ["JobId"]= 1500,
+  ["Level"]= 45,
+  ["Name"]= "弓箭手"
+},
+[46] = {
+  ["agility"]= 1,
+  ["JobId"]= 1500,
+  ["Level"]= 50,
+  ["Name"]= "弓箭手"
+},
+[47] = {
+  ["agility"]= 1,
+  ["JobId"]= 1510,
+  ["Name"]= "猎人",
+  ["strength"]= 1
+},
+[48] = {
+  ["JobId"]= 1510,
+  ["Level"]= 10,
+  ["luck"]= 1,
+  ["Name"]= "猎人",
+  ["vitality"]= 1
+},
+[49] = {
+  ["agility"]= 1,
+  ["JobId"]= 1510,
+  ["Level"]= 15,
+  ["luck"]= 1,
+  ["Name"]= "猎人"
+},
+[50] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1510,
+  ["Level"]= 20,
+  ["Name"]= "猎人",
+  ["strength"]= 1
+},
+[51] = {
+  ["agility"]= 1,
+  ["JobId"]= 1510,
+  ["Level"]= 25,
+  ["luck"]= 1,
+  ["Name"]= "猎人"
+},
+[52] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1510,
+  ["Level"]= 30,
+  ["Name"]= "猎人",
+  ["strength"]= 1
+},
+[53] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1510,
+  ["Level"]= 35,
+  ["Name"]= "猎人"
+},
+[54] = {
+  ["agility"]= 1,
+  ["JobId"]= 1510,
+  ["Level"]= 40,
+  ["luck"]= 1,
+  ["Name"]= "猎人"
+},
+[55] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1510,
+  ["Level"]= 45,
+  ["Name"]= "猎人",
+  ["vitality"]= 1
+},
+[56] = {
+  ["agility"]= 1,
+  ["JobId"]= 1510,
+  ["Level"]= 50,
+  ["Name"]= "猎人",
+  ["strength"]= 1
+},
+[57] = {
+  ["agility"]= 1,
+  ["dexterity"]= 2,
+  ["JobId"]= 1511,
+  ["Name"]= "神射手",
+  ["strength"]= 1
+},
+[58] = {
+  ["agility"]= 1,
+  ["JobId"]= 1511,
+  ["Level"]= 10,
+  ["luck"]= 1,
+  ["Name"]= "神射手"
+},
+[59] = {
+  ["agility"]= 1,
+  ["JobId"]= 1511,
+  ["Level"]= 15,
+  ["luck"]= 1,
+  ["Name"]= "神射手"
+},
+[60] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1511,
+  ["Level"]= 20,
+  ["luck"]= 1,
+  ["Name"]= "神射手",
+  ["strength"]= 1
+},
+[61] = {
+  ["agility"]= 1,
+  ["JobId"]= 1511,
+  ["Level"]= 25,
+  ["luck"]= 1,
+  ["Name"]= "神射手"
+},
+[62] = {
+  ["JobId"]= 1511,
+  ["Level"]= 30,
+  ["luck"]= 1,
+  ["Name"]= "神射手",
+  ["vitality"]= 1
+},
+[63] = {
+  ["agility"]= 2,
+  ["JobId"]= 1511,
+  ["Level"]= 35,
+  ["Name"]= "神射手",
+  ["vitality"]= 1
+},
+[64] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1511,
+  ["Level"]= 40,
+  ["Name"]= "神射手",
+  ["vitality"]= 1
+},
+[65] = {
+  ["agility"]= 1,
+  ["JobId"]= 1511,
+  ["Level"]= 45,
+  ["luck"]= 1,
+  ["Name"]= "神射手"
+},
+[66] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1511,
+  ["Level"]= 50,
+  ["luck"]= 1,
+  ["Name"]= "神射手"
+},
+[67] = {
+  ["agility"]= 1,
+  ["JobId"]= 1511,
+  ["Level"]= 55,
+  ["Name"]= "神射手",
+  ["strength"]= 1
+},
+[68] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1511,
+  ["Level"]= 60,
+  ["Name"]= "神射手"
+},
+[69] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1511,
+  ["Level"]= 65,
+  ["luck"]= 1,
+  ["Name"]= "神射手"
+},
+[70] = {
+  ["agility"]= 1,
+  ["dexterity"]= 2,
+  ["JobId"]= 1511,
+  ["Level"]= 70,
+  ["Name"]= "神射手",
+  ["strength"]= 1
+},
+[71] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1300,
+  ["Name"]= "魔法师"
+},
+[72] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1300,
+  ["Level"]= 10,
+  ["Name"]= "魔法师"
+},
+[73] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1300,
+  ["Level"]= 15,
+  ["Name"]= "魔法师"
+},
+[74] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1300,
+  ["Level"]= 20,
+  ["Name"]= "魔法师"
+},
+[75] = {
+  ["JobId"]= 1300,
+  ["Level"]= 25,
+  ["Name"]= "魔法师"
+},
+[76] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1300,
+  ["Level"]= 30,
+  ["luck"]= 1,
+  ["Name"]= "魔法师"
+},
+[77] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1300,
+  ["Level"]= 35,
+  ["Name"]= "魔法师"
+},
+[78] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1300,
+  ["Level"]= 40,
+  ["luck"]= 1,
+  ["Name"]= "魔法师"
+},
+[79] = {
+  ["agility"]= 1,
+  ["JobId"]= 1300,
+  ["Level"]= 45,
+  ["Name"]= "魔法师"
+},
+[80] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1300,
+  ["Level"]= 50,
+  ["luck"]= 1,
+  ["Name"]= "魔法师"
+},
+[81] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 2,
+  ["JobId"]= 1310,
+  ["Name"]= "巫师",
+  ["strength"]= 1
+},
+[82] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1310,
+  ["Level"]= 10,
+  ["Name"]= "巫师",
+  ["vitality"]= 1
+},
+[83] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1310,
+  ["Level"]= 15,
+  ["Name"]= "巫师"
+},
+[84] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1310,
+  ["Level"]= 20,
+  ["luck"]= 1,
+  ["Name"]= "巫师"
+},
+[85] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1310,
+  ["Level"]= 25,
+  ["Name"]= "巫师"
+},
+[86] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1310,
+  ["Level"]= 30,
+  ["luck"]= 1,
+  ["Name"]= "巫师"
+},
+[87] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1310,
+  ["Level"]= 35,
+  ["Name"]= "巫师"
+},
+[88] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1310,
+  ["Level"]= 40,
+  ["Name"]= "巫师"
+},
+[89] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1310,
+  ["Level"]= 45,
+  ["Name"]= "巫师"
+},
+[90] = {
+  ["agility"]= 1,
+  ["intelligence"]= 2,
+  ["JobId"]= 1310,
+  ["Level"]= 50,
+  ["Name"]= "巫师"
+},
+[91] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 2,
+  ["JobId"]= 1311,
+  ["Name"]= "超魔导士",
+  ["strength"]= 1
+},
+[92] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1311,
+  ["Level"]= 10,
+  ["Name"]= "超魔导士",
+  ["vitality"]= 1
+},
+[93] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1311,
+  ["Level"]= 15,
+  ["Name"]= "超魔导士"
+},
+[94] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 2,
+  ["JobId"]= 1311,
+  ["Level"]= 20,
+  ["luck"]= 1,
+  ["Name"]= "超魔导士",
+  ["vitality"]= 1
+},
+[95] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1311,
+  ["Level"]= 25,
+  ["Name"]= "超魔导士"
+},
+[96] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1311,
+  ["Level"]= 30,
+  ["Name"]= "超魔导士",
+  ["strength"]= 1
+},
+[97] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1311,
+  ["Level"]= 35,
+  ["Name"]= "超魔导士",
+  ["vitality"]= 1
+},
+[98] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1311,
+  ["Level"]= 40,
+  ["luck"]= 1,
+  ["Name"]= "超魔导士"
+},
+[99] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1311,
+  ["Level"]= 45,
+  ["Name"]= "超魔导士",
+  ["vitality"]= 1
+},
+[100] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1311,
+  ["Level"]= 50,
+  ["Name"]= "超魔导士"
+},
+[101] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1311,
+  ["Level"]= 55,
+  ["luck"]= 1,
+  ["Name"]= "超魔导士",
+  ["vitality"]= 1
+},
+[102] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1311,
+  ["Level"]= 60,
+  ["Name"]= "超魔导士"
+},
+[103] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1311,
+  ["Level"]= 65,
+  ["Name"]= "超魔导士",
+  ["strength"]= 1
+},
+[104] = {
+  ["agility"]= 1,
+  ["intelligence"]= 2,
+  ["JobId"]= 1311,
+  ["Level"]= 70,
+  ["Name"]= "超魔导士"
+},
+[105] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1400,
+  ["Name"]= "盗贼",
+  ["strength"]= 1
+},
+[106] = {
+  ["agility"]= 1,
+  ["JobId"]= 1400,
+  ["Level"]= 10,
+  ["Name"]= "盗贼"
+},
+[107] = {
+  ["JobId"]= 1400,
+  ["Level"]= 15,
+  ["luck"]= 1,
+  ["Name"]= "盗贼",
+  ["strength"]= 1
+},
+[108] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1400,
+  ["Level"]= 20,
+  ["luck"]= 1,
+  ["Name"]= "盗贼"
+},
+[109] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1400,
+  ["Level"]= 25,
+  ["Name"]= "盗贼",
+  ["vitality"]= 1
+},
+[110] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1400,
+  ["Level"]= 30,
+  ["Name"]= "盗贼",
+  ["strength"]= 1
+},
+[111] = {
+  ["JobId"]= 1400,
+  ["Level"]= 35,
+  ["luck"]= 1,
+  ["Name"]= "盗贼"
+},
+[112] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1400,
+  ["Level"]= 40,
+  ["Name"]= "盗贼",
+  ["vitality"]= 1
+},
+[113] = {
+  ["JobId"]= 1400,
+  ["Level"]= 45,
+  ["Name"]= "盗贼"
+},
+[114] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1400,
+  ["Level"]= 50,
+  ["Name"]= "盗贼",
+  ["strength"]= 1
+},
+[115] = {
+  ["agility"]= 1,
+  ["JobId"]= 1410,
+  ["Name"]= "刺客",
+  ["strength"]= 1
+},
+[116] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1410,
+  ["Level"]= 10,
+  ["Name"]= "刺客"
+},
+[117] = {
+  ["agility"]= 1,
+  ["JobId"]= 1410,
+  ["Level"]= 15,
+  ["Name"]= "刺客",
+  ["strength"]= 1
+},
+[118] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1410,
+  ["Level"]= 20,
+  ["Name"]= "刺客",
+  ["strength"]= 1
+},
+[119] = {
+  ["agility"]= 1,
+  ["JobId"]= 1410,
+  ["Level"]= 25,
+  ["Name"]= "刺客",
+  ["strength"]= 1
+},
+[120] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1410,
+  ["Level"]= 30,
+  ["Name"]= "刺客",
+  ["vitality"]= 1
+},
+[121] = {
+  ["agility"]= 1,
+  ["JobId"]= 1410,
+  ["Level"]= 35,
+  ["Name"]= "刺客",
+  ["strength"]= 1
+},
+[122] = {
+  ["agility"]= 1,
+  ["JobId"]= 1410,
+  ["Level"]= 40,
+  ["Name"]= "刺客",
+  ["strength"]= 1
+},
+[123] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1410,
+  ["Level"]= 45,
+  ["Name"]= "刺客"
+},
+[124] = {
+  ["agility"]= 1,
+  ["JobId"]= 1410,
+  ["Level"]= 50,
+  ["Name"]= "刺客",
+  ["vitality"]= 1
+},
+[125] = {
+  ["agility"]= 2,
+  ["JobId"]= 1411,
+  ["Name"]= "十字刺客",
+  ["strength"]= 1
+},
+[126] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1411,
+  ["Level"]= 10,
+  ["luck"]= 1,
+  ["Name"]= "十字刺客",
+  ["vitality"]= 1
+},
+[127] = {
+  ["agility"]= 1,
+  ["JobId"]= 1411,
+  ["Level"]= 15,
+  ["Name"]= "十字刺客",
+  ["strength"]= 1
+},
+[128] = {
+  ["agility"]= 1,
+  ["JobId"]= 1411,
+  ["Level"]= 20,
+  ["luck"]= 1,
+  ["Name"]= "十字刺客"
+},
+[129] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1411,
+  ["Level"]= 25,
+  ["luck"]= 1,
+  ["Name"]= "十字刺客",
+  ["strength"]= 1
+},
+[130] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1411,
+  ["Level"]= 30,
+  ["Name"]= "十字刺客",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[131] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1411,
+  ["Level"]= 35,
+  ["luck"]= 1,
+  ["Name"]= "十字刺客",
+  ["strength"]= 1
+},
+[132] = {
+  ["agility"]= 1,
+  ["dexterity"]= 2,
+  ["JobId"]= 1411,
+  ["Level"]= 40,
+  ["Name"]= "十字刺客",
+  ["strength"]= 1
+},
+[133] = {
+  ["agility"]= 1,
+  ["JobId"]= 1411,
+  ["Level"]= 45,
+  ["luck"]= 1,
+  ["Name"]= "十字刺客"
+},
+[134] = {
+  ["agility"]= 1,
+  ["JobId"]= 1411,
+  ["Level"]= 50,
+  ["Name"]= "十字刺客",
+  ["strength"]= 1
+},
+[135] = {
+  ["agility"]= 1,
+  ["JobId"]= 1411,
+  ["Level"]= 55,
+  ["luck"]= 1,
+  ["Name"]= "十字刺客"
+},
+[136] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1411,
+  ["Level"]= 60,
+  ["luck"]= 1,
+  ["Name"]= "十字刺客",
+  ["strength"]= 1
+},
+[137] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1411,
+  ["Level"]= 65,
+  ["luck"]= 1,
+  ["Name"]= "十字刺客",
+  ["vitality"]= 1
+},
+[138] = {
+  ["agility"]= 1,
+  ["dexterity"]= 2,
+  ["JobId"]= 1411,
+  ["Level"]= 70,
+  ["Name"]= "十字刺客",
+  ["strength"]= 1
+},
+[139] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1200,
+  ["Name"]= "服事",
+  ["strength"]= 1
+},
+[140] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1200,
+  ["Level"]= 10,
+  ["luck"]= 1,
+  ["Name"]= "服事",
+  ["vitality"]= 1
+},
+[141] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1200,
+  ["Level"]= 15,
+  ["Name"]= "服事"
+},
+[142] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1200,
+  ["Level"]= 20,
+  ["luck"]= 1,
+  ["Name"]= "服事",
+  ["strength"]= 1
+},
+[143] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1200,
+  ["Level"]= 25,
+  ["luck"]= 1,
+  ["Name"]= "服事",
+  ["vitality"]= 1
+},
+[144] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1200,
+  ["Level"]= 30,
+  ["Name"]= "服事"
+},
+[145] = {
+  ["JobId"]= 1200,
+  ["Level"]= 35,
+  ["luck"]= 1,
+  ["Name"]= "服事"
+},
+[146] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1200,
+  ["Level"]= 40,
+  ["Name"]= "服事",
+  ["strength"]= 1
+},
+[147] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1200,
+  ["Level"]= 45,
+  ["Name"]= "服事",
+  ["vitality"]= 1
+},
+[148] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1200,
+  ["Level"]= 50,
+  ["Name"]= "服事"
+},
+[149] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1210,
+  ["luck"]= 1,
+  ["Name"]= "牧师",
+  ["strength"]= 1
+},
+[150] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1210,
+  ["Level"]= 10,
+  ["luck"]= 1,
+  ["Name"]= "牧师",
+  ["vitality"]= 1
+},
+[151] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1210,
+  ["Level"]= 15,
+  ["Name"]= "牧师",
+  ["strength"]= 1
+},
+[152] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1210,
+  ["Level"]= 20,
+  ["luck"]= 1,
+  ["Name"]= "牧师"
+},
+[153] = {
+  ["JobId"]= 1210,
+  ["Level"]= 25,
+  ["luck"]= 1,
+  ["Name"]= "牧师",
+  ["vitality"]= 1
+},
+[154] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1210,
+  ["Level"]= 30,
+  ["Name"]= "牧师",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[155] = {
+  ["agility"]= 1,
+  ["JobId"]= 1210,
+  ["Level"]= 35,
+  ["luck"]= 1,
+  ["Name"]= "牧师"
+},
+[156] = {
+  ["JobId"]= 1210,
+  ["Level"]= 40,
+  ["luck"]= 1,
+  ["Name"]= "牧师",
+  ["vitality"]= 1
+},
+[157] = {
+  ["JobId"]= 1210,
+  ["Level"]= 45,
+  ["Name"]= "牧师",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[158] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1210,
+  ["Level"]= 50,
+  ["luck"]= 1,
+  ["Name"]= "牧师",
+  ["strength"]= 1
+},
+[159] = {
+  ["agility"]= 1,
+  ["intelligence"]= 2,
+  ["JobId"]= 1211,
+  ["Name"]= "神官"
+},
+[160] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1211,
+  ["Level"]= 10,
+  ["Name"]= "神官",
+  ["strength"]= 1
+},
+[161] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1211,
+  ["Level"]= 15,
+  ["Name"]= "神官",
+  ["strength"]= 1
+},
+[162] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1211,
+  ["Level"]= 20,
+  ["Name"]= "神官"
+},
+[163] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1211,
+  ["Level"]= 25,
+  ["Name"]= "神官",
+  ["strength"]= 1,
+  ["vitality"]= 2
+},
+[164] = {
+  ["agility"]= 1,
+  ["JobId"]= 1211,
+  ["Level"]= 30,
+  ["Name"]= "神官",
+  ["strength"]= 1
+},
+[165] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1211,
+  ["Level"]= 35,
+  ["Name"]= "神官",
+  ["vitality"]= 1
+},
+[166] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1211,
+  ["Level"]= 40,
+  ["Name"]= "神官",
+  ["vitality"]= 1
+},
+[167] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1211,
+  ["Level"]= 45,
+  ["Name"]= "神官",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[168] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1211,
+  ["Level"]= 50,
+  ["Name"]= "神官",
+  ["vitality"]= 1
+},
+[169] = {
+  ["agility"]= 1,
+  ["JobId"]= 1211,
+  ["Level"]= 55,
+  ["Name"]= "神官",
+  ["strength"]= 1
+},
+[170] = {
+  ["JobId"]= 1211,
+  ["Level"]= 60,
+  ["luck"]= 1,
+  ["Name"]= "神官",
+  ["strength"]= 1
+},
+[171] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1211,
+  ["Level"]= 65,
+  ["luck"]= 1,
+  ["Name"]= "神官"
+},
+[172] = {
+  ["intelligence"]= 2,
+  ["JobId"]= 1211,
+  ["Level"]= 70,
+  ["Name"]= "神官",
+  ["vitality"]= 1
+},
+[173] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1600,
+  ["Name"]= "商人",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[174] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1600,
+  ["Level"]= 10,
+  ["luck"]= 1,
+  ["Name"]= "商人",
+  ["vitality"]= 1
+},
+[175] = {
+  ["JobId"]= 1600,
+  ["Level"]= 15,
+  ["Name"]= "商人",
+  ["strength"]= 1
+},
+[176] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1600,
+  ["Level"]= 20,
+  ["Name"]= "商人",
+  ["vitality"]= 1
+},
+[177] = {
+  ["JobId"]= 1600,
+  ["Level"]= 25,
+  ["Name"]= "商人",
+  ["strength"]= 1
+},
+[178] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1600,
+  ["Level"]= 30,
+  ["luck"]= 1,
+  ["Name"]= "商人",
+  ["vitality"]= 1
+},
+[179] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1600,
+  ["Level"]= 35,
+  ["Name"]= "商人"
+},
+[180] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1600,
+  ["Level"]= 40,
+  ["Name"]= "商人",
+  ["strength"]= 1
+},
+[181] = {
+  ["JobId"]= 1600,
+  ["Level"]= 45,
+  ["Name"]= "商人"
+},
+[182] = {
+  ["JobId"]= 1600,
+  ["Level"]= 50,
+  ["Name"]= "商人",
+  ["strength"]= 1
+},
+[183] = {
+  ["dexterity"]= 2,
+  ["JobId"]= 1610,
+  ["Name"]= "铁匠",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[184] = {
+  ["agility"]= 1,
+  ["JobId"]= 1610,
+  ["Level"]= 10,
+  ["Name"]= "铁匠",
+  ["vitality"]= 1
+},
+[185] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1610,
+  ["Level"]= 15,
+  ["Name"]= "铁匠",
+  ["strength"]= 1
+},
+[186] = {
+  ["JobId"]= 1610,
+  ["Level"]= 20,
+  ["Name"]= "铁匠",
+  ["vitality"]= 1
+},
+[187] = {
+  ["agility"]= 1,
+  ["JobId"]= 1610,
+  ["Level"]= 25,
+  ["Name"]= "铁匠",
+  ["strength"]= 1
+},
+[188] = {
+  ["JobId"]= 1610,
+  ["Level"]= 30,
+  ["luck"]= 1,
+  ["Name"]= "铁匠",
+  ["vitality"]= 1
+},
+[189] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1610,
+  ["Level"]= 35,
+  ["Name"]= "铁匠",
+  ["strength"]= 1
+},
+[190] = {
+  ["JobId"]= 1610,
+  ["Level"]= 40,
+  ["luck"]= 1,
+  ["Name"]= "铁匠",
+  ["vitality"]= 1
+},
+[191] = {
+  ["JobId"]= 1610,
+  ["Level"]= 45,
+  ["Name"]= "铁匠",
+  ["strength"]= 1
+},
+[192] = {
+  ["dexterity"]= 2,
+  ["JobId"]= 1610,
+  ["Level"]= 50,
+  ["Name"]= "铁匠",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[193] = {
+  ["dexterity"]= 2,
+  ["intelligence"]= 1,
+  ["JobId"]= 1611,
+  ["Name"]= "神工匠",
+  ["strength"]= 1
+},
+[194] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1611,
+  ["Level"]= 10,
+  ["Name"]= "神工匠"
+},
+[195] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1611,
+  ["Level"]= 15,
+  ["Name"]= "神工匠",
+  ["vitality"]= 1
+},
+[196] = {
+  ["JobId"]= 1611,
+  ["Level"]= 20,
+  ["luck"]= 1,
+  ["Name"]= "神工匠",
+  ["strength"]= 1
+},
+[197] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1611,
+  ["Level"]= 25,
+  ["Name"]= "神工匠",
+  ["vitality"]= 1
+},
+[198] = {
+  ["agility"]= 1,
+  ["JobId"]= 1611,
+  ["Level"]= 30,
+  ["luck"]= 1,
+  ["Name"]= "神工匠"
+},
+[199] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1611,
+  ["Level"]= 35,
+  ["Name"]= "神工匠",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[200] = {
+  ["agility"]= 1,
+  ["JobId"]= 1611,
+  ["Level"]= 40,
+  ["luck"]= 1,
+  ["Name"]= "神工匠"
+},
+[201] = {
+  ["agility"]= 1,
+  ["JobId"]= 1611,
+  ["Level"]= 45,
+  ["luck"]= 1,
+  ["Name"]= "神工匠"
+},
+[202] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1611,
+  ["Level"]= 50,
+  ["Name"]= "神工匠",
+  ["strength"]= 1
+},
+[203] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1611,
+  ["Level"]= 55,
+  ["luck"]= 2,
+  ["Name"]= "神工匠",
+  ["vitality"]= 1
+},
+[204] = {
+  ["JobId"]= 1611,
+  ["Level"]= 60,
+  ["Name"]= "神工匠",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[205] = {
+  ["JobId"]= 0,
+  ["Level"]= 65,
+  ["luck"]= 1,
+  ["Name"]= "神工匠",
+  ["vitality"]= 1
+},
+[206] = {
+  ["dexterity"]= 2,
+  ["JobId"]= 0,
+  ["Level"]= 70,
+  ["luck"]= 1,
+  ["Name"]= "神工匠",
+  ["strength"]= 1
+},
+[207] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 0,
+  ["Name"]= "符文骑士",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[208] = {
+  ["agility"]= 1,
+  ["JobId"]= 0,
+  ["Level"]= 10,
+  ["Name"]= "符文骑士",
+  ["vitality"]= 1
+},
+[209] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 0,
+  ["Level"]= 15,
+  ["luck"]= 1,
+  ["Name"]= "符文骑士",
+  ["strength"]= 1
+},
+[210] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 0,
+  ["Level"]= 20,
+  ["Name"]= "符文骑士",
+  ["vitality"]= 1
+},
+[211] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 0,
+  ["Level"]= 25,
+  ["Name"]= "符文骑士",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[212] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 0,
+  ["Level"]= 30,
+  ["Name"]= "符文骑士"
+},
+[213] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 0,
+  ["Level"]= 35,
+  ["Name"]= "符文骑士"
+},
+[214] = {
+  ["JobId"]= 0,
+  ["Level"]= 40,
+  ["luck"]= 1,
+  ["Name"]= "符文骑士",
+  ["strength"]= 1
+},
+[215] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 0,
+  ["Level"]= 45,
+  ["Name"]= "符文骑士"
+},
+[216] = {
+  ["JobId"]= 0,
+  ["Level"]= 50,
+  ["luck"]= 1,
+  ["Name"]= "符文骑士",
+  ["vitality"]= 1
+},
+[217] = {
+  ["intelligence"]= 2,
+  ["JobId"]= 0,
+  ["Level"]= 55,
+  ["Name"]= "符文骑士",
+  ["vitality"]= 1
+},
+[218] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 0,
+  ["Level"]= 60,
+  ["luck"]= 1,
+  ["Name"]= "符文骑士",
+  ["strength"]= 1
+},
+[219] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1512,
+  ["Name"]= "游侠",
+  ["strength"]= 1
+},
+[220] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1512,
+  ["Level"]= 10,
+  ["Name"]= "游侠",
+  ["vitality"]= 1
+},
+[221] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1512,
+  ["Level"]= 15,
+  ["Name"]= "游侠",
+  ["vitality"]= 1
+},
+[222] = {
+  ["agility"]= 1,
+  ["dexterity"]= 2,
+  ["JobId"]= 1512,
+  ["Level"]= 20,
+  ["Name"]= "游侠",
+  ["vitality"]= 1
+},
+[223] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1512,
+  ["Level"]= 25,
+  ["Name"]= "游侠"
+},
+[224] = {
+  ["agility"]= 1,
+  ["JobId"]= 1512,
+  ["Level"]= 30,
+  ["luck"]= 1,
+  ["Name"]= "游侠"
+},
+[225] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1512,
+  ["Level"]= 35,
+  ["luck"]= 1,
+  ["Name"]= "游侠",
+  ["vitality"]= 1
+},
+[226] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1512,
+  ["Level"]= 40,
+  ["Name"]= "游侠"
+},
+[227] = {
+  ["agility"]= 1,
+  ["JobId"]= 1512,
+  ["Level"]= 45,
+  ["Name"]= "游侠",
+  ["vitality"]= 1
+},
+[228] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1512,
+  ["Level"]= 50,
+  ["Name"]= "游侠",
+  ["vitality"]= 1
+},
+[229] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1512,
+  ["Level"]= 55,
+  ["Name"]= "游侠"
+},
+[230] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1512,
+  ["Level"]= 60,
+  ["Name"]= "游侠",
+  ["strength"]= 1
+},
+[231] = {
+  ["agility"]= 1,
+  ["intelligence"]= 2,
+  ["JobId"]= 1312,
+  ["Name"]= "大法师"
+},
+[232] = {
+  ["JobId"]= 1312,
+  ["Level"]= 10,
+  ["Name"]= "大法师",
+  ["vitality"]= 1
+},
+[233] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 2,
+  ["JobId"]= 1312,
+  ["Level"]= 15,
+  ["luck"]= 1,
+  ["Name"]= "大法师"
+},
+[234] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 2,
+  ["JobId"]= 1312,
+  ["Level"]= 20,
+  ["luck"]= 1,
+  ["Name"]= "大法师",
+  ["vitality"]= 1
+},
+[235] = {
+  ["JobId"]= 1312,
+  ["Level"]= 25,
+  ["Name"]= "大法师",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[236] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 2,
+  ["JobId"]= 1312,
+  ["Level"]= 30,
+  ["Name"]= "大法师"
+},
+[237] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1312,
+  ["Level"]= 35,
+  ["Name"]= "大法师"
+},
+[238] = {
+  ["JobId"]= 1312,
+  ["Level"]= 40,
+  ["Name"]= "大法师",
+  ["vitality"]= 1
+},
+[239] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1312,
+  ["Level"]= 45,
+  ["Name"]= "大法师"
+},
+[240] = {
+  ["JobId"]= 1312,
+  ["Level"]= 50,
+  ["Name"]= "大法师",
+  ["vitality"]= 1
+},
+[241] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1312,
+  ["Level"]= 55,
+  ["Name"]= "大法师"
+},
+[242] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 2,
+  ["JobId"]= 1312,
+  ["Level"]= 60,
+  ["Name"]= "大法师",
+  ["vitality"]= 1
+},
+[243] = {
+  ["agility"]= 2,
+  ["JobId"]= 1412,
+  ["Name"]= "十字切割者",
+  ["strength"]= 1
+},
+[244] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1412,
+  ["Level"]= 10,
+  ["Name"]= "十字切割者",
+  ["vitality"]= 1
+},
+[245] = {
+  ["JobId"]= 1412,
+  ["Level"]= 15,
+  ["Name"]= "十字切割者",
+  ["strength"]= 2,
+  ["vitality"]= 1
+},
+[246] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1412,
+  ["Level"]= 20,
+  ["Name"]= "十字切割者"
+},
+[247] = {
+  ["agility"]= 1,
+  ["JobId"]= 1412,
+  ["Level"]= 25,
+  ["Name"]= "十字切割者",
+  ["strength"]= 1
+},
+[248] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1412,
+  ["Level"]= 30,
+  ["luck"]= 1,
+  ["Name"]= "十字切割者",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[249] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1412,
+  ["Level"]= 35,
+  ["Name"]= "十字切割者"
+},
+[250] = {
+  ["JobId"]= 1412,
+  ["Level"]= 40,
+  ["Name"]= "十字切割者",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[251] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1412,
+  ["Level"]= 45,
+  ["Name"]= "十字切割者",
+  ["vitality"]= 1
+},
+[252] = {
+  ["JobId"]= 1412,
+  ["Level"]= 50,
+  ["Name"]= "十字切割者",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[253] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1412,
+  ["Level"]= 55,
+  ["luck"]= 1,
+  ["Name"]= "十字切割者"
+},
+[254] = {
+  ["agility"]= 1,
+  ["JobId"]= 1412,
+  ["Level"]= 60,
+  ["Name"]= "十字切割者",
+  ["strength"]= 1
+},
+[255] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1212,
+  ["Name"]= "大主教",
+  ["vitality"]= 1
+},
+[256] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 2,
+  ["JobId"]= 1212,
+  ["Level"]= 10,
+  ["Name"]= "大主教",
+  ["strength"]= 1
+},
+[257] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1212,
+  ["Level"]= 15,
+  ["Name"]= "大主教",
+  ["vitality"]= 1
+},
+[258] = {
+  ["JobId"]= 1212,
+  ["Level"]= 20,
+  ["Name"]= "大主教",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[259] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1212,
+  ["Level"]= 25,
+  ["Name"]= "大主教"
+},
+[260] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1212,
+  ["Level"]= 30,
+  ["Name"]= "大主教"
+},
+[261] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1212,
+  ["Level"]= 35,
+  ["luck"]= 1,
+  ["Name"]= "大主教",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[262] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1212,
+  ["Level"]= 40,
+  ["Name"]= "大主教",
+  ["strength"]= 1
+},
+[263] = {
+  ["agility"]= 1,
+  ["JobId"]= 1212,
+  ["Level"]= 45,
+  ["Name"]= "大主教",
+  ["vitality"]= 1
+},
+[264] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 2,
+  ["JobId"]= 1212,
+  ["Level"]= 50,
+  ["Name"]= "大主教",
+  ["strength"]= 1
+},
+[265] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1212,
+  ["Level"]= 55,
+  ["luck"]= 1,
+  ["Name"]= "大主教",
+  ["vitality"]= 1
+},
+[266] = {
+  ["JobId"]= 1212,
+  ["Level"]= 60,
+  ["Name"]= "大主教",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[267] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1612,
+  ["Name"]= "机匠",
+  ["strength"]= 2,
+  ["vitality"]= 1
+},
+[268] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1612,
+  ["Level"]= 10,
+  ["Name"]= "机匠"
+},
+[269] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1612,
+  ["Level"]= 15,
+  ["luck"]= 1,
+  ["Name"]= "机匠",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[270] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1612,
+  ["Level"]= 20,
+  ["luck"]= 1,
+  ["Name"]= "机匠",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[271] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1612,
+  ["Level"]= 25,
+  ["luck"]= 1,
+  ["Name"]= "机匠"
+},
+[272] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1612,
+  ["Level"]= 30,
+  ["luck"]= 1,
+  ["Name"]= "机匠",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[273] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1612,
+  ["Level"]= 35,
+  ["luck"]= 1,
+  ["Name"]= "机匠"
+},
+[274] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1612,
+  ["Level"]= 40,
+  ["Name"]= "机匠",
+  ["strength"]= 1
+},
+[275] = {
+  ["agility"]= 1,
+  ["JobId"]= 1612,
+  ["Level"]= 45,
+  ["Name"]= "机匠",
+  ["vitality"]= 1
+},
+[276] = {
+  ["JobId"]= 1612,
+  ["Level"]= 50,
+  ["luck"]= 1,
+  ["Name"]= "机匠",
+  ["vitality"]= 1
+},
+[277] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1612,
+  ["Level"]= 55,
+  ["Name"]= "机匠",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[278] = {
+  ["JobId"]= 1612,
+  ["Level"]= 60,
+  ["Name"]= "机匠",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[279] = {
+  ["JobId"]= 1120,
+  ["Name"]= "十字军",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[280] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1120,
+  ["Level"]= 10,
+  ["Name"]= "十字军",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[281] = {
+  ["JobId"]= 1120,
+  ["Level"]= 15,
+  ["Name"]= "十字军",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[282] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1120,
+  ["Level"]= 20,
+  ["luck"]= 1,
+  ["Name"]= "十字军",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[283] = {
+  ["agility"]= 1,
+  ["JobId"]= 1120,
+  ["Level"]= 25,
+  ["Name"]= "十字军",
+  ["vitality"]= 1
+},
+[284] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1120,
+  ["Level"]= 30,
+  ["luck"]= 1,
+  ["Name"]= "十字军",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[285] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1120,
+  ["Level"]= 35,
+  ["luck"]= 1,
+  ["Name"]= "十字军",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[286] = {
+  ["JobId"]= 1120,
+  ["Level"]= 40,
+  ["Name"]= "十字军",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[287] = {
+  ["JobId"]= 1120,
+  ["Level"]= 45,
+  ["Name"]= "十字军",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[288] = {
+  ["JobId"]= 1120,
+  ["Level"]= 50,
+  ["luck"]= 1,
+  ["Name"]= "十字军",
+  ["vitality"]= 1
+},
+[289] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1121,
+  ["Name"]= "圣殿骑士军",
+  ["strength"]= 2
+},
+[290] = {
+  ["dexterity"]= 2,
+  ["JobId"]= 1121,
+  ["Level"]= 10,
+  ["Name"]= "圣殿骑士军",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[291] = {
+  ["agility"]= 1,
+  ["JobId"]= 1121,
+  ["Level"]= 15,
+  ["Name"]= "圣殿骑士军",
+  ["strength"]= 1
+},
+[292] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1121,
+  ["Level"]= 20,
+  ["Name"]= "圣殿骑士军",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[293] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1121,
+  ["Level"]= 25,
+  ["luck"]= 1,
+  ["Name"]= "圣殿骑士军",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[294] = {
+  ["agility"]= 1,
+  ["JobId"]= 1121,
+  ["Level"]= 30,
+  ["Name"]= "圣殿骑士军",
+  ["strength"]= 1
+},
+[295] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1121,
+  ["Level"]= 35,
+  ["Name"]= "圣殿骑士军",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[296] = {
+  ["JobId"]= 1121,
+  ["Level"]= 40,
+  ["Name"]= "圣殿骑士军",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[297] = {
+  ["agility"]= 1,
+  ["JobId"]= 1121,
+  ["Level"]= 45,
+  ["Name"]= "圣殿骑士军",
+  ["strength"]= 1
+},
+[298] = {
+  ["JobId"]= 1121,
+  ["Level"]= 50,
+  ["Name"]= "圣殿骑士军",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[299] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1121,
+  ["Level"]= 55,
+  ["luck"]= 1,
+  ["Name"]= "圣殿骑士军",
+  ["strength"]= 1
+},
+[300] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1121,
+  ["Level"]= 60,
+  ["Name"]= "圣殿骑士军",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[301] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1121,
+  ["Level"]= 65,
+  ["luck"]= 1,
+  ["Name"]= "圣殿骑士军",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[302] = {
+  ["agility"]= 1,
+  ["dexterity"]= 2,
+  ["JobId"]= 1121,
+  ["Level"]= 70,
+  ["Name"]= "圣殿骑士军",
+  ["strength"]= 1
+},
+[303] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1122,
+  ["Name"]= "皇家卫士",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[304] = {
+  ["agility"]= 1,
+  ["JobId"]= 1122,
+  ["Level"]= 10,
+  ["Name"]= "皇家卫士",
+  ["vitality"]= 1
+},
+[305] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1122,
+  ["Level"]= 15,
+  ["luck"]= 1,
+  ["Name"]= "皇家卫士",
+  ["strength"]= 1
+},
+[306] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1122,
+  ["Level"]= 20,
+  ["Name"]= "皇家卫士",
+  ["vitality"]= 1
+},
+[307] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1122,
+  ["Level"]= 25,
+  ["Name"]= "皇家卫士",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[308] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1122,
+  ["Level"]= 30,
+  ["Name"]= "皇家卫士"
+},
+[309] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1122,
+  ["Level"]= 35,
+  ["Name"]= "皇家卫士"
+},
+[310] = {
+  ["JobId"]= 1122,
+  ["Level"]= 40,
+  ["luck"]= 1,
+  ["Name"]= "皇家卫士",
+  ["strength"]= 1
+},
+[311] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1122,
+  ["Level"]= 45,
+  ["Name"]= "皇家卫士"
+},
+[312] = {
+  ["JobId"]= 1122,
+  ["Level"]= 50,
+  ["luck"]= 1,
+  ["Name"]= "皇家卫士",
+  ["vitality"]= 1
+},
+[313] = {
+  ["intelligence"]= 2,
+  ["JobId"]= 1122,
+  ["Level"]= 55,
+  ["Name"]= "皇家卫士",
+  ["vitality"]= 1
+},
+[314] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1122,
+  ["Level"]= 60,
+  ["luck"]= 1,
+  ["Name"]= "皇家卫士",
+  ["strength"]= 1
+},
+[315] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1220,
+  ["luck"]= 1,
+  ["Name"]= "武僧",
+  ["strength"]= 1
+},
+[316] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1220,
+  ["Level"]= 10,
+  ["luck"]= 1,
+  ["Name"]= "武僧",
+  ["vitality"]= 1
+},
+[317] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1220,
+  ["Level"]= 15,
+  ["Name"]= "武僧",
+  ["strength"]= 1
+},
+[318] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1220,
+  ["Level"]= 20,
+  ["luck"]= 1,
+  ["Name"]= "武僧"
+},
+[319] = {
+  ["JobId"]= 1220,
+  ["Level"]= 25,
+  ["luck"]= 1,
+  ["Name"]= "武僧",
+  ["vitality"]= 1
+},
+[320] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1220,
+  ["Level"]= 30,
+  ["Name"]= "武僧",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[321] = {
+  ["agility"]= 1,
+  ["JobId"]= 1220,
+  ["Level"]= 35,
+  ["luck"]= 1,
+  ["Name"]= "武僧"
+},
+[322] = {
+  ["JobId"]= 1220,
+  ["Level"]= 40,
+  ["luck"]= 1,
+  ["Name"]= "武僧",
+  ["vitality"]= 1
+},
+[323] = {
+  ["JobId"]= 1220,
+  ["Level"]= 45,
+  ["Name"]= "武僧",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[324] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1220,
+  ["Level"]= 50,
+  ["luck"]= 1,
+  ["Name"]= "武僧",
+  ["strength"]= 1
+},
+[325] = {
+  ["agility"]= 1,
+  ["intelligence"]= 2,
+  ["JobId"]= 1221,
+  ["Name"]= "武术宗师"
+},
+[326] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1221,
+  ["Level"]= 10,
+  ["Name"]= "武术宗师",
+  ["strength"]= 1
+},
+[327] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1221,
+  ["Level"]= 15,
+  ["Name"]= "武术宗师",
+  ["strength"]= 1
+},
+[328] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1221,
+  ["Level"]= 20,
+  ["Name"]= "武术宗师"
+},
+[329] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1221,
+  ["Level"]= 25,
+  ["Name"]= "武术宗师",
+  ["strength"]= 1,
+  ["vitality"]= 2
+},
+[330] = {
+  ["agility"]= 1,
+  ["JobId"]= 1221,
+  ["Level"]= 30,
+  ["Name"]= "武术宗师",
+  ["strength"]= 1
+},
+[331] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1221,
+  ["Level"]= 35,
+  ["Name"]= "武术宗师",
+  ["vitality"]= 1
+},
+[332] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1221,
+  ["Level"]= 40,
+  ["Name"]= "武术宗师",
+  ["vitality"]= 1
+},
+[333] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["JobId"]= 1221,
+  ["Level"]= 45,
+  ["Name"]= "武术宗师",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[334] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1221,
+  ["Level"]= 50,
+  ["Name"]= "武术宗师",
+  ["vitality"]= 1
+},
+[335] = {
+  ["agility"]= 1,
+  ["JobId"]= 1221,
+  ["Level"]= 55,
+  ["Name"]= "武术宗师",
+  ["strength"]= 1
+},
+[336] = {
+  ["JobId"]= 1221,
+  ["Level"]= 60,
+  ["luck"]= 1,
+  ["Name"]= "武术宗师",
+  ["strength"]= 1
+},
+[337] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1221,
+  ["Level"]= 65,
+  ["luck"]= 1,
+  ["Name"]= "武术宗师"
+},
+[338] = {
+  ["intelligence"]= 2,
+  ["JobId"]= 1221,
+  ["Level"]= 70,
+  ["Name"]= "武术宗师",
+  ["vitality"]= 1
+},
+[339] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1222,
+  ["Name"]= "修罗",
+  ["vitality"]= 1
+},
+[340] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 2,
+  ["JobId"]= 1222,
+  ["Level"]= 10,
+  ["Name"]= "修罗",
+  ["strength"]= 1
+},
+[341] = {
+  ["agility"]= 1,
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1222,
+  ["Level"]= 15,
+  ["Name"]= "修罗",
+  ["vitality"]= 1
+},
+[342] = {
+  ["JobId"]= 1222,
+  ["Level"]= 20,
+  ["Name"]= "修罗",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[343] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1222,
+  ["Level"]= 25,
+  ["Name"]= "修罗"
+},
+[344] = {
+  ["agility"]= 1,
+  ["intelligence"]= 1,
+  ["JobId"]= 1222,
+  ["Level"]= 30,
+  ["Name"]= "修罗"
+},
+[345] = {
+  ["dexterity"]= 0,
+  ["JobId"]= 1222,
+  ["Level"]= 35,
+  ["luck"]= 1,
+  ["Name"]= "修罗",
+  ["strength"]= 1,
+  ["vitality"]= 1
+},
+[346] = {
+  ["intelligence"]= 1,
+  ["JobId"]= 1222,
+  ["Level"]= 40,
+  ["Name"]= "修罗",
+  ["strength"]= 1
+},
+[347] = {
+  ["agility"]= 1,
+  ["JobId"]= 1222,
+  ["Level"]= 45,
+  ["Name"]= "修罗",
+  ["vitality"]= 1
+},
+[348] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 2,
+  ["JobId"]= 1222,
+  ["Level"]= 50,
+  ["Name"]= "修罗",
+  ["strength"]= 1
+},
+[349] = {
+  ["dexterity"]= 0,
+  ["intelligence"]= 1,
+  ["JobId"]= 1222,
+  ["Level"]= 55,
+  ["luck"]= 1,
+  ["Name"]= "修罗",
+  ["vitality"]= 1
+},
+[350] = {
+  ["JobId"]= 1222,
+  ["Level"]= 60,
+  ["Name"]= "修罗",
+  ["strength"]= 1,
+  ["vitality"]= 1
+}
+}
+local baseTable={
+  ["agility"]= 0,
+  ["dexterity"]= 1,
+  ["intelligence"]= 0,
+  ["JobId"]= 1111,
+  ["Level"]= 5,
+  ["luck"]= 0,
+  ["Name"]= "骑士领主",
+  ["strength"]= 0,
+  ["vitality"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

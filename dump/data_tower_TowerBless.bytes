@@ -1,0 +1,553 @@
+local table= {
+[1] = {
+  ["icon"]= 30001,
+  ["type"]= 1
+},
+[2] = {
+  ["blessDes"]= "BuffDes_6012",
+  ["blessDesLocalized"]= "每级祝福提升20%塔之石获得量",
+  ["blessName"]= "BuffName_6012",
+  ["blessNameLocalized"]= "<color=#e49345>奥丁-财富</color>",
+  ["buffId"]= 6012,
+  ["icon"]= 30002,
+  ["ID"]= 2,
+  ["increaseCoinPr"]= 0.1,
+  ["type"]= 1
+},
+[3] = {
+  ["blessDes"]= "BuffDes_6013",
+  ["blessDesLocalized"]= "每级祝福增加10%概率下次获得祝福品质提升",
+  ["blessName"]= "BuffName_6013",
+  ["blessNameLocalized"]= "<color=#e49345>奥丁-幸运</color>",
+  ["buffId"]= 6013,
+  ["icon"]= 30003,
+  ["ID"]= 3,
+  ["qualityPromotePr"]= 0.05,
+  ["type"]= 1
+},
+[4] = {
+  ["blessDes"]= "BuffDes_6014",
+  ["blessDesLocalized"]= "每级祝福提升1%几率死亡时有概率触发不死效果，5秒内对死亡免疫，最低生命值为1，增加50%移动速度，50%吸血效果",
+  ["blessName"]= "BuffName_6014",
+  ["blessNameLocalized"]= "<color=#e49345>奥丁-神佑</color>",
+  ["buffId"]= 6014,
+  ["icon"]= 30020,
+  ["ID"]= 4,
+  ["type"]= 1
+},
+[5] = {
+  ["blessDes"]= "BuffDes_6111",
+  ["blessDesLocalized"]= "每级祝福牺牲3%最大血量提升1%伤害加成",
+  ["blessName"]= "BuffName_6111",
+  ["blessNameLocalized"]= "<color=#4d98d2>贝利-牺牲</color>",
+  ["buffId"]= 6111,
+  ["ID"]= 5,
+  ["quality"]= 1
+},
+[6] = {
+  ["blessDes"]= "BuffDes_6112",
+  ["blessDesLocalized"]= "对自身造成伤害的目标每级祝福有1%几率对其造成1层中毒效果，持续5秒    ",
+  ["blessName"]= "BuffName_6112",
+  ["blessNameLocalized"]= "<color=#4d98d2>贝利-瘟疫</color>",
+  ["buffId"]= 6112,
+  ["icon"]= 30005,
+  ["ID"]= 6,
+  ["quality"]= 1
+},
+[7] = {
+  ["blessDes"]= "BuffDes_6113",
+  ["blessDesLocalized"]= "每级祝福提升3%基础异常状态抵抗",
+  ["blessName"]= "BuffName_6113",
+  ["blessNameLocalized"]= "<color=#4d98d2>贝利-抵抗</color>",
+  ["buffId"]= 6113,
+  ["icon"]= 30006,
+  ["ID"]= 7,
+  ["quality"]= 1
+},
+[8] = {
+  ["blessDes"]= "BuffDes_6114",
+  ["blessDesLocalized"]= "普通攻击时每级祝福提升1%几率释放暗之障壁，区域内全体成员免疫近战物理伤害，持续5秒，抵挡上限为3次",
+  ["blessName"]= "BuffName_6114",
+  ["blessNameLocalized"]= "<color=#4d98d2>贝利-暗壁</color>",
+  ["buffId"]= 6114,
+  ["icon"]= 30016,
+  ["ID"]= 8,
+  ["quality"]= 1
+},
+[9] = {
+  ["blessDes"]= "BuffDes_6121",
+  ["blessDesLocalized"]= "牺牲3%最大血量提升2%伤害加成",
+  ["blessName"]= "BuffName_6121",
+  ["blessNameLocalized"]= "<color=#a26fd2>贝利-牺牲</color>",
+  ["buffId"]= 6121,
+  ["ID"]= 9,
+  ["quality"]= 2
+},
+[10] = {
+  ["blessDes"]= "BuffDes_6122",
+  ["blessDesLocalized"]= "对自身造成伤害的目标每级祝福有3%几率造成2层中毒效果，持续5秒",
+  ["blessName"]= "BuffName_6122",
+  ["blessNameLocalized"]= "<color=#a26fd2>贝利-瘟疫</color>",
+  ["buffId"]= 6122,
+  ["icon"]= 30005,
+  ["ID"]= 10,
+  ["quality"]= 2
+},
+[11] = {
+  ["blessDes"]= "BuffDes_6123",
+  ["blessDesLocalized"]= "每级祝福提升5%基础异常状态抵抗",
+  ["blessName"]= "BuffName_6123",
+  ["blessNameLocalized"]= "<color=#a26fd2>贝利-抵抗</color>",
+  ["buffId"]= 6123,
+  ["icon"]= 30006,
+  ["ID"]= 11,
+  ["quality"]= 2
+},
+[12] = {
+  ["blessDes"]= "BuffDes_6124",
+  ["blessDesLocalized"]= "普通攻击时每级祝福提升1.2%几率释放暗之障壁，区域内全体成员免疫近战物理伤害，持续5秒，抵挡上限为3次",
+  ["blessName"]= "BuffName_6124",
+  ["blessNameLocalized"]= "<color=#a26fd2>贝利-暗壁</color>",
+  ["buffId"]= 6124,
+  ["icon"]= 30016,
+  ["ID"]= 12,
+  ["quality"]= 2
+},
+[13] = {
+  ["blessDes"]= "BuffDes_6131",
+  ["blessDesLocalized"]= "牺牲3%最大血量提升3%伤害加成",
+  ["blessName"]= "BuffName_6131",
+  ["blessNameLocalized"]= "<color=#e49345>贝利-牺牲</color>",
+  ["buffId"]= 6131,
+  ["ID"]= 13
+},
+[14] = {
+  ["blessDes"]= "BuffDes_6132",
+  ["blessDesLocalized"]= "对自身造成伤害的目标每级祝福有5%几率造成3层中毒效果，持续5秒",
+  ["blessName"]= "BuffName_6132",
+  ["blessNameLocalized"]= "<color=#e49345>贝利-瘟疫</color>",
+  ["buffId"]= 6132,
+  ["icon"]= 30005,
+  ["ID"]= 14
+},
+[15] = {
+  ["blessDes"]= "BuffDes_6133",
+  ["blessDesLocalized"]= "每级祝福提升10%基础异常状态抵抗",
+  ["blessName"]= "BuffName_6133",
+  ["blessNameLocalized"]= "<color=#e49345>贝利-抵抗</color>",
+  ["buffId"]= 6133,
+  ["icon"]= 30006,
+  ["ID"]= 15
+},
+[16] = {
+  ["blessDes"]= "BuffDes_6134",
+  ["blessDesLocalized"]= "普通攻击时每级祝福提升1.5%几率释放暗之障壁，区域内全体成员免疫近战物理伤害，持续5秒，抵挡上限为3次",
+  ["blessName"]= "BuffName_6134",
+  ["blessNameLocalized"]= "<color=#e49345>贝利-暗壁</color>",
+  ["buffId"]= 6134,
+  ["icon"]= 30016,
+  ["ID"]= 16
+},
+[17] = {
+  ["blessDes"]= "BuffDes_6211",
+  ["blessDesLocalized"]= "每级祝福提升2%移动速度",
+  ["blessName"]= "BuffName_6211",
+  ["blessNameLocalized"]= "<color=#4d98d2>洛奇-敏捷</color>",
+  ["buffId"]= 6211,
+  ["icon"]= 30007,
+  ["ID"]= 17,
+  ["quality"]= 1,
+  ["type"]= 3
+},
+[18] = {
+  ["blessDes"]= "BuffDes_6212",
+  ["blessDesLocalized"]= "释放技能时每级祝福有1%几率立刻刷新当前技能冷却时间",
+  ["blessName"]= "BuffName_6212",
+  ["blessNameLocalized"]= "<color=#4d98d2>洛奇-狡猾</color>",
+  ["buffId"]= 6212,
+  ["icon"]= 30008,
+  ["ID"]= 18,
+  ["quality"]= 1,
+  ["type"]= 3
+},
+[19] = {
+  ["blessDes"]= "BuffDes_6213",
+  ["blessDesLocalized"]= "每级祝福提升2%暴击率和暴伤附加",
+  ["blessName"]= "BuffName_6213",
+  ["blessNameLocalized"]= "<color=#4d98d2>洛奇-锐利</color>",
+  ["buffId"]= 6213,
+  ["icon"]= 30009,
+  ["ID"]= 19,
+  ["quality"]= 1,
+  ["type"]= 3
+},
+[20] = {
+  ["blessDes"]= "BuffDes_6214",
+  ["blessDesLocalized"]= "每击败一名魔物时，每级祝福提升0.3%伤害加成，提升0.5%体型加成，加成效果可叠加，效果持续3秒，击杀魔物后重置持续时间",
+  ["blessName"]= "BuffName_6214",
+  ["blessNameLocalized"]= "<color=#4d98d2>洛奇-杀戮</color>",
+  ["buffId"]= 6214,
+  ["icon"]= 30017,
+  ["ID"]= 20,
+  ["quality"]= 1,
+  ["type"]= 3
+},
+[21] = {
+  ["blessDes"]= "BuffDes_6221",
+  ["blessDesLocalized"]= "每级祝福提升3%移动速度",
+  ["blessName"]= "BuffName_6221",
+  ["blessNameLocalized"]= "<color=#a26fd2>洛奇-敏捷</color>",
+  ["buffId"]= 6221,
+  ["icon"]= 30007,
+  ["ID"]= 21,
+  ["quality"]= 2,
+  ["type"]= 3
+},
+[22] = {
+  ["blessDes"]= "BuffDes_6222",
+  ["blessDesLocalized"]= "释放技能时每级祝福有2%几率立刻刷新当前技能",
+  ["blessName"]= "BuffName_6222",
+  ["blessNameLocalized"]= "<color=#a26fd2>洛奇-狡猾</color>",
+  ["buffId"]= 6222,
+  ["icon"]= 30008,
+  ["ID"]= 22,
+  ["quality"]= 2,
+  ["type"]= 3
+},
+[23] = {
+  ["blessDes"]= "BuffDes_6223",
+  ["blessDesLocalized"]= "每级祝福提升3%暴击率和暴伤附加",
+  ["blessName"]= "BuffName_6223",
+  ["blessNameLocalized"]= "<color=#a26fd2>洛奇-锐利</color>",
+  ["buffId"]= 6223,
+  ["icon"]= 30009,
+  ["ID"]= 23,
+  ["quality"]= 2,
+  ["type"]= 3
+},
+[24] = {
+  ["blessDes"]= "BuffDes_6224",
+  ["blessDesLocalized"]= "每击败一名魔物时，每级祝福提升0.4%伤害加成，提升0.5%体型加成，加成效果可叠加，效果持续3秒，击杀魔物后重置持续时间",
+  ["blessName"]= "BuffName_6224",
+  ["blessNameLocalized"]= "<color=#a26fd2>洛奇-杀戮</color>",
+  ["buffId"]= 6224,
+  ["icon"]= 30017,
+  ["ID"]= 24,
+  ["quality"]= 2,
+  ["type"]= 3
+},
+[25] = {
+  ["blessDes"]= "BuffDes_6231",
+  ["blessDesLocalized"]= "每级祝福提升5%移动速度",
+  ["blessName"]= "BuffName_6231",
+  ["blessNameLocalized"]= "<color=#e49345>洛奇-敏捷</color>",
+  ["buffId"]= 6231,
+  ["icon"]= 30007,
+  ["ID"]= 25,
+  ["type"]= 3
+},
+[26] = {
+  ["blessDes"]= "BuffDes_6232",
+  ["blessDesLocalized"]= "释放技能时每级祝福有3%几率立刻刷新当前技能",
+  ["blessName"]= "BuffName_6232",
+  ["blessNameLocalized"]= "<color=#e49345>洛奇-狡猾</color>",
+  ["buffId"]= 6232,
+  ["icon"]= 30008,
+  ["ID"]= 26,
+  ["type"]= 3
+},
+[27] = {
+  ["blessDes"]= "BuffDes_6233",
+  ["blessDesLocalized"]= "每级祝福提升5%暴击率和暴伤附加",
+  ["blessName"]= "BuffName_6233",
+  ["blessNameLocalized"]= "<color=#e49345>洛奇-锐利</color>",
+  ["buffId"]= 6233,
+  ["icon"]= 30009,
+  ["ID"]= 27,
+  ["type"]= 3
+},
+[28] = {
+  ["blessDes"]= "BuffDes_6234",
+  ["blessDesLocalized"]= "每击败一名魔物时，每级祝福提升0.5%伤害加成，提升0.5%体型加成，加成效果可叠加，效果持续3秒，击杀魔物后重置持续时间",
+  ["blessName"]= "BuffName_6234",
+  ["blessNameLocalized"]= "<color=#e49345>洛奇-杀戮</color>",
+  ["buffId"]= 6234,
+  ["icon"]= 30017,
+  ["ID"]= 28,
+  ["type"]= 3
+},
+[29] = {
+  ["blessDes"]= "BuffDes_6311",
+  ["blessDesLocalized"]= "受到伤害后每级祝福有1%几率立刻恢复10%损失血量",
+  ["blessName"]= "BuffName_6311",
+  ["blessNameLocalized"]= "<color=#4d98d2>迪塔乐-嗜血</color>",
+  ["buffId"]= 6311,
+  ["icon"]= 30010,
+  ["ID"]= 29,
+  ["quality"]= 1,
+  ["type"]= 4
+},
+[30] = {
+  ["blessDes"]= "BuffDes_6312",
+  ["blessDesLocalized"]= "每级祝福提升1%伤害反弹",
+  ["blessName"]= "BuffName_6312",
+  ["blessNameLocalized"]= "<color=#4d98d2>迪塔乐-生存</color>",
+  ["buffId"]= 6312,
+  ["icon"]= 30011,
+  ["ID"]= 30,
+  ["quality"]= 1,
+  ["type"]= 4
+},
+[31] = {
+  ["blessDes"]= "BuffDes_6313",
+  ["blessDesLocalized"]= "每级祝福1%几率格挡近战伤害，2%几率格挡远程伤害",
+  ["blessName"]= "BuffName_6313",
+  ["blessNameLocalized"]= "<color=#4d98d2>迪塔乐-不朽</color>",
+  ["buffId"]= 6313,
+  ["icon"]= 30012,
+  ["ID"]= 31,
+  ["quality"]= 1,
+  ["type"]= 4
+},
+[32] = {
+  ["blessDes"]= "BuffDes_6314",
+  ["blessDesLocalized"]= "受到伤害后每级祝福提升1%几率释放颂歌，给予全体小队成员霸邪之阵效果，霸邪之阵最多抵挡2次伤害，持续3秒，当抵挡的伤害达到受益者10%MaxHP时，护盾提前消失",
+  ["blessName"]= "BuffName_6314",
+  ["blessNameLocalized"]= "<color=#4d98d2>迪塔乐-颂歌</color>",
+  ["buffId"]= 6314,
+  ["icon"]= 30018,
+  ["ID"]= 32,
+  ["quality"]= 1,
+  ["type"]= 4
+},
+[33] = {
+  ["blessDes"]= "BuffDes_6321",
+  ["blessDesLocalized"]= "受到伤害后每级祝福有1.5%几率立刻恢复15%损失血量",
+  ["blessName"]= "BuffName_6321",
+  ["blessNameLocalized"]= "<color=#a26fd2>迪塔乐-嗜血</color>",
+  ["buffId"]= 6321,
+  ["icon"]= 30010,
+  ["ID"]= 33,
+  ["quality"]= 2,
+  ["type"]= 4
+},
+[34] = {
+  ["blessDes"]= "BuffDes_6322",
+  ["blessDesLocalized"]= "每级祝福提升2%伤害反弹",
+  ["blessName"]= "BuffName_6322",
+  ["blessNameLocalized"]= "<color=#a26fd2>迪塔乐-生存</color>",
+  ["buffId"]= 6322,
+  ["icon"]= 30011,
+  ["ID"]= 34,
+  ["quality"]= 2,
+  ["type"]= 4
+},
+[35] = {
+  ["blessDes"]= "BuffDes_6323",
+  ["blessDesLocalized"]= "每级祝福2%几率格挡近战伤害，3%几率格挡远程伤害",
+  ["blessName"]= "BuffName_6323",
+  ["blessNameLocalized"]= "<color=#a26fd2>迪塔乐-不朽</color>",
+  ["buffId"]= 6323,
+  ["icon"]= 30012,
+  ["ID"]= 35,
+  ["quality"]= 2,
+  ["type"]= 4
+},
+[36] = {
+  ["blessDes"]= "BuffDes_6324",
+  ["blessDesLocalized"]= "受到伤害后每级祝福提升1.5%几率释放颂歌，给予全体小队成员霸邪之阵效果，霸邪之阵最多抵挡2次伤害，持续3秒，当抵挡的伤害达到受益者10%MaxHP时，护盾提前消失",
+  ["blessName"]= "BuffName_6324",
+  ["blessNameLocalized"]= "<color=#a26fd2>迪塔乐-颂歌</color>",
+  ["buffId"]= 6324,
+  ["icon"]= 30018,
+  ["ID"]= 36,
+  ["quality"]= 2,
+  ["type"]= 4
+},
+[37] = {
+  ["blessDes"]= "BuffDes_6331",
+  ["blessDesLocalized"]= "受到伤害后每级祝福有2%几率立刻恢复20%损失血量",
+  ["blessName"]= "BuffName_6331",
+  ["blessNameLocalized"]= "<color=#e49345>迪塔乐-嗜血</color>",
+  ["buffId"]= 6331,
+  ["icon"]= 30010,
+  ["ID"]= 37,
+  ["type"]= 4
+},
+[38] = {
+  ["blessDes"]= "BuffDes_6332",
+  ["blessDesLocalized"]= "每级祝福提升3%伤害反弹",
+  ["blessName"]= "BuffName_6332",
+  ["blessNameLocalized"]= "<color=#e49345>迪塔乐-生存</color>",
+  ["buffId"]= 6332,
+  ["icon"]= 30011,
+  ["ID"]= 38,
+  ["type"]= 4
+},
+[39] = {
+  ["blessDes"]= "BuffDes_6333",
+  ["blessDesLocalized"]= "每级祝福3%几率格挡近战伤害，4%几率格挡远程伤害",
+  ["blessName"]= "BuffName_6333",
+  ["blessNameLocalized"]= "<color=#e49345>迪塔乐-不朽</color>",
+  ["buffId"]= 6333,
+  ["icon"]= 30012,
+  ["ID"]= 39,
+  ["type"]= 4
+},
+[40] = {
+  ["blessDes"]= "BuffDes_6334",
+  ["blessDesLocalized"]= "受到伤害后每级祝福提升2%几率释放颂歌，给予全体小队成员霸邪之阵效果，霸邪之阵最多抵挡2次伤害，持续3秒，当抵挡的伤害达到受益者10%MaxHP时，护盾提前消失",
+  ["blessName"]= "BuffName_6334",
+  ["blessNameLocalized"]= "<color=#e49345>迪塔乐-颂歌</color>",
+  ["buffId"]= 6334,
+  ["icon"]= 30018,
+  ["ID"]= 40,
+  ["type"]= 4
+},
+[41] = {
+  ["blessDes"]= "BuffDes_6411",
+  ["blessDesLocalized"]= "普通攻击时每级祝福提升2%几率使目标造成武器破坏状态，持续10秒",
+  ["blessName"]= "BuffName_6411",
+  ["blessNameLocalized"]= "<color=#4d98d2>菲依-虚弱</color>",
+  ["buffId"]= 6411,
+  ["icon"]= 30013,
+  ["ID"]= 41,
+  ["quality"]= 1,
+  ["type"]= 5
+},
+[42] = {
+  ["blessDes"]= "BuffDes_6412",
+  ["blessDesLocalized"]= "技能攻击时每级祝福提升2%几率使目标造成铠甲破坏状态，持续10秒",
+  ["blessName"]= "BuffName_6412",
+  ["blessNameLocalized"]= "<color=#4d98d2>菲依-撕裂</color>",
+  ["buffId"]= 6412,
+  ["icon"]= 30014,
+  ["ID"]= 42,
+  ["quality"]= 1,
+  ["type"]= 5
+},
+[43] = {
+  ["blessDes"]= "BuffDes_6413",
+  ["blessDesLocalized"]= "每级祝福受到治疗效果提升2%",
+  ["blessName"]= "BuffName_6413",
+  ["blessNameLocalized"]= "<color=#4d98d2>菲依-治愈</color>",
+  ["buffId"]= 6413,
+  ["icon"]= 30015,
+  ["ID"]= 43,
+  ["quality"]= 1,
+  ["type"]= 5
+},
+[44] = {
+  ["blessDes"]= "BuffDes_6414",
+  ["blessDesLocalized"]= "技能攻击时每级祝福提升3%几率释放霜冻之术，有60%概率冻结自身半径4米范围内敌方单位，冰冻状态持续3秒，被冰冻单位受到攻击会提前解封",
+  ["blessName"]= "BuffName_6414",
+  ["blessNameLocalized"]= "<color=#4d98d2>菲依-霜冻</color>",
+  ["buffId"]= 6414,
+  ["icon"]= 30019,
+  ["ID"]= 44,
+  ["quality"]= 1,
+  ["type"]= 5
+},
+[45] = {
+  ["blessDes"]= "BuffDes_6421",
+  ["blessDesLocalized"]= "普通攻击时每级祝福提升3%几率使目标造成武器破坏状态，持续10秒",
+  ["blessName"]= "BuffName_6421",
+  ["blessNameLocalized"]= "<color=#a26fd2>菲依-虚弱</color>",
+  ["buffId"]= 6421,
+  ["icon"]= 30013,
+  ["ID"]= 45,
+  ["quality"]= 2,
+  ["type"]= 5
+},
+[46] = {
+  ["blessDes"]= "BuffDes_6422",
+  ["blessDesLocalized"]= "技能攻击时每级祝福提升3%几率使目标造成铠甲破坏状态，持续10秒",
+  ["blessName"]= "BuffName_6422",
+  ["blessNameLocalized"]= "<color=#a26fd2>菲依-撕裂</color>",
+  ["buffId"]= 6422,
+  ["icon"]= 30014,
+  ["ID"]= 46,
+  ["quality"]= 2,
+  ["type"]= 5
+},
+[47] = {
+  ["blessDes"]= "BuffDes_6423",
+  ["blessDesLocalized"]= "每级祝福受到治疗效果提升5%",
+  ["blessName"]= "BuffName_6423",
+  ["blessNameLocalized"]= "<color=#a26fd2>菲依-治愈</color>",
+  ["buffId"]= 6423,
+  ["icon"]= 30015,
+  ["ID"]= 47,
+  ["quality"]= 2,
+  ["type"]= 5
+},
+[48] = {
+  ["blessDes"]= "BuffDes_6424",
+  ["blessDesLocalized"]= "技能攻击时每级祝福提升4%几率释放霜冻之术，有60%概率冻结自身半径4米范围内敌方单位，冰冻状态持续3秒，被冰冻单位受到攻击会提前解封",
+  ["blessName"]= "BuffName_6424",
+  ["blessNameLocalized"]= "<color=#a26fd2>菲依-霜冻</color>",
+  ["buffId"]= 6424,
+  ["icon"]= 30019,
+  ["ID"]= 48,
+  ["quality"]= 2,
+  ["type"]= 5
+},
+[49] = {
+  ["blessDes"]= "BuffDes_6431",
+  ["blessDesLocalized"]= "普通攻击时每级祝福提升4%几率使目标造成武器破坏状态，持续10秒",
+  ["blessName"]= "BuffName_6431",
+  ["blessNameLocalized"]= "<color=#e49345>菲依-虚弱</color>",
+  ["buffId"]= 6431,
+  ["icon"]= 30013,
+  ["ID"]= 49,
+  ["type"]= 5
+},
+[50] = {
+  ["blessDes"]= "BuffDes_6432",
+  ["blessDesLocalized"]= "技能攻击时每级祝福提升4%几率使目标造成铠甲破坏状态，持续10秒",
+  ["blessName"]= "BuffName_6432",
+  ["blessNameLocalized"]= "<color=#e49345>菲依-撕裂</color>",
+  ["buffId"]= 6432,
+  ["icon"]= 30014,
+  ["ID"]= 50,
+  ["type"]= 5
+},
+[51] = {
+  ["blessDes"]= "BuffDes_6433",
+  ["blessDesLocalized"]= "每级祝福受到治疗效果提升10%",
+  ["blessName"]= "BuffName_6433",
+  ["blessNameLocalized"]= "<color=#e49345>菲依-治愈</color>",
+  ["buffId"]= 6433,
+  ["icon"]= 30015,
+  ["ID"]= 51,
+  ["type"]= 5
+},
+[52] = {
+  ["blessDes"]= "BuffDes_6434",
+  ["blessDesLocalized"]= "技能攻击时每级祝福提升5%几率释放霜冻之术，有60%概率冻结自身半径4米范围内敌方单位，冰冻状态持续3秒，被冰冻单位受到攻击会提前解封",
+  ["blessName"]= "BuffName_6434",
+  ["blessNameLocalized"]= "<color=#e49345>菲依-霜冻</color>",
+  ["buffId"]= 6434,
+  ["icon"]= 30019,
+  ["ID"]= 52,
+  ["type"]= 5
+}
+}
+local baseTable={
+  ["blessDes"]= "BuffDes_6011",
+  ["blessDesLocalized"]= "每级祝福提升3%最大血量和伤害减免",
+  ["blessName"]= "BuffName_6011",
+  ["blessNameLocalized"]= "<color=#e49345>奥丁-健康</color>",
+  ["buffId"]= 6011,
+  ["icon"]= 30004,
+  ["ID"]= 1,
+  ["increaseCoinPr"]= 0,
+  ["maxLevel"]= 10,
+  ["quality"]= 3,
+  ["qualityPromotePr"]= 0,
+  ["type"]= 2
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

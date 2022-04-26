@@ -1,0 +1,81 @@
+local table= {
+[1] = {}
+}
+local baseTable={
+  ["EffectNum"]= {
+    0,
+    10,
+    12,
+    14
+  },
+  ["EffectRange"]= {
+    0,
+    15,
+    20,
+    40
+  },
+  ["FloatDigitRange"]= {
+    0,
+    20,
+    30,
+    40
+  },
+  ["MonsterMaxNum"]= {
+    10,
+    15,
+    20,
+    25
+  },
+  ["MonsterRange"]= {
+    15,
+    20,
+    30,
+    50
+  },
+  ["NameRange"]= {
+    0,
+    10,
+    20,
+    30
+  },
+  ["NPCMaxNum"]= {
+    10,
+    15,
+    20,
+    25
+  },
+  ["NPCRange"]= {
+    15,
+    20,
+    30,
+    50
+  },
+  ["numbers"]= {
+    0,
+    10,
+    15,
+    20
+  },
+  ["PlayerRange"]= {
+    15,
+    20,
+    30,
+    50
+  },
+  ["ResolutionScale"]= {
+    250,
+    320,
+    360,
+    420
+  },
+  ["SetLoadPeriod"]= {
+    0,
+    0,
+    0,
+    0
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

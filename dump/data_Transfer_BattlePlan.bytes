@@ -1,0 +1,76 @@
+local table= {
+[1001] = {}
+}
+local baseTable={
+  ["attr"]= {
+    {
+      ["id"]= 1,
+      ["val"]= 1
+    },
+    {
+      ["id"]= 2,
+      ["val"]= 1
+    }
+  },
+  ["equip"]= {
+    1001
+  },
+  ["id"]= 1001,
+  ["job"]= 1200,
+  ["shadowequip"]= {
+    1001
+  },
+  ["skill"]= {
+    {
+      ["id"]= 1200121,
+      ["skilllevel"]= 1
+    },
+    {
+      ["id"]= 1200126,
+      ["skilllevel"]= 1
+    },
+    {
+      ["id"]= 1200123,
+      ["skilllevel"]= 1
+    },
+    {
+      ["id"]= 1200122,
+      ["skilllevel"]= 1
+    },
+    {
+      ["id"]= 1200128,
+      ["skilllevel"]= 1
+    }
+  },
+  ["skillSlot"]= {
+    {
+      ["id"]= 1200121,
+      ["index"]= 1,
+      ["skilllevel"]= 1
+    },
+    {
+      ["id"]= 1200126,
+      ["index"]= 2,
+      ["skilllevel"]= 1
+    },
+    {
+      ["id"]= 1200123,
+      ["index"]= 3,
+      ["skilllevel"]= 1
+    },
+    {
+      ["id"]= 1200122,
+      ["index"]= 4,
+      ["skilllevel"]= 1
+    },
+    {
+      ["id"]= 1200128,
+      ["index"]= 5,
+      ["skilllevel"]= 1
+    }
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

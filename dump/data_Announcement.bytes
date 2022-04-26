@@ -1,0 +1,655 @@
+local table= {
+[1] = {
+  ["content"]= "AnnouncementNormalTest",
+  ["contentLocalized"]= "HI %s 我是一条普普通通的公告测试，你的等级 %s ",
+  ["isShowInChat"]= 0,
+  ["level"]= 0,
+  ["speed"]= 2
+},
+[2] = {
+  ["content"]= "AnnouncementHighTest",
+  ["contentLocalized"]= "HI %s 我是一条灰常高级的公告测试，你的等级 %s ",
+  ["isShowInChat"]= 0,
+  ["key"]= 2,
+  ["level"]= 50,
+  ["scene"]= {
+    1110
+  },
+  ["showOrder"]= 2
+},
+[3] = {
+  ["content"]= "AnnouncementMvpRefresh",
+  ["contentLocalized"]= "%s即将刷新在%s {1线}，勇士们冲呀(｀・ω・´)",
+  ["isShowInChat"]= 0,
+  ["key"]= 3,
+  ["paramType"]= {
+    4,
+    1
+  }
+},
+[4] = {
+  ["content"]= "AnnouncementOX_1",
+  ["contentLocalized"]= "由于观众席中大部分的选手选择正确，我们将增加下一题的答题时间！",
+  ["isShowInMain"]= 0,
+  ["key"]= 4,
+  ["level"]= 0,
+  ["showOrder"]= 3
+},
+[5] = {
+  ["chatChannel"]= 3,
+  ["content"]= "AnnouncementGve_1",
+  ["contentLocalized"]= "异界之门将于5分钟后开启，本公会成员可通过领地内的瓦尔基里进入战斗区域",
+  ["key"]= 5
+},
+[6] = {
+  ["chatChannel"]= 3,
+  ["content"]= "AnnouncementGve_2",
+  ["contentLocalized"]= "异界之门将于3分钟后开启，本公会成员可通过领地内的瓦尔基里进入战斗区域",
+  ["key"]= 6
+},
+[7] = {
+  ["chatChannel"]= 3,
+  ["content"]= "AnnouncementGve_3",
+  ["contentLocalized"]= "异界之门将于1分钟后开启，本公会成员可通过领地内的瓦尔基里进入战斗区域",
+  ["key"]= 7
+},
+[8] = {
+  ["chatChannel"]= 3,
+  ["content"]= "AnnouncementGve_4",
+  ["contentLocalized"]= "异界之门已经开启！请尽快前往公会领地参加战斗",
+  ["key"]= 8
+},
+[9] = {
+  ["content"]= "AnnouncementGkvm_1",
+  ["contentLocalized"]= "公会KVM将在5分钟开启，勇士们快邀请小伙伴一起开战！",
+  ["key"]= 9
+},
+[10] = {
+  ["content"]= "AnnouncementGkvm_2",
+  ["contentLocalized"]= "本赛季公会KVM已经结束，恭喜%s公会夺得第一名！",
+  ["isShowInChat"]= 0,
+  ["isShowInMain"]= 0,
+  ["key"]= 10,
+  ["paramType"]= {
+    5
+  }
+},
+[11] = {
+  ["content"]= "AnnouncementOX_2",
+  ["contentLocalized"]= "福利多多！惊喜多多！OX答题开启倒计时5分钟,请抓紧时间参与哦~",
+  ["key"]= 11
+},
+[12] = {
+  ["content"]= "AnnouncementOX_3",
+  ["contentLocalized"]= "OX答题正式开启,请做好答题准备哦~未参与的冒险者大人请下次参与哦~",
+  ["key"]= 12
+},
+[13] = {
+  ["content"]= "AnnouncementPKtrade_1",
+  ["contentLocalized"]= "商品<color=#ec8a5a>%s</color>进入PK竞价环节！60秒后将开启终极PK，快去围观！",
+  ["key"]= 13,
+  ["level"]= 24,
+  ["paramType"]= {
+    2
+  }
+},
+[14] = {
+  ["content"]= "AnnouncementPKtrade_2",
+  ["contentLocalized"]= "商品<color=#ec8a5a>%s</color>最终由玩家<color=#e7bb22>%s%s</color>竞拍获得，成交价：<color=#ec8a5a>%s钻石</color>！",
+  ["key"]= 14,
+  ["level"]= 24,
+  ["paramType"]= {
+    2,
+    5,
+    6,
+    5
+  }
+},
+[15] = {
+  ["content"]= "LotteryTips6",
+  ["contentLocalized"]= "本期王国竞猜即将开奖,敬请期待哦~",
+  ["key"]= 15
+},
+[16] = {
+  ["content"]= "LotteryTips7",
+  ["contentLocalized"]= "本期王国竞猜第%s个幸运号码是%s,你猜对了吗？",
+  ["key"]= 16,
+  ["paramType"]= {
+    0,
+    0
+  }
+},
+[17] = {
+  ["content"]= "AnnouncementInvadeRefresh",
+  ["contentLocalized"]= "<color=#FF6F76>%s</color>受到了冥霭天气的影响，<color=#FF6F76>%s {1线}</color>即将出现异界裂缝",
+  ["key"]= 17,
+  ["paramType"]= {
+    4,
+    1
+  }
+},
+[18] = {
+  ["content"]= "AnnouncementTradeAdvert_1",
+  ["contentLocalized"]= "冒险者<color=#ec8a5a>%s%s</color>在钻石拍卖行上架了<color=#ec8a5a>%s</color>，稀有商品，欲购从速~",
+  ["key"]= 18,
+  ["level"]= 24,
+  ["paramType"]= {
+    5,
+    6,
+    2
+  }
+},
+[19] = {
+  ["content"]= "AnnouncementBloodyBranch",
+  ["contentLocalized"]= "<color=#ec8a5a>%s</color>在公会领地使用了血迹树枝，竟召唤出<color=#ec8a5a>%s</color>，快去参与讨伐吧！",
+  ["key"]= 19,
+  ["paramType"]= {
+    0,
+    4
+  }
+},
+[20] = {
+  ["content"]= "Announcementhunterking_1",
+  ["contentLocalized"]= "<color=#ec8a5a>王牌争霸赛</color>初赛已全部结束，请晋级人员进入决赛场地，决赛将在两分钟后正式开始！",
+  ["isShowInChat"]= 0,
+  ["key"]= 20,
+  ["level"]= 40
+},
+[21] = {
+  ["chatChannel"]= 1,
+  ["content"]= "AnnouncementGifts_1",
+  ["contentLocalized"]= "<color=#ec8a5a>{0}</color>赠送了<color=#ec8a5a>{1}</color><color=#5d98e7>{2}</color>*<color=#5d98e7>{3}</color>,加深了两人之间的羁绊~",
+  ["isShowInMain"]= 0,
+  ["key"]= 21,
+  ["paramType"]= {
+    5,
+    5,
+    2,
+    5
+  }
+},
+[22] = {
+  ["content"]= "Announcementhunterking_2",
+  ["contentLocalized"]= "<color=#ec8a5a>王牌争霸赛</color>报名开始！报名时间<color=#ec8a5a>3分钟</color>，请参赛者前往酒馆门口<color=#ec8a5a>托尼·崔</color>处报名",
+  ["key"]= 22,
+  ["level"]= 40
+},
+[23] = {
+  ["content"]= "Announcementhunterking_3",
+  ["contentLocalized"]= "<color=#ec8a5a>王牌争霸赛</color>报名结束！初赛将在<color=#ec8a5a>2分钟</color>后开始，请各位选手尽快入场~！",
+  ["key"]= 23,
+  ["level"]= 40
+},
+[24] = {
+  ["content"]= "AnnouncemenHalloween_1",
+  ["contentLocalized"]= "<color=#ec8a5a>万圣狂欢派对</color>将于<color=#ec8a5a>5分钟</color>后开启，勇士们可前往<color=#ec8a5a>普隆德拉奥丁神像</color>处等待进入",
+  ["isShowInChat"]= 0,
+  ["key"]= 24,
+  ["level"]= 35
+},
+[25] = {
+  ["content"]= "AnnouncemenHalloween_2",
+  ["contentLocalized"]= "<color=#ec8a5a>万圣狂欢派对</color>已开启，勇士们可前往<color=#ec8a5a>普隆德拉奥丁神像</color>进入",
+  ["isShowInChat"]= 0,
+  ["key"]= 25,
+  ["level"]= 35
+},
+[26] = {
+  ["content"]= "GVG_ui_tips_050",
+  ["contentLocalized"]= "<color=#3882CBFF>%s</color>成功在限定时间内抵御入侵者，守卫华丽水晶不被击毁，获得据点归属权！",
+  ["isShowInChat"]= 0,
+  ["key"]= 26,
+  ["paramType"]= {
+    5
+  },
+  ["speed"]= 3
+},
+[27] = {
+  ["content"]= "GVG_ui_tips_051",
+  ["contentLocalized"]= "<color=#3882CBFF>%s</color>【<color=#E15B65FF>%s</color>】成功击毁<color=#3882CBFF>%s</color>守护的华丽水晶，获得%s据点防守权！30秒后将开启新一轮的公会战",
+  ["isShowInChat"]= 0,
+  ["key"]= 27,
+  ["paramType"]= {
+    5,
+    5,
+    5,
+    5
+  },
+  ["speed"]= 3
+},
+[28] = {
+  ["content"]= "GVG_ui_tips_052",
+  ["contentLocalized"]= "限定时间内华丽水晶未被击毁，战场重置！30秒后将开始新一轮的攻城战！",
+  ["isShowInChat"]= 0,
+  ["key"]= 28,
+  ["speed"]= 3
+},
+[29] = {
+  ["content"]= "GVG_ui_tips_053",
+  ["contentLocalized"]= "<color=#3882CBFF>%s</color>【<color=#E15B65FF>%s</color>】成功击毁华丽水晶，获得%s据点防守权！30秒后将开启新一轮的公会战",
+  ["isShowInChat"]= 0,
+  ["key"]= 29,
+  ["paramType"]= {
+    5,
+    5,
+    5
+  },
+  ["speed"]= 3
+},
+[30] = {
+  ["content"]= "GhostPassword_01",
+  ["contentLocalized"]= "凭借无与伦比的智慧，<color=#d14d75>%s</color>发现了幽灵密码的奥秘，并率先解密成功~！",
+  ["isShowInChat"]= 0,
+  ["key"]= 30,
+  ["speed"]= 2
+},
+[31] = {
+  ["content"]= "AnnouncemenHalloween_3",
+  ["contentLocalized"]= "<color=#ec8a5a>%s</color>在<color=#ec8a5a>万圣狂欢派对</color>中击败<color=#ec8a5a>%s</color>获得稀有物品<color=#ec8a5a>%s</color>",
+  ["key"]= 31,
+  ["paramType"]= {
+    5,
+    4,
+    2
+  }
+},
+[32] = {
+  ["content"]= "Announcementhunterking_4",
+  ["contentLocalized"]= "强者诞生！<color=#ec8a5a>%s</color>在王牌争霸赛中击败了所有参赛冒险者，受封<color=#ec8a5a>王牌斗士</color>！",
+  ["key"]= 32,
+  ["level"]= 40,
+  ["paramType"]= {
+    5
+  },
+  ["speed"]= 2
+},
+[33] = {
+  ["content"]= "AnnouncemenChristmas_1",
+  ["contentLocalized"]= "<color=#ec8a5a>黄金天使波利气球</color>携带着稀有圣诞礼物出现在<color=#ec8a5a>吉芬</color>",
+  ["key"]= 33,
+  ["level"]= 25
+},
+[34] = {
+  ["content"]= "AnnouncemenChristmas_2",
+  ["contentLocalized"]= "<color=#ec8a5a>%s</color>精准射击！击破<color=#ec8a5a>%s</color>获得神秘圣诞礼物<color=#ec8a5a>%s</color>",
+  ["key"]= 34,
+  ["level"]= 25,
+  ["paramType"]= {
+    5,
+    4,
+    2
+  },
+  ["speed"]= 2
+},
+[35] = {
+  ["content"]= "AnnouncemenChristmas_3",
+  ["contentLocalized"]= "<color=#ec8a5a>%s</color>击破<color=#ec8a5a>%s</color>获得礼物兑换材料<color=#ec8a5a>%s</color>",
+  ["isShowInMain"]= 0,
+  ["key"]= 35,
+  ["level"]= 25,
+  ["paramType"]= {
+    5,
+    4,
+    2
+  },
+  ["scene"]= {
+    1210
+  }
+},
+[36] = {
+  ["content"]= "GVG_ui_tips_115",
+  ["contentLocalized"]= "限定时间内华丽水晶未被击毁，战场重置！",
+  ["isShowInChat"]= 0,
+  ["key"]= 36,
+  ["speed"]= 3
+},
+[37] = {
+  ["content"]= "WeddingAnnouncementTips001",
+  ["contentLocalized"]= "%s和%s预约的承慕之诺花车游行即将在普隆德拉大教堂门口隆重举行,参与游行更有丰富礼物可以领取,快去现场围观一下吧~",
+  ["key"]= 37,
+  ["paramType"]= {
+    5,
+    5
+  },
+  ["speed"]= 3
+},
+[38] = {
+  ["content"]= "AnnouncemenLantern_1",
+  ["contentLocalized"]= "<color=#ec8a5a>%s</color>与<color=#ec8a5a>%s</color>成功合成天灯，获得玉兔祝福！",
+  ["isShowInMain"]= 0,
+  ["key"]= 38,
+  ["paramType"]= {
+    5,
+    5
+  },
+  ["scene"]= {
+    1010
+  }
+},
+[39] = {
+  ["content"]= "AnnouncemenLantern_2",
+  ["contentLocalized"]= "<color=#ec8a5a>%s</color>与<color=#ec8a5a>%s</color>成功合成天灯！卡普拉贵宾<color=#ec8a5a>%s</color>获得元宵礼盒！",
+  ["isShowInMain"]= 0,
+  ["key"]= 39,
+  ["paramType"]= {
+    5,
+    5,
+    5
+  },
+  ["scene"]= {
+    1010
+  }
+},
+[40] = {
+  ["content"]= "AnnouncemenChildrens_1",
+  ["contentLocalized"]= "<color=#ec8a5a>黄金蜂后女王</color>携带着稀有礼物出现在<color=#ec8a5a>乐园团{1线}</color>",
+  ["key"]= 40,
+  ["level"]= 25
+},
+[41] = {
+  ["content"]= "AnnouncemenChildrens_2",
+  ["contentLocalized"]= "<color=#ec8a5a>%s</color>精准射击！射击<color=#ec8a5a>黄金蜂后女王</color>获得惊喜礼物<color=#ec8a5a>%s</color>",
+  ["key"]= 41,
+  ["level"]= 25,
+  ["paramType"]= {
+    5,
+    2
+  },
+  ["speed"]= 2
+},
+[42] = {
+  ["content"]= "AnnouncemenChildrens_3",
+  ["contentLocalized"]= "<color=#ec8a5a>%s</color>获得礼物兑换材料<color=#ec8a5a>%s</color>",
+  ["isShowInMain"]= 0,
+  ["key"]= 42,
+  ["level"]= 25,
+  ["paramType"]= {
+    5,
+    2
+  },
+  ["scene"]= {
+    1020
+  }
+},
+[43] = {
+  ["content"]= "Announcementhunterking_5",
+  ["contentLocalized"]= "战场管理向场内投放<color=#ec8a5a>补给箱</color>，请各位冒险家查收",
+  ["isShowInChat"]= 0,
+  ["isShowInMain"]= 0,
+  ["key"]= 43,
+  ["scene"]= {
+    4003
+  }
+},
+[44] = {
+  ["content"]= "LotteryTicketsTips001",
+  ["contentLocalized"]= "幸运大乐透活动火热举办中，参与幸运大乐透可获得丰厚大奖，有意者请速速参加。",
+  ["key"]= 44,
+  ["paramType"]= {},
+  ["speed"]= 3
+},
+[45] = {
+  ["content"]= "LotteryTicketsTips002",
+  ["contentLocalized"]= "本期幸运大乐透开奖倒计时剩余%s分钟，敬请期待哦~",
+  ["key"]= 45,
+  ["paramType"]= {
+    5
+  },
+  ["speed"]= 3
+},
+[46] = {
+  ["content"]= "LotteryTicketsTips003",
+  ["contentLocalized"]= "本期幸运大乐透正在开奖，快快打开活动界面查看吧。",
+  ["key"]= 46,
+  ["paramType"]= {},
+  ["speed"]= 3
+},
+[47] = {
+  ["content"]= "LotteryTicketsTips004",
+  ["contentLocalized"]= "本期幸运大乐透第1位猜中全部幸运数字的幸运儿是%s,让我们一起恭喜这位幸运儿！",
+  ["key"]= 47,
+  ["paramType"]= {
+    5
+  },
+  ["speed"]= 3
+},
+[48] = {
+  ["content"]= "WonderWorldTips016",
+  ["contentLocalized"]= "亲爱的奇境行者~现在已有%s名玩家领走了朱菜的异世界集结礼包,集结等级已经达到%s级啦！快来一起砍价吧！朱菜也正在紧张补货中~",
+  ["key"]= 48,
+  ["paramType"]= {
+    5,
+    5
+  },
+  ["speed"]= 3
+},
+[49] = {
+  ["content"]= "AnnouncemenWhiteDay_1",
+  ["contentLocalized"]= "<color=#ec8a5a>%s</color>与<color=#ec8a5a>%s</color>成功合成曲奇，获得爱神丘比特祝福！",
+  ["isShowInMain"]= 0,
+  ["key"]= 49,
+  ["paramType"]= {
+    5,
+    5
+  },
+  ["scene"]= {
+    1010
+  }
+},
+[50] = {
+  ["content"]= "AnnouncemenWhiteDay_2",
+  ["contentLocalized"]= "情侣<color=#ec8a5a>%s</color>与<color=#ec8a5a>%s</color>成功合成曲奇，获得爱神丘比特祝福及粉色千纸鹤奖励！",
+  ["isShowInMain"]= 0,
+  ["key"]= 50,
+  ["paramType"]= {
+    5,
+    5
+  },
+  ["scene"]= {
+    1010
+  }
+},
+[98] = {
+  ["isShowInMain"]= 0,
+  ["key"]= 98,
+  ["level"]= 0
+},
+[99] = {
+  ["isShowInChat"]= 0,
+  ["key"]= 99,
+  ["level"]= 0
+},
+[100] = {
+  ["key"]= 100,
+  ["level"]= 0
+},
+[101] = {
+  ["content"]= "AnnouncementMuMa",
+  ["contentLocalized"]= "恭喜<color=#FF6F76>%s</color>是旋转木马第<color=#FF6F76>%s</color>位游客，获得珍贵<color=#FF6F76>乐园团金币</color>",
+  ["isShowInChat"]= 0,
+  ["key"]= 101,
+  ["needLang"]= 0,
+  ["paramType"]= {
+    0,
+    0
+  },
+  ["scene"]= {
+    1020
+  },
+  ["showOrder"]= 2,
+  ["speed"]= 2
+},
+[102] = {
+  ["content"]= "WeatherForecast_001",
+  ["contentLocalized"]= "%s分钟后，%s即将出现%s天气，植物生长速度大幅加快",
+  ["isShowInChat"]= 0,
+  ["key"]= 102,
+  ["paramType"]= {
+    5,
+    1,
+    7
+  },
+  ["speed"]= 3
+},
+[103] = {
+  ["content"]= "AnnouncementGashaponTally1",
+  ["contentLocalized"]= "恭喜<color=#FF6F76>%s</color>在本轮准它社的积分抽奖中获得道具：<color=#FF6F76>%s</color>x<color=#FF6F76>%s</color>",
+  ["isShowInChat"]= 0,
+  ["key"]= 103,
+  ["paramType"]= {
+    0,
+    2,
+    0
+  },
+  ["speed"]= 3
+},
+[104] = {
+  ["content"]= "AnnouncementGashaponTally2",
+  ["contentLocalized"]= "本轮准他社的积分抽奖即将开奖，还请未参与的玩家，前往普隆德拉扭蛋机处参与活动！",
+  ["isShowInChat"]= 0,
+  ["key"]= 104,
+  ["paramType"]= {},
+  ["speed"]= 3
+},
+[105] = {
+  ["content"]= "AnnouncementGashaponTally3",
+  ["contentLocalized"]= "恭喜<color=#FF6F76>%s</color>在本轮卡普拉商团的积分抽奖中获得道具：<color=#FF6F76>%s</color>x<color=#FF6F76>%s</color>",
+  ["isShowInChat"]= 0,
+  ["key"]= 105,
+  ["paramType"]= {
+    0,
+    2,
+    0
+  },
+  ["speed"]= 3
+},
+[106] = {
+  ["content"]= "AnnouncementGashaponTally4",
+  ["contentLocalized"]= "本轮卡普拉商团的积分抽奖即将开奖，还请未参与的玩家，前往普隆德拉扭蛋机处参与活动！",
+  ["isShowInChat"]= 0,
+  ["key"]= 106,
+  ["paramType"]= {},
+  ["speed"]= 3
+},
+[107] = {
+  ["content"]= "AnnouncementGashaponTally5",
+  ["contentLocalized"]= "恭喜<color=#FF6F76>%s</color>在本轮喵手商团的积分抽奖中获得道具：<color=#FF6F76>%s</color>x<color=#FF6F76>%s</color>",
+  ["isShowInChat"]= 0,
+  ["key"]= 107,
+  ["paramType"]= {
+    0,
+    2,
+    0
+  },
+  ["speed"]= 3
+},
+[108] = {
+  ["content"]= "AnnouncementGashaponTally6",
+  ["contentLocalized"]= "本轮喵手商团的积分抽奖即将开奖，还请未参与的玩家，前往普隆德拉扭蛋机处参与活动！",
+  ["isShowInChat"]= 0,
+  ["key"]= 108,
+  ["paramType"]= {},
+  ["speed"]= 3
+},
+[109] = {
+  ["content"]= "AnnouncementRamadan_1",
+  ["contentLocalized"]= "恭喜<color=#ec8a5a>%s</color>击杀了<color=#ec8a5a>%s</color>，10分钟后其分身将出现在<color=#ec8a5a>%s</color>，勇士们冲呀！",
+  ["key"]= 109,
+  ["paramType"]= {
+    5,
+    4,
+    2
+  }
+},
+[110] = {
+  ["content"]= "AnnouncementRamadan_2",
+  ["contentLocalized"]= "<color=#ec8a5a>%s</color>分身将在5分钟后出现在<color=#ec8a5a>%s</color>，勇士们冲呀！",
+  ["key"]= 110,
+  ["paramType"]= {
+    4,
+    2
+  }
+},
+[111] = {
+  ["content"]= "AnnouncementRamadan_3",
+  ["contentLocalized"]= "<color=#ec8a5a>%s</color>分身将在1分钟后出现在<color=#ec8a5a>%s</color>，勇士们冲呀！",
+  ["key"]= 111,
+  ["paramType"]= {
+    4,
+    2
+  }
+},
+[112] = {
+  ["content"]= "AnnouncementRamadan_4",
+  ["contentLocalized"]= "<color=#ec8a5a>%s</color>分身已经出现在<color=#ec8a5a>%s</color>，勇士们冲呀！",
+  ["key"]= 112,
+  ["paramType"]= {
+    4,
+    2
+  }
+},
+[201] = {
+  ["content"]= "RefineFailTips",
+  ["contentLocalized"]= "冒险者 <color=#32abea>%s</color>精炼<color=#f47261>+%s%s</color> 失败。",
+  ["isShowInChat"]= 0,
+  ["isShowInMain"]= 0,
+  ["key"]= 201,
+  ["level"]= 120,
+  ["paramType"]= {
+    5,
+    5,
+    2
+  },
+  ["speed"]= 2
+},
+[202] = {
+  ["content"]= "RefineSuccessfulTips",
+  ["contentLocalized"]= "冒险者 <color=#32abea>%s</color>精炼<color=#f47261>+%s%s</color> 成功！",
+  ["isShowInChat"]= 0,
+  ["isShowInMain"]= 0,
+  ["key"]= 202,
+  ["level"]= 120,
+  ["paramType"]= {
+    5,
+    5,
+    2
+  },
+  ["speed"]= 2
+},
+[203] = {
+  ["content"]= "AnnouncementRefineTips",
+  ["contentLocalized"]= "恭喜 冒险者 <color=#32abea>%s</color>精炼<color=#f47261>+%s%s</color> 成功！",
+  ["isShowInChat"]= 0,
+  ["isShowInMain"]= 0,
+  ["key"]= 203,
+  ["level"]= 120,
+  ["paramType"]= {
+    5,
+    5,
+    2
+  },
+  ["speed"]= 2
+}
+}
+local baseTable={
+  ["chatChannel"]= 0,
+  ["content"]= "MailTitle_1",
+  ["contentLocalized"]= "%s",
+  ["isShowInChat"]= 1,
+  ["isShowInMain"]= 1,
+  ["key"]= 1,
+  ["level"]= 1,
+  ["needLang"]= 1,
+  ["paramType"]= {
+    0
+  },
+  ["scene"]= {
+    0
+  },
+  ["showOrder"]= 1,
+  ["speed"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;
